@@ -1023,8 +1023,11 @@ details.sub summary { cursor: pointer; font-weight: 700; color: var(--ink); marg
         .map(s => { const r = simLike(seed, profileOf(s)); return { s, sc: r.s, why: r.why }; })
         .filter(x => x.sc >= 0.3).sort((a, b) => b.sc - a.sc).slice(0, 24);
       const topTags = [...seed.t].sort((a, b) => b[1] - a[1]).slice(0, 3).map(x => x[0]);
-      const more = topTags.length ? await alPub(`query($t:[String],$g:[String],$c:CountryCode,$not:Int){Page(perPage:40){media(type:MANGA,format_in:[MANGA,ONE_SHOT],isAdult:false,tag_in:$t,genre_in:$g,countryOfOrigin:$c,id_not:$not,minimumTagRank:60,sort:[SCORE_DESC]){${MF}}}}`,
-        { t: topTags, g: [...seed.g].slice(0, 3), c: KIND_TO_C[FIND.kind] || null, not: X.id }) : { Page: { media: [] } };
+      // tag_in means "has ALL": pair the strongest tag with each of the next ones
+      const pairs = topTags.length > 1 ? topTags.slice(1).map(x => [topTags[0], x]) : topTags.length ? [[topTags[0]]] : [];
+      const pages = await Promise.all(pairs.map(tp => alPub(`query($t:[String],$c:CountryCode,$not:Int){Page(perPage:30){media(type:MANGA,format_in:[MANGA,ONE_SHOT],isAdult:false,tag_in:$t,countryOfOrigin:$c,id_not:$not,minimumTagRank:55,sort:[SCORE_DESC]){${MF}}}}`,
+        { t: tp, c: KIND_TO_C[FIND.kind] || null, not: X.id })));
+      const more = { Page: { media: pages.flatMap(pg => pg.Page.media) } };
       if (run !== FIND.run) return;
       const seen = new Set([X.id]), newList = [];
       for (const n of X.recommendations.nodes) {
@@ -1061,9 +1064,14 @@ details.sub summary { cursor: pointer; font-weight: 700; color: var(--ink); marg
       const full = libList.filter(x => x.hit === spec.groups.length);
       const libShow = (full.length >= 6 ? full : libList).slice(0, 30);
       const vars = { c: KIND_TO_C[FIND.kind] || null, g: null, t: null };
-      // one query per mood keeps "cozy + romance" from collapsing into "only things that are both everything"
-      const qs = spec.groups.slice(0, 3).map(gr => alPub(`query($t:[String],$g:[String],$c:CountryCode){Page(perPage:40){media(type:MANGA,format_in:[MANGA,ONE_SHOT],isAdult:false,tag_in:$t,genre_in:$g,countryOfOrigin:$c,minimumTagRank:55,sort:[SCORE_DESC]){${MF}}}}`,
-        Object.assign({}, vars, { g: gr.g.length ? gr.g : null, t: gr.t.length ? gr.t : null })));
+      // AniList's tag_in / genre_in mean "has ALL of these", so ask once per tag (or per genre set) and merge
+      const asks = [];
+      for (const gr of spec.groups.slice(0, 4)) {
+        if (gr.t.length) gr.t.slice(0, 3).forEach(x => asks.push({ t: [x] }));
+        else asks.push({ g: gr.g.slice(0, 2) });
+      }
+      const qs = asks.slice(0, 8).map(a => alPub(`query($t:[String],$g:[String],$c:CountryCode){Page(perPage:40){media(type:MANGA,format_in:[MANGA,ONE_SHOT],isAdult:false,tag_in:$t,genre_in:$g,countryOfOrigin:$c,minimumTagRank:55,sort:[SCORE_DESC]){${MF}}}}`,
+        Object.assign({}, vars, a)));
       const pages = await Promise.all(qs);
       if (run !== FIND.run) return;
       const seen = new Set(), newList = [];
