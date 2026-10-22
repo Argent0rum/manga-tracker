@@ -69,7 +69,7 @@ def main():
             "sources": src,
             "imported_last_read": e.get("last_read"),
             "progress_known": bool(e.get("progress_known")),
-            # where progress starts: what Weeb Central says you've read, otherwise assume caught up at import
+            # where progress starts: what MangaDex / mgeko / Weeb Central say you have read; only assume caught up if nothing is known
             "start": (num(e.get("last_read")) or 0) if e.get("progress_known") else (num(e.get("latest")) or 0),
         }
         out.append(rec)

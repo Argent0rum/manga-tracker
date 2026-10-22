@@ -254,12 +254,13 @@ def main():
 
     # 1) MangaDex library
     md_ids = [x["md_id"] for x in src["mangadex"]]
+    md_lr = {x["md_id"]: x.get("last_read") for x in src["mangadex"]}
     md = md_by_ids(md_ids)
     for mid in md_ids:
         e = md.get(mid)
         if not e:
             report["unmatched"].append({"source": "mangadex", "md_id": mid}); continue
-        e["sources"] = {"mangadex": {"url": f"https://mangadex.org/title/{mid}", "shelf": "reading"}}
+        e["sources"] = {"mangadex": {"url": f"https://mangadex.org/title/{mid}", "shelf": "reading", "last_read": md_lr.get(mid)}}
         lib["md:" + mid] = e
     print(f"MangaDex: {len(md)}/{len(md_ids)}")
 
@@ -320,9 +321,9 @@ def main():
     for g in src["mgeko"]:
         t = g.get("title") or slug_title(g["slug"])
         if not g.get("title") and re.fullmatch(r"manga [a-z0-9]+", t) or len(t) < 3:
-            lib.setdefault("mg:" + g["slug"], {"title": g["slug"], "alt": [], "links": {}, "sources": {}})["sources"]["mgeko"] = {"url": f"https://www.mgeko.cc/manga/{g['slug']}/", "latest": g["latest"]}
+            lib.setdefault("mg:" + g["slug"], {"title": g["slug"], "alt": [], "links": {}, "sources": {}})["sources"]["mgeko"] = {"url": f"https://www.mgeko.cc/manga/{g['slug']}/", "latest": g["latest"], "last_read": g.get("last_read")}
             report["unmatched"].append({"source": "mgeko", "title": g["slug"]}); continue
-        attach(t, "mgeko", {"url": f"https://www.mgeko.cc/manga/{g['slug']}/", "latest": g["latest"]})
+        attach(t, "mgeko", {"url": f"https://www.mgeko.cc/manga/{g['slug']}/", "latest": g["latest"], "last_read": g.get("last_read")})
     print("mgeko done")
 
     # 4) enrich: MangaDex stats + latest English chapter, MangaUpdates, AniList
@@ -359,9 +360,10 @@ def main():
         cands += [chap_num(s.get("latest")) for s in e["sources"].values()]
         cands = [c for c in cands if c]
         e["latest"] = max(cands) if cands else None
-        reads = [chap_num(s.get("last_read")) for s in e["sources"].values() if s.get("last_read")]
+        reads = [chap_num(s.get("last_read")) for s in e["sources"].values() if s.get("last_read") is not None]
+        reads = [r for r in reads if r is not None]
         e["last_read"] = max(reads) if reads else None
-        e["progress_known"] = "weebcentral" in e["sources"]
+        e["progress_known"] = bool(reads)   # MangaDex read markers, mgeko "continue" chapter, Weeb Central last read
         if e["progress_known"] and e["latest"]:
             e["behind"] = round(e["latest"] - (e["last_read"] or 0), 1)
         e.pop("links", None)
