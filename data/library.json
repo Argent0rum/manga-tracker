@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-22T16:39:50Z",
+ "generated": "2026-10-22T17:03:52Z",
  "series": [
   {
    "md_id": "2bbc6890-a092-4d23-9ee7-726c6e6783de",
@@ -235,12 +235,6 @@
     "회귀 대마도사의 근접 마법 무쌍"
    ],
    "al_id": 182950,
-   "al_score": 60,
-   "al_status": "FINISHED",
-   "al_chapters": 91,
-   "al_url": "https://anilist.co/manga/182950",
-   "country": "JP",
-   "al_title_en": "Regression of the Close Combat Mage",
    "latest": 91.0,
    "last_read": 1.0,
    "progress_known": true,
@@ -317,8 +311,9 @@
    ],
    "al_id": 189860,
    "latest": 28.0,
-   "last_read": null,
-   "progress_known": false
+   "last_read": 0.0,
+   "progress_known": true,
+   "behind": 28.0
   },
   {
    "md_id": "5efc2417-d036-48e6-b86d-e4299a077093",
@@ -1010,8 +1005,9 @@
    "country": "JP",
    "al_title_en": null,
    "latest": 81.0,
-   "last_read": null,
-   "progress_known": false
+   "last_read": 0.0,
+   "progress_known": true,
+   "behind": 81.0
   },
   {
    "md_id": "8c21fe3b-4fe6-4f11-b51b-ced00d8aec60",
@@ -1078,8 +1074,9 @@
    "country": "JP",
    "al_title_en": null,
    "latest": 42.01,
-   "last_read": null,
-   "progress_known": false
+   "last_read": 0.0,
+   "progress_known": true,
+   "behind": 42.0
   },
   {
    "md_id": "65fa324d-4075-4f59-a71c-2c82f69f6779",
@@ -1229,8 +1226,9 @@
    "country": "KR",
    "al_title_en": "Afterlife Diner",
    "latest": 138.0,
-   "last_read": null,
-   "progress_known": false
+   "last_read": 0.0,
+   "progress_known": true,
+   "behind": 138.0
   },
   {
    "md_id": "54133c41-54a0-4ba7-ba68-0942473edef7",
@@ -1656,7 +1654,7 @@
     }
    },
    "md_rating": 9.180882269750317,
-   "md_follows": 72732,
+   "md_follows": 72733,
    "md_latest": {
     "chapter": "63",
     "date": "2026-10-14T08:54:54+00:00",
@@ -1772,8 +1770,9 @@
    "country": "JP",
    "al_title_en": "Akane-banashi",
    "latest": 226.0,
-   "last_read": null,
-   "progress_known": false
+   "last_read": 0.0,
+   "progress_known": true,
+   "behind": 226.0
   },
   {
    "md_id": "3bb0279f-a01d-4aa4-93e4-305800f4b83e",
@@ -2069,8 +2068,9 @@
    "country": "JP",
    "al_title_en": null,
    "latest": 92.0,
-   "last_read": null,
-   "progress_known": false
+   "last_read": 0.0,
+   "progress_known": true,
+   "behind": 92.0
   },
   {
    "md_id": "fd72da46-b7f5-48a1-811c-b1be0bacf3a9",
@@ -2548,12 +2548,6 @@
     "アマチュアビジランテ"
    ],
    "al_id": 181362,
-   "al_score": 68,
-   "al_status": "RELEASING",
-   "al_chapters": null,
-   "al_url": "https://anilist.co/manga/181362",
-   "country": "JP",
-   "al_title_en": null,
    "latest": 81.0,
    "last_read": 10.0,
    "progress_known": true,
@@ -2618,8 +2612,9 @@
    "country": "JP",
    "al_title_en": null,
    "latest": 50.0,
-   "last_read": null,
-   "progress_known": false
+   "last_read": 0.0,
+   "progress_known": true,
+   "behind": 50.0
   },
   {
    "md_id": "f323e102-8ffa-4541-9d80-f8e610fb825b",
@@ -2685,12 +2680,6 @@
     "あめとうみ"
    ],
    "al_id": 182629,
-   "al_score": null,
-   "al_status": "FINISHED",
-   "al_chapters": 22,
-   "al_url": "https://anilist.co/manga/182629",
-   "country": "JP",
-   "al_title_en": null,
    "latest": 22.0,
    "last_read": 5.0,
    "progress_known": true,
@@ -2734,7 +2723,7 @@
     }
    },
    "md_rating": 9.062692259393906,
-   "md_follows": 88384,
+   "md_follows": 88385,
    "md_latest": {
     "chapter": "36",
     "date": "2026-10-08T12:59:42+00:00",
@@ -3153,15 +3142,10 @@
    },
    "mu_id": null,
    "al_id": 183772,
-   "al_score": null,
-   "al_status": "FINISHED",
-   "al_chapters": 27,
-   "al_url": "https://anilist.co/manga/183772",
-   "country": "JP",
-   "al_title_en": null,
    "latest": 27.0,
-   "last_read": null,
-   "progress_known": false
+   "last_read": 0.0,
+   "progress_known": true,
+   "behind": 27.0
   },
   {
    "md_id": "4cfc0ee2-facb-476c-97c5-83210adb3581",
@@ -3227,12 +3211,6 @@
     "아포칼립스에 집을 숨김"
    ],
    "al_id": 184487,
-   "al_score": 66,
-   "al_status": "RELEASING",
-   "al_chapters": null,
-   "al_url": "https://anilist.co/manga/184487",
-   "country": "KR",
-   "al_title_en": "Hiding Out in an Apocalypse",
    "latest": 108.0,
    "last_read": 58.0,
    "progress_known": true,
@@ -3376,12 +3354,6 @@
     "아라드의 빛: 먼저 걷는 자"
    ],
    "al_id": 188273,
-   "al_score": 58,
-   "al_status": "FINISHED",
-   "al_chapters": 120,
-   "al_url": "https://anilist.co/manga/188273",
-   "country": "KR",
-   "al_title_en": "Light of Arad: Forerunner",
    "latest": 119.0,
    "last_read": 18.0,
    "progress_known": true,
@@ -3550,8 +3522,9 @@
    "country": "JP",
    "al_title_en": "Aria",
    "latest": 60.2,
-   "last_read": null,
-   "progress_known": false
+   "last_read": 0.0,
+   "progress_known": true,
+   "behind": 60.2
   },
   {
    "md_id": "a8dbdba7-6904-46cb-b03b-cf869b11110b",
@@ -3722,12 +3695,6 @@
     "朝の通勤電車で、やたらと話しかけてくる女子高生。"
    ],
    "al_id": 181194,
-   "al_score": 60,
-   "al_status": "FINISHED",
-   "al_chapters": 10,
-   "al_url": "https://anilist.co/manga/181194",
-   "country": "JP",
-   "al_title_en": null,
    "latest": 10.1,
    "last_read": 2.0,
    "progress_known": true,
@@ -3769,15 +3736,10 @@
     "孤高の人"
    ],
    "al_id": 188885,
-   "al_score": 60,
-   "al_status": "RELEASING",
-   "al_chapters": null,
-   "al_url": "https://anilist.co/manga/188885",
-   "country": "CN",
-   "al_title_en": "From Water Monkey to Godhood",
    "latest": 170.0,
-   "last_read": null,
-   "progress_known": false
+   "last_read": 0.0,
+   "progress_known": true,
+   "behind": 170.0
   },
   {
    "md_id": "877dae37-375d-4723-a84e-df09e5c9f3e9",
@@ -3964,7 +3926,7 @@
     }
    },
    "md_rating": 7.37912133583525,
-   "md_follows": 28593,
+   "md_follows": 28594,
    "md_latest": {
     "chapter": "22",
     "date": "2026-09-29T07:59:14+00:00",
@@ -3998,15 +3960,10 @@
     "あとはご自由にどうぞ！～チュートリアルで神様がラスボス倒しちゃったので、私は好き放題生きていく～"
    ],
    "al_id": 180766,
-   "al_score": 54,
-   "al_status": "RELEASING",
-   "al_chapters": null,
-   "al_url": "https://anilist.co/manga/180766",
-   "country": "JP",
-   "al_title_en": null,
    "latest": 22.0,
-   "last_read": null,
-   "progress_known": false
+   "last_read": 0.0,
+   "progress_known": true,
+   "behind": 22.0
   },
   {
    "md_id": "dd5c4855-a8d4-4663-81c3-0df7b54ab8d9",
@@ -4140,12 +4097,6 @@
     "배드 본 블러드"
    ],
    "al_id": 184347,
-   "al_score": 77,
-   "al_status": "RELEASING",
-   "al_chapters": null,
-   "al_url": "https://anilist.co/manga/184347",
-   "country": "KR",
-   "al_title_en": "Bad Born Blood",
    "latest": 104.0,
    "last_read": 104.0,
    "progress_known": true,
@@ -4758,8 +4709,9 @@
    "country": "JP",
    "al_title_en": "Black Lagoon",
    "latest": 114.0,
-   "last_read": null,
-   "progress_known": false
+   "last_read": 0.0,
+   "progress_known": true,
+   "behind": 114.0
   },
   {
    "md_id": "e4d23997-f20f-4da6-b7b3-e463d92abd62",
@@ -4835,8 +4787,9 @@
    "country": "JP",
    "al_title_en": "Blade & Bastard",
    "latest": 11.0,
-   "last_read": null,
-   "progress_known": false
+   "last_read": 0.0,
+   "progress_known": true,
+   "behind": 11.0
   },
   {
    "md_id": "49e11a2c-5ca8-47c9-9d1b-39863b96cecf",
@@ -4872,7 +4825,7 @@
     "weebcentral": {
      "url": "https://weebcentral.com/series/01J76XY7EBJ4EG5QDZJYFTF8K8",
      "latest": "170",
-     "last_read": null
+     "last_read": "0"
     }
    },
    "md_rating": 8.157366853319369,
@@ -4922,8 +4875,9 @@
    "country": "JP",
    "al_title_en": "Blue Exorcist",
    "latest": 170.0,
-   "last_read": null,
-   "progress_known": false
+   "last_read": 0.0,
+   "progress_known": true,
+   "behind": 170.0
   },
   {
    "md_id": "1090afe3-3b91-4325-a9b4-d92875aa815e",
@@ -5003,8 +4957,9 @@
    "country": "JP",
    "al_title_en": "Blue Giant",
    "latest": 80.0,
-   "last_read": null,
-   "progress_known": false
+   "last_read": 0.0,
+   "progress_known": true,
+   "behind": 80.0
   },
   {
    "md_id": "a2b2d55a-4ce8-44fe-9232-d07aad412f63",
@@ -5119,7 +5074,7 @@
     }
    },
    "md_rating": 9.350441840364823,
-   "md_follows": 110036,
+   "md_follows": 110037,
    "md_latest": {
     "chapter": "177",
     "date": "2024-09-09T08:33:28+00:00",
@@ -5350,8 +5305,9 @@
    "country": "JP",
    "al_title_en": "Bocchi the Rock!",
    "latest": 96.0,
-   "last_read": null,
-   "progress_known": false
+   "last_read": 0.0,
+   "progress_known": true,
+   "behind": 96.0
   },
   {
    "md_id": "1bad66ee-4857-433e-a075-704d93672341",
@@ -5422,12 +5378,6 @@
     "僕だけが知ってるんだぜ"
    ],
    "al_id": 184093,
-   "al_score": 73,
-   "al_status": "RELEASING",
-   "al_chapters": null,
-   "al_url": "https://anilist.co/manga/184093",
-   "country": "JP",
-   "al_title_en": null,
    "latest": 22.0,
    "last_read": 2.0,
    "progress_known": true,
@@ -5611,8 +5561,9 @@
    "country": "JP",
    "al_title_en": "The Dangers in My Heart",
    "latest": 199.0,
-   "last_read": null,
-   "progress_known": false
+   "last_read": 0.0,
+   "progress_known": true,
+   "behind": 199.0
   },
   {
    "md_id": "55973f4c-d211-402f-9cc2-49a60bbaab95",
@@ -5829,8 +5780,9 @@
    "country": "JP",
    "al_title_en": "My Crush’s Crush",
    "latest": 39.0,
-   "last_read": null,
-   "progress_known": false
+   "last_read": 0.0,
+   "progress_known": true,
+   "behind": 39.0
   },
   {
    "md_id": "cf7b7869-3d9a-4c4d-bd06-249eba113558",
@@ -5982,8 +5934,9 @@
    "country": "JP",
    "al_title_en": null,
    "latest": 35.0,
-   "last_read": null,
-   "progress_known": false
+   "last_read": 0.0,
+   "progress_known": true,
+   "behind": 35.0
   },
   {
    "title": "book eaters",
@@ -6092,12 +6045,6 @@
     "ボロボロのエルフさんを幸せにする薬売りさん"
    ],
    "al_id": 188178,
-   "al_score": 70,
-   "al_status": "RELEASING",
-   "al_chapters": null,
-   "al_url": "https://anilist.co/manga/188178",
-   "country": "JP",
-   "al_title_en": "The Apothecary Is Gonna Make This Ragged Elf Happy",
    "latest": 23.0,
    "last_read": 23.0,
    "progress_known": true,
@@ -6226,12 +6173,6 @@
     "冒険には、武器が必要だ！　～こだわりルディの鍛冶屋ぐらし～"
    ],
    "al_id": 182951,
-   "al_score": 74,
-   "al_status": "RELEASING",
-   "al_chapters": null,
-   "al_url": "https://anilist.co/manga/182951",
-   "country": "JP",
-   "al_title_en": "Every Adventure Needs a Weapon! —The Blacksmith Life of Rudy the Obsessed—",
    "latest": 22.0,
    "last_read": 1.0,
    "progress_known": true,
@@ -6353,11 +6294,11 @@
     "境界迷宮と異界の魔術師",
     "境界迷宮與異界魔術師"
    ],
-   "al_id": 103840,
-   "al_score": 57,
+   "al_id": 95117,
+   "al_score": null,
    "al_status": "RELEASING",
    "al_chapters": null,
-   "al_url": "https://anilist.co/manga/103840",
+   "al_url": "https://anilist.co/manga/95117",
    "country": "JP",
    "al_title_en": null,
    "latest": 96.0,
@@ -6508,8 +6449,9 @@
    ],
    "al_id": null,
    "latest": 126.0,
-   "last_read": null,
-   "progress_known": false
+   "last_read": 0.0,
+   "progress_known": true,
+   "behind": 126.0
   },
   {
    "md_id": "d0ddd740-4b91-4c66-bfd0-b36a77f8e730",
@@ -6611,8 +6553,9 @@
    ],
    "al_id": null,
    "latest": 1.0,
-   "last_read": null,
-   "progress_known": false
+   "last_read": 0.0,
+   "progress_known": true,
+   "behind": 1.0
   },
   {
    "md_id": "9c1cd558-fba3-40f1-bb84-b320f5d1eab1",
@@ -6814,7 +6757,7 @@
     }
    },
    "md_rating": 9.56416165026308,
-   "md_follows": 42501,
+   "md_follows": 42502,
    "md_latest": {
     "chapter": "129",
     "date": "2026-02-03T22:17:49+00:00",
@@ -6869,8 +6812,9 @@
    "country": "JP",
    "al_title_en": "Bungo Stray Dogs",
    "latest": 129.0,
-   "last_read": null,
-   "progress_known": false
+   "last_read": 0.0,
+   "progress_known": true,
+   "behind": 129.0
   },
   {
    "title": "but who ever said my face was ugly beneath the mask",
@@ -6885,8 +6829,9 @@
    "mu_id": null,
    "al_id": null,
    "latest": 13.0,
-   "last_read": null,
-   "progress_known": false
+   "last_read": 0.0,
+   "progress_known": true,
+   "behind": 13.0
   },
   {
    "md_id": "819238d7-f4aa-4ba3-9a79-a695dc62200b",
@@ -6956,12 +6901,6 @@
     "별정직 공무원"
    ],
    "al_id": 185702,
-   "al_score": 77,
-   "al_status": "RELEASING",
-   "al_chapters": null,
-   "al_url": "https://anilist.co/manga/185702",
-   "country": "KR",
-   "al_title_en": "Special Civil Servant",
    "latest": 68.0,
    "last_read": 1.0,
    "progress_known": true,
@@ -7031,12 +6970,6 @@
     "별이삼샵"
    ],
    "al_id": 186608,
-   "al_score": 79,
-   "al_status": "RELEASING",
-   "al_chapters": null,
-   "al_url": "https://anilist.co/manga/186608",
-   "country": "KR",
-   "al_title_en": null,
    "latest": 218.0,
    "last_read": 218.0,
    "progress_known": true,
@@ -7492,8 +7425,9 @@
    "country": "KR",
    "al_title_en": null,
    "latest": 115.0,
-   "last_read": null,
-   "progress_known": false
+   "last_read": 0.0,
+   "progress_known": true,
+   "behind": 115.0
   },
   {
    "md_id": "074fe8b1-21b2-4f72-895c-c677954c95ec",
@@ -7756,7 +7690,7 @@
     "weebcentral": {
      "url": "https://weebcentral.com/series/01J76XYEMAHA9EF4V936RPKPCG",
      "latest": "130",
-     "last_read": null
+     "last_read": "0"
     }
    },
    "md_rating": 9.125962555210045,
@@ -7799,8 +7733,9 @@
    "country": "KR",
    "al_title_en": "Seasons of Blossom",
    "latest": 130.0,
-   "last_read": null,
-   "progress_known": false
+   "last_read": 0.0,
+   "progress_known": true,
+   "behind": 130.0
   },
   {
    "md_id": "29ca9de0-b633-4756-b4f3-c3bef1ee4f9e",
@@ -7832,7 +7767,7 @@
     "weebcentral": {
      "url": "https://weebcentral.com/series/01JP7VHK7AXA8NM788S3HWHC3H",
      "latest": "80",
-     "last_read": null
+     "last_read": "0"
     }
    },
    "md_rating": 8.912783918177917,
@@ -7869,15 +7804,10 @@
     "청춘 러브썸"
    ],
    "al_id": 181542,
-   "al_score": 81,
-   "al_status": "RELEASING",
-   "al_chapters": null,
-   "al_url": "https://anilist.co/manga/181542",
-   "country": "KR",
-   "al_title_en": "Seasons of Lovesome",
    "latest": 80.0,
-   "last_read": null,
-   "progress_known": false
+   "last_read": 0.0,
+   "progress_known": true,
+   "behind": 80.0
   },
   {
    "md_id": "6816b3e5-fe45-4a1b-88e1-5871a1505648",
@@ -7933,12 +7863,6 @@
     "천재 플레이어의 귀환"
    ],
    "al_id": 186624,
-   "al_score": 60,
-   "al_status": "RELEASING",
-   "al_chapters": null,
-   "al_url": "https://anilist.co/manga/186624",
-   "country": "KR",
-   "al_title_en": "Return of the Genius Player",
    "latest": 55.0,
    "last_read": 1.0,
    "progress_known": true,
@@ -8268,7 +8192,7 @@
     "weebcentral": {
      "url": "https://weebcentral.com/series/01J76XY7PJT3HETZA0RQV0N2EE",
      "latest": "Verse 247.5",
-     "last_read": null
+     "last_read": "0"
     }
    },
    "md_rating": 9.160439732167083,
@@ -8320,8 +8244,9 @@
    "country": "JP",
    "al_title_en": "Chihayafuru",
    "latest": 247.5,
-   "last_read": null,
-   "progress_known": false
+   "last_read": 0.0,
+   "progress_known": true,
+   "behind": 247.5
   },
   {
    "md_id": "4276df64-7a0c-4079-bcc0-f65537ebcecd",
@@ -8628,7 +8553,7 @@
     }
    },
    "md_rating": 8.882045421742175,
-   "md_follows": 21848,
+   "md_follows": 21849,
    "md_latest": {
     "chapter": "78.1",
     "date": "2026-10-14T15:09:05+00:00",
@@ -8983,7 +8908,7 @@
     "weebcentral": {
      "url": "https://weebcentral.com/series/01J76XY7EH7SNNTHJD1CCTJZS7",
      "latest": "Scene 155",
-     "last_read": null
+     "last_read": "0"
     }
    },
    "md_rating": 8.861234882956174,
@@ -9034,8 +8959,9 @@
    "country": "JP",
    "al_title_en": "Claymore",
    "latest": 155.0,
-   "last_read": null,
-   "progress_known": false
+   "last_read": 0.0,
+   "progress_known": true,
+   "behind": 155.0
   },
   {
    "md_id": "b16f2554-9525-4f2a-bbe4-5b75b6605176",
@@ -9244,12 +9170,6 @@
     "クールな同級生の◯◯年後..."
    ],
    "al_id": 181995,
-   "al_score": 65,
-   "al_status": "RELEASING",
-   "al_chapters": null,
-   "al_url": "https://anilist.co/manga/181995",
-   "country": "JP",
-   "al_title_en": null,
    "latest": 158.0,
    "last_read": 3.0,
    "progress_known": true,
@@ -9471,7 +9391,7 @@
     }
    },
    "md_rating": 9.097071009957375,
-   "md_follows": 22516,
+   "md_follows": 22517,
    "md_latest": {
     "chapter": "12",
     "date": "2026-09-27T23:07:06+00:00",
@@ -9632,7 +9552,7 @@
     }
    },
    "md_rating": 9.273143756043066,
-   "md_follows": 79088,
+   "md_follows": 79089,
    "md_latest": {
     "chapter": "55",
     "date": "2026-07-11T04:23:47+00:00",
@@ -9766,8 +9686,9 @@
    "country": "JP",
    "al_title_en": "Dandadan",
    "latest": 249.0,
-   "last_read": null,
-   "progress_known": false
+   "last_read": 0.0,
+   "progress_known": true,
+   "behind": 249.0
   },
   {
    "md_id": "ce25484a-6be2-4f29-807c-569dfed8a091",
@@ -9805,7 +9726,7 @@
     }
    },
    "md_rating": 8.395157070446748,
-   "md_follows": 50784,
+   "md_follows": 50785,
    "md_latest": {
     "chapter": "28.2",
     "date": "2026-10-10T07:45:10+00:00",
@@ -9912,12 +9833,6 @@
     "誰が勇者を殺したか"
    ],
    "al_id": 181656,
-   "al_score": null,
-   "al_status": "RELEASING",
-   "al_chapters": null,
-   "al_url": "https://anilist.co/manga/181656",
-   "country": "JP",
-   "al_title_en": null,
    "latest": 1.0,
    "last_read": 1.0,
    "progress_known": true,
@@ -9958,7 +9873,7 @@
     }
    },
    "md_rating": 9.233517557461713,
-   "md_follows": 22517,
+   "md_follows": 22518,
    "md_latest": {
     "chapter": "84",
     "date": "2026-10-03T01:39:53+00:00",
@@ -10040,7 +9955,7 @@
     }
    },
    "md_rating": 8.742955295223636,
-   "md_follows": 94092,
+   "md_follows": 94098,
    "md_latest": {
     "chapter": "81",
     "date": "2026-10-19T02:14:01+00:00",
@@ -10143,12 +10058,6 @@
     "魔王都市@comic"
    ],
    "al_id": 188212,
-   "al_score": null,
-   "al_status": "RELEASING",
-   "al_chapters": null,
-   "al_url": "https://anilist.co/manga/188212",
-   "country": "JP",
-   "al_title_en": null,
    "latest": 25.0,
    "last_read": 1.0,
    "progress_known": true,
@@ -10225,8 +10134,9 @@
    "country": "CN",
    "al_title_en": null,
    "latest": 44.0,
-   "last_read": null,
-   "progress_known": false
+   "last_read": 0.0,
+   "progress_known": true,
+   "behind": 44.0
   },
   {
    "md_id": "331c635c-37df-4483-b1de-8b2895536e6d",
@@ -10358,15 +10268,10 @@
     "살인예정자"
    ],
    "al_id": 187904,
-   "al_score": 62,
-   "al_status": "FINISHED",
-   "al_chapters": 91,
-   "al_url": "https://anilist.co/manga/187904",
-   "country": "KR",
-   "al_title_en": "Destined Killer",
    "latest": 79.0,
-   "last_read": null,
-   "progress_known": false
+   "last_read": 0.0,
+   "progress_known": true,
+   "behind": 79.0
   },
   {
    "title": "did know that that barrier isn t permanent right",
@@ -10477,8 +10382,9 @@
    "country": "JP",
    "al_title_en": "Dinosaur Sanctuary",
    "latest": 2.0,
-   "last_read": null,
-   "progress_known": false
+   "last_read": 0.0,
+   "progress_known": true,
+   "behind": 2.0
   },
   {
    "md_id": "e7b98e78-0db0-4c36-b851-987d5c218721",
@@ -10543,15 +10449,10 @@
     "닥터, 조선 가다"
    ],
    "al_id": 182510,
-   "al_score": 63,
-   "al_status": "FINISHED",
-   "al_chapters": 59,
-   "al_url": "https://anilist.co/manga/182510",
-   "country": "KR",
-   "al_title_en": null,
    "latest": 58.0,
-   "last_read": null,
-   "progress_known": false
+   "last_read": 0.0,
+   "progress_known": true,
+   "behind": 58.0
   },
   {
    "md_id": "e421aa24-46c5-472d-b587-b8e42fb3803a",
@@ -10611,8 +10512,9 @@
    ],
    "al_id": 209946,
    "latest": 6.1,
-   "last_read": null,
-   "progress_known": false
+   "last_read": 0.0,
+   "progress_known": true,
+   "behind": 6.1
   },
   {
    "md_id": "86d25eac-eb2f-4ec0-a341-f1a5cbbe80b8",
@@ -10848,12 +10750,6 @@
     "ドラマクイン"
    ],
    "al_id": 185129,
-   "al_score": 61,
-   "al_status": "RELEASING",
-   "al_chapters": null,
-   "al_url": "https://anilist.co/manga/185129",
-   "country": "JP",
-   "al_title_en": "Drama Queen",
    "latest": 71.0,
    "last_read": 2.0,
    "progress_known": true,
@@ -11035,8 +10931,9 @@
    "country": "JP",
    "al_title_en": "Drifters",
    "latest": 86.0,
-   "last_read": null,
-   "progress_known": false
+   "last_read": 0.0,
+   "progress_known": true,
+   "behind": 86.0
   },
   {
    "md_id": "c49feee4-126f-48d0-9a6c-418d7da05265",
@@ -11119,8 +11016,9 @@
    "country": "JP",
    "al_title_en": "Drifting Dragons",
    "latest": 96.1,
-   "last_read": null,
-   "progress_known": false
+   "last_read": 0.0,
+   "progress_known": true,
+   "behind": 96.1
   },
   {
    "md_id": "23fed86c-a2f0-4cdc-a1b3-13596aac6e7c",
@@ -11155,7 +11053,7 @@
     }
    },
    "md_rating": 9.13237390171274,
-   "md_follows": 7829,
+   "md_follows": 7830,
    "md_latest": {
     "chapter": "48",
     "date": "2026-10-17T14:09:30+00:00",
@@ -11360,8 +11258,9 @@
    "country": "JP",
    "al_title_en": "Delicious in Dungeon",
    "latest": 97.0,
-   "last_read": null,
-   "progress_known": false
+   "last_read": 0.0,
+   "progress_known": true,
+   "behind": 97.0
   },
   {
    "md_id": "8572da1b-3b5d-44aa-a40c-8a92b512c336",
@@ -11651,12 +11550,6 @@
     "英雄機関"
    ],
    "al_id": 180739,
-   "al_score": 71,
-   "al_status": "RELEASING",
-   "al_chapters": null,
-   "al_url": "https://anilist.co/manga/180739",
-   "country": "JP",
-   "al_title_en": "Hero Organization",
    "latest": 72.0,
    "last_read": 72.0,
    "progress_known": true,
@@ -11904,12 +11797,6 @@
     "エンバーズ"
    ],
    "al_id": 186356,
-   "al_score": 58,
-   "al_status": "FINISHED",
-   "al_chapters": 20,
-   "al_url": "https://anilist.co/manga/186356",
-   "country": "JP",
-   "al_title_en": "Embers",
    "latest": 20.0,
    "last_read": 3.0,
    "progress_known": true,
@@ -11950,7 +11837,7 @@
     }
    },
    "md_rating": 9.228499882762716,
-   "md_follows": 24593,
+   "md_follows": 24594,
    "md_latest": {
     "chapter": "136.4",
     "date": "2026-10-08T07:19:01+00:00",
@@ -12207,7 +12094,7 @@
     "weebcentral": {
      "url": "https://weebcentral.com/series/01JQV9N82X2TN8KKE3CHAEZQJW",
      "latest": "98",
-     "last_read": null
+     "last_read": "0"
     },
     "mgeko": {
      "url": "https://www.mgeko.cc/manga/the-archmages-restaurant/",
@@ -12374,8 +12261,9 @@
    "country": "KR",
    "al_title_en": "A Stepmother’s Märchen",
    "latest": 129.0,
-   "last_read": null,
-   "progress_known": false
+   "last_read": 0.0,
+   "progress_known": true,
+   "behind": 129.0
   },
   {
    "md_id": "21699dbf-c427-41d8-bbcf-c7cbd1755615",
@@ -12412,7 +12300,7 @@
      "last_read": 1.0
     }
    },
-   "md_rating": 8.832528490490517,
+   "md_rating": 8.832654412911346,
    "md_follows": 15836,
    "md_latest": {
     "chapter": "42",
@@ -12596,8 +12484,9 @@
    ],
    "al_id": null,
    "latest": 1.0,
-   "last_read": null,
-   "progress_known": false
+   "last_read": 0.0,
+   "progress_known": true,
+   "behind": 1.0
   },
   {
    "md_id": "8d2e9520-4127-4bf2-94a3-b2571029562d",
@@ -12972,8 +12861,9 @@
    "country": "JP",
    "al_title_en": null,
    "latest": 21.0,
-   "last_read": null,
-   "progress_known": false
+   "last_read": 0.0,
+   "progress_known": true,
+   "behind": 21.0
   },
   {
    "md_id": "510f29a8-99b4-46af-ba5e-916e96bc6f37",
@@ -13015,7 +12905,7 @@
     "weebcentral": {
      "url": "https://weebcentral.com/series/01J76XYE6RJCBZZB7891BKWYAN",
      "latest": "22.1",
-     "last_read": null
+     "last_read": "0"
     }
    },
    "md_rating": 9.220870307051523,
@@ -13061,8 +12951,9 @@
    "country": "JP",
    "al_title_en": null,
    "latest": 25.1,
-   "last_read": null,
-   "progress_known": false
+   "last_read": 0.0,
+   "progress_known": true,
+   "behind": 25.1
   },
   {
    "md_id": "fdc3859e-7297-43ee-b91d-10cbdfbe4761",
@@ -13213,8 +13104,9 @@
    ],
    "al_id": null,
    "latest": 2.0,
-   "last_read": null,
-   "progress_known": false
+   "last_read": 0.0,
+   "progress_known": true,
+   "behind": 2.0
   },
   {
    "md_id": "f7f430ab-2c24-49d3-b698-c9ff4787805b",
@@ -13498,8 +13390,9 @@
    "country": "KR",
    "al_title_en": "For Better or For Worse",
    "latest": 133.0,
-   "last_read": null,
-   "progress_known": false
+   "last_read": 0.0,
+   "progress_known": true,
+   "behind": 133.0
   },
   {
    "md_id": "1741d159-a616-4bf9-ba19-28c5365ae5b6",
@@ -13651,12 +13544,6 @@
     "냉동무사"
    ],
    "al_id": 188462,
-   "al_score": 55,
-   "al_status": "FINISHED",
-   "al_chapters": 49,
-   "al_url": "https://anilist.co/manga/188462",
-   "country": "KR",
-   "al_title_en": "The Frostbound Warrior",
    "latest": 49.0,
    "last_read": 12.0,
    "progress_known": true,
@@ -13825,8 +13712,9 @@
    "country": "JP",
    "al_title_en": "Fullmetal Alchemist",
    "latest": 159.0,
-   "last_read": null,
-   "progress_known": false
+   "last_read": 0.0,
+   "progress_known": true,
+   "behind": 159.0
   },
   {
    "md_id": "576f3eec-a728-4f36-a87f-dd3fc2342812",
@@ -13953,7 +13841,7 @@
     }
    },
    "md_rating": 9.130262447190184,
-   "md_follows": 55994,
+   "md_follows": 55995,
    "md_latest": {
     "chapter": "87",
     "date": "2021-07-24T19:14:32+00:00",
@@ -13992,8 +13880,9 @@
    "country": "JP",
    "al_title_en": "It Takes Two Tomorrow, Too",
    "latest": 87.0,
-   "last_read": null,
-   "progress_known": false
+   "last_read": 0.0,
+   "progress_known": true,
+   "behind": 87.0
   },
   {
    "md_id": "25e1d17b-6a4d-4698-a4f6-bf53460c10af",
@@ -14211,8 +14100,9 @@
    "country": "JP",
    "al_title_en": "More Than a Married Couple, but Not Lovers.",
    "latest": 79.0,
-   "last_read": null,
-   "progress_known": false
+   "last_read": 0.0,
+   "progress_known": true,
+   "behind": 79.0
   },
   {
    "md_id": "9b96ec17-deb7-402b-b822-ae40e03533db",
@@ -14304,8 +14194,9 @@
    "country": "JP",
    "al_title_en": null,
    "latest": 153.5,
-   "last_read": null,
-   "progress_known": false
+   "last_read": 0.0,
+   "progress_known": true,
+   "behind": 153.5
   },
   {
    "md_id": "f678b24d-f1fd-4717-8824-4138845390eb",
@@ -14676,12 +14567,6 @@
     "互いの正体を知らない男女の話"
    ],
    "al_id": 188228,
-   "al_score": 65,
-   "al_status": "RELEASING",
-   "al_chapters": null,
-   "al_url": "https://anilist.co/manga/188228",
-   "country": "JP",
-   "al_title_en": null,
    "latest": 2.0,
    "last_read": 2.0,
    "progress_known": true,
@@ -14757,8 +14642,9 @@
    "country": "JP",
    "al_title_en": null,
    "latest": 17.0,
-   "last_read": null,
-   "progress_known": false
+   "last_read": 0.0,
+   "progress_known": true,
+   "behind": 17.0
   },
   {
    "md_id": "3b8e4dc5-bffa-4382-a23c-be97c44ab4e2",
@@ -14875,8 +14761,9 @@
    "country": "JP",
    "al_title_en": "Gate: Where the JSDF Fought",
    "latest": 143.2,
-   "last_read": null,
-   "progress_known": false
+   "last_read": 0.0,
+   "progress_known": true,
+   "behind": 143.2
   },
   {
    "md_id": "f0205fd6-a03a-4a91-ae6c-ad103284e5dd",
@@ -15191,7 +15078,7 @@
     }
    },
    "md_rating": 8.655212809187177,
-   "md_follows": 39759,
+   "md_follows": 39760,
    "md_latest": {
     "chapter": "39.1",
     "date": "2026-10-18T08:55:46+00:00",
@@ -15320,8 +15207,9 @@
    "country": "JP",
    "al_title_en": "Legend of the Galactic Heroes",
    "latest": 238.0,
-   "last_read": null,
-   "progress_known": false
+   "last_read": 0.0,
+   "progress_known": true,
+   "behind": 238.0
   },
   {
    "md_id": "0874979e-301a-47a5-a559-0e33a1162571",
@@ -15569,12 +15457,6 @@
     "고대동물기"
    ],
    "al_id": 186959,
-   "al_score": 62,
-   "al_status": "RELEASING",
-   "al_chapters": null,
-   "al_url": "https://anilist.co/manga/186959",
-   "country": "KR",
-   "al_title_en": "Ancient Animal Tales",
    "latest": 68.0,
    "last_read": 1.0,
    "progress_known": true,
@@ -15734,12 +15616,6 @@
     "고인물 힐러가 너무 강하다"
    ],
    "al_id": 188215,
-   "al_score": 56,
-   "al_status": "RELEASING",
-   "al_chapters": null,
-   "al_url": "https://anilist.co/manga/188215",
-   "country": "KR",
-   "al_title_en": "The Veteran Healer is Overpowered",
    "latest": 103.0,
    "last_read": 13.0,
    "progress_known": true,
@@ -15943,7 +15819,7 @@
     "weebcentral": {
      "url": "https://weebcentral.com/series/01J76XYBWA1TEW2EBDYC9E3C9G",
      "latest": "112",
-     "last_read": null
+     "last_read": "0"
     }
    },
    "md_rating": 9.477583432385698,
@@ -15991,8 +15867,9 @@
    "country": "JP",
    "al_title_en": "Grand Blue Dreaming",
    "latest": 112.0,
-   "last_read": null,
-   "progress_known": false
+   "last_read": 0.0,
+   "progress_known": true,
+   "behind": 112.0
   },
   {
    "md_id": "31d5534e-4a74-4952-8f37-2701d6353c98",
@@ -16027,7 +15904,7 @@
     }
    },
    "md_rating": 8.076975478936214,
-   "md_follows": 3935,
+   "md_follows": 3936,
    "md_latest": {
     "chapter": "2.1",
     "date": "2026-10-17T14:47:24+00:00",
@@ -16120,8 +15997,9 @@
    "country": "JP",
    "al_title_en": null,
    "latest": 82.0,
-   "last_read": null,
-   "progress_known": false
+   "last_read": 0.0,
+   "progress_known": true,
+   "behind": 82.0
   },
   {
    "md_id": "8fe6d515-dcba-454d-8d7f-878932cba4c5",
@@ -16439,8 +16317,8 @@
      "last_read": "8"
     }
    },
-   "md_rating": 9.449191166334316,
-   "md_follows": 131612,
+   "md_rating": 9.449049610610366,
+   "md_follows": 131616,
    "md_latest": {
     "chapter": "45",
     "date": "2026-10-22T01:12:22+00:00",
@@ -16555,7 +16433,7 @@
     }
    },
    "md_rating": 9.353216705546494,
-   "md_follows": 58490,
+   "md_follows": 58489,
    "md_latest": {
     "chapter": "42.21",
     "date": "2025-12-26T03:03:08+00:00",
@@ -16776,8 +16654,9 @@
    "country": "JP",
    "al_title_en": "Hakumei & Mikochi: Tiny Little Life in the Woods",
    "latest": 80.0,
-   "last_read": null,
-   "progress_known": false
+   "last_read": 0.0,
+   "progress_known": true,
+   "behind": 80.0
   },
   {
    "md_id": "4413d794-e0da-4a6e-b61a-afd5758914e6",
@@ -16901,7 +16780,7 @@
     }
    },
    "md_rating": 9.110052611007582,
-   "md_follows": 59373,
+   "md_follows": 59374,
    "md_latest": {
     "chapter": "9",
     "date": "2026-08-09T07:21:50+00:00",
@@ -17211,8 +17090,9 @@
    ],
    "al_id": null,
    "latest": 24.0,
-   "last_read": null,
-   "progress_known": false
+   "last_read": 0.0,
+   "progress_known": true,
+   "behind": 24.0
   },
   {
    "md_id": "8858ce84-b01d-498d-88e8-5b7bad4ab297",
@@ -17353,8 +17233,9 @@
    "country": "JP",
    "al_title_en": "Helck",
    "latest": 106.5,
-   "last_read": null,
-   "progress_known": false
+   "last_read": 0.0,
+   "progress_known": true,
+   "behind": 106.5
   },
   {
    "md_id": "4bf066dc-3a6d-4c33-997b-6033208c4176",
@@ -17402,7 +17283,7 @@
     }
    },
    "md_rating": 8.625337793680231,
-   "md_follows": 109400,
+   "md_follows": 109402,
    "md_latest": {
     "chapter": "19",
     "date": "2026-10-12T14:24:41+00:00",
@@ -17440,12 +17321,6 @@
     "辺境モブ貴族のウチに嫁いできた悪役令嬢が、めちゃくちゃできる良い嫁なんだが？"
    ],
    "al_id": 184974,
-   "al_score": 65,
-   "al_status": "RELEASING",
-   "al_chapters": null,
-   "al_url": "https://anilist.co/manga/184974",
-   "country": "JP",
-   "al_title_en": "The Villainess Who Came to Marry Into the Frontier Noble's Household Is an Exceptionally Capable Wife, Isn't She?",
    "latest": 19.0,
    "last_read": 6.0,
    "progress_known": true,
@@ -17601,8 +17476,8 @@
    "country": "JP",
    "al_title_en": null,
    "latest": null,
-   "last_read": null,
-   "progress_known": false
+   "last_read": 0.0,
+   "progress_known": true
   },
   {
    "md_id": "7d0379e6-4358-40bf-b303-f84121cd0b84",
@@ -17926,8 +17801,9 @@
    "country": "JP",
    "al_title_en": "I Hear the Sunspot",
    "latest": 28.0,
-   "last_read": null,
-   "progress_known": false
+   "last_read": 0.0,
+   "progress_known": true,
+   "behind": 28.0
   },
   {
    "md_id": "672be603-c8f1-478b-866a-811652cffabc",
@@ -17992,8 +17868,9 @@
    "country": "JP",
    "al_title_en": "Eren the Southpaw",
    "latest": 220.0,
-   "last_read": null,
-   "progress_known": false
+   "last_read": 0.0,
+   "progress_known": true,
+   "behind": 220.0
   },
   {
    "md_id": "db521aef-caad-4aba-9ced-e45dbb67b314",
@@ -18059,12 +17936,6 @@
     "아포칼립스에 물류센터를 숨김"
    ],
    "al_id": 183519,
-   "al_score": 68,
-   "al_status": "RELEASING",
-   "al_chapters": null,
-   "al_url": "https://anilist.co/manga/183519",
-   "country": "KR",
-   "al_title_en": "Hiding a Warehouse in the Apocalypse",
    "latest": 97.0,
    "last_read": 26.0,
    "progress_known": true,
@@ -18117,7 +17988,7 @@
     }
    },
    "md_rating": 9.427166564360096,
-   "md_follows": 35228,
+   "md_follows": 35227,
    "md_latest": null,
    "mu_id": 9839035525,
    "mu_url": "https://www.mangaupdates.com/series/4ipwoed/hikaru-ga-shinda-natsu",
@@ -18161,8 +18032,9 @@
    "country": "JP",
    "al_title_en": "The Summer Hikaru Died",
    "latest": 31.0,
-   "last_read": null,
-   "progress_known": false
+   "last_read": 0.0,
+   "progress_known": true,
+   "behind": 31.0
   },
   {
    "md_id": "971fb926-e2c7-40da-be30-59e540aeb013",
@@ -18280,7 +18152,7 @@
     }
    },
    "md_rating": 8.55536515152897,
-   "md_follows": 32182,
+   "md_follows": 32183,
    "md_latest": {
     "chapter": "50.1",
     "date": "2024-08-31T11:02:50+00:00",
@@ -18333,8 +18205,9 @@
    "country": "JP",
    "al_title_en": "The Barbarian’s Bride",
    "latest": 55.0,
-   "last_read": null,
-   "progress_known": false
+   "last_read": 0.0,
+   "progress_known": true,
+   "behind": 55.0
   },
   {
    "md_id": "07c370b3-4f14-4834-a5c2-0d7b42028fc3",
@@ -18440,7 +18313,7 @@
     }
    },
    "md_rating": 9.381743373060347,
-   "md_follows": 16429,
+   "md_follows": 16430,
    "md_latest": {
     "chapter": "77",
     "date": "2025-04-11T19:17:47+00:00",
@@ -18562,8 +18435,9 @@
    "country": "JP",
    "al_title_en": "Historie",
    "latest": 124.0,
-   "last_read": null,
-   "progress_known": false
+   "last_read": 0.0,
+   "progress_known": true,
+   "behind": 124.0
   },
   {
    "md_id": "a9ce0a44-ae4b-40b9-be3d-76e978cbbdad",
@@ -18601,7 +18475,7 @@
     }
    },
    "md_rating": 8.427560605504423,
-   "md_follows": 56049,
+   "md_follows": 56050,
    "md_latest": {
     "chapter": "29",
     "date": "2026-07-03T23:54:33+00:00",
@@ -18732,12 +18606,6 @@
     "회귀한 용병은 다 계획이 있다"
    ],
    "al_id": 182066,
-   "al_score": 81,
-   "al_status": "RELEASING",
-   "al_chapters": null,
-   "al_url": "https://anilist.co/manga/182066",
-   "country": "KR",
-   "al_title_en": "The Regressed Mercenary Has a Plan",
    "latest": 111.0,
    "last_read": 11.0,
    "progress_known": true,
@@ -18794,7 +18662,7 @@
     "weebcentral": {
      "url": "https://weebcentral.com/series/01J76XYCCJGDV1DS2PNXWT68TJ",
      "latest": "48",
-     "last_read": null
+     "last_read": "0"
     }
    },
    "md_rating": 8.923912120167676,
@@ -18844,8 +18712,9 @@
    "country": "JP",
    "al_title_en": "Go with the Clouds, North-by-Northwest",
    "latest": 48.0,
-   "last_read": null,
-   "progress_known": false
+   "last_read": 0.0,
+   "progress_known": true,
+   "behind": 48.0
   },
   {
    "md_id": "c0ad8919-4646-4a61-adf9-0fd6d8612efa",
@@ -18887,7 +18756,7 @@
     "weebcentral": {
      "url": "https://weebcentral.com/series/01J76XYBRCCN0R7BTJSW7HSVV7",
      "latest": "Ch. 33.5",
-     "last_read": null
+     "last_read": "0"
     }
    },
    "md_rating": 8.713036776049194,
@@ -19015,8 +18884,9 @@
    "country": "JP",
    "al_title_en": null,
    "latest": 31.0,
-   "last_read": null,
-   "progress_known": false
+   "last_read": 0.0,
+   "progress_known": true,
+   "behind": 31.0
   },
   {
    "md_id": "91a2e0c9-cd81-4bf7-b5f7-bb37434bf6b3",
@@ -19080,12 +18950,6 @@
     "放課後、僕らは宇宙に惑う"
    ],
    "al_id": 187328,
-   "al_score": 69,
-   "al_status": "RELEASING",
-   "al_chapters": null,
-   "al_url": "https://anilist.co/manga/187328",
-   "country": "JP",
-   "al_title_en": null,
    "latest": 67.0,
    "last_read": 8.0,
    "progress_known": true,
@@ -19128,8 +18992,8 @@
      "last_read": 66.0
     }
    },
-   "md_rating": 9.538624442372349,
-   "md_follows": 63506,
+   "md_rating": 9.539032048677873,
+   "md_follows": 63508,
    "md_latest": {
     "chapter": "66",
     "date": "2026-10-22T10:48:27+00:00",
@@ -19211,7 +19075,7 @@
     }
    },
    "md_rating": 8.687907769585818,
-   "md_follows": 44595,
+   "md_follows": 44597,
    "md_latest": {
     "chapter": "93",
     "date": "2026-10-17T09:57:01+00:00",
@@ -19329,7 +19193,7 @@
     "weebcentral": {
      "url": "https://weebcentral.com/series/01J76XY9V86NJ3RN9PKW11GQQH",
      "latest": "627",
-     "last_read": null
+     "last_read": "0"
     }
    },
    "md_rating": 8.902473679918064,
@@ -19378,8 +19242,9 @@
    "country": "CN",
    "al_title_en": "The Ravages of Time",
    "latest": 627.0,
-   "last_read": null,
-   "progress_known": false
+   "last_read": 0.0,
+   "progress_known": true,
+   "behind": 627.0
   },
   {
    "md_id": "707bc36a-4547-4c46-890a-aab88f7d4e4b",
@@ -19823,12 +19688,6 @@
     "無能転生者は未来が見える"
    ],
    "al_id": 183036,
-   "al_score": null,
-   "al_status": "RELEASING",
-   "al_chapters": null,
-   "al_url": "https://anilist.co/manga/183036",
-   "country": "CN",
-   "al_title_en": null,
    "latest": 75.0,
    "last_read": 2.0,
    "progress_known": true,
@@ -20207,8 +20066,9 @@
    "country": "CN",
    "al_title_en": "I'm Really Not Targeting the Mages",
    "latest": 148.0,
-   "last_read": null,
-   "progress_known": false
+   "last_read": 0.0,
+   "progress_known": true,
+   "behind": 148.0
   },
   {
    "md_id": "d789148a-7298-42df-b3f5-b5bc7c17ddec",
@@ -20560,12 +20420,6 @@
     "나는 스켈레톤을 키운다"
    ],
    "al_id": 186158,
-   "al_score": 54,
-   "al_status": "RELEASING",
-   "al_chapters": null,
-   "al_url": "https://anilist.co/manga/186158",
-   "country": "KR",
-   "al_title_en": null,
    "latest": 30.0,
    "last_read": 21.0,
    "progress_known": true,
@@ -21113,8 +20967,9 @@
    "country": "CN",
    "al_title_en": null,
    "latest": 151.0,
-   "last_read": null,
-   "progress_known": false
+   "last_read": 0.0,
+   "progress_known": true,
+   "behind": 151.0
   },
   {
    "title": "igaku wa mahou to kubetsu ga tsukanai",
@@ -21203,12 +21058,6 @@
     "이직로그"
    ],
    "al_id": 188781,
-   "al_score": 79,
-   "al_status": "RELEASING",
-   "al_chapters": null,
-   "al_url": "https://anilist.co/manga/188781",
-   "country": "KR",
-   "al_title_en": "Ctrl+Alt+Resign",
    "latest": 54.0,
    "last_read": 51.0,
    "progress_known": true,
@@ -21872,7 +21721,7 @@
     }
    },
    "md_rating": 9.187435887975418,
-   "md_follows": 53053,
+   "md_follows": 53052,
    "md_latest": {
     "chapter": "280",
     "date": "2026-03-26T14:35:41+00:00",
@@ -22193,7 +22042,7 @@
     }
    },
    "md_rating": 9.079727045189333,
-   "md_follows": 38235,
+   "md_follows": 38236,
    "md_latest": {
     "chapter": "139",
     "date": "2026-09-07T17:32:10+00:00",
@@ -22497,7 +22346,7 @@
     }
    },
    "md_rating": 7.555370816492091,
-   "md_follows": 52530,
+   "md_follows": 52531,
    "md_latest": {
     "chapter": "62",
     "date": "2026-10-17T23:18:26+00:00",
@@ -22919,12 +22768,6 @@
     "절대회귀"
    ],
    "al_id": 180891,
-   "al_score": 82,
-   "al_status": "RELEASING",
-   "al_chapters": null,
-   "al_url": "https://anilist.co/manga/180891",
-   "country": "KR",
-   "al_title_en": "Absolute Regression",
    "latest": 124.0,
    "last_read": 124.0,
    "progress_known": true,
@@ -23021,8 +22864,9 @@
    "country": "KR",
    "al_title_en": "The Spark in Your Eyes",
    "latest": 232.0,
-   "last_read": null,
-   "progress_known": false
+   "last_read": 0.0,
+   "progress_known": true,
+   "behind": 232.0
   },
   {
    "md_id": "a4b39b6e-a448-4644-a540-64ceff1d8305",
@@ -23073,7 +22917,7 @@
     }
    },
    "md_rating": 9.524537552393625,
-   "md_follows": 50967,
+   "md_follows": 50966,
    "md_latest": {
     "chapter": "131",
     "date": "2026-08-18T23:00:56+00:00",
@@ -23177,7 +23021,7 @@
     }
    },
    "md_rating": 8.88703278448067,
-   "md_follows": 40370,
+   "md_follows": 40371,
    "md_latest": {
     "chapter": "127",
     "date": "2026-08-26T17:47:45+00:00",
@@ -23227,8 +23071,9 @@
    "country": "JP",
    "al_title_en": "Hell’s Paradise: Jigokuraku",
    "latest": 127.0,
-   "last_read": null,
-   "progress_known": false
+   "last_read": 0.0,
+   "progress_known": true,
+   "behind": 127.0
   },
   {
    "md_id": "cb802982-30c3-4540-ab6d-81ecef7e708e",
@@ -23309,8 +23154,9 @@
    ],
    "al_id": null,
    "latest": 101.0,
-   "last_read": null,
-   "progress_known": false
+   "last_read": 0.0,
+   "progress_known": true,
+   "behind": 101.0
   },
   {
    "md_id": "d553645b-03a3-4fc8-9a9c-57f91cbbab89",
@@ -23543,12 +23389,6 @@
     "종말에서 살아남기"
    ],
    "al_id": 181296,
-   "al_score": 71,
-   "al_status": "RELEASING",
-   "al_chapters": null,
-   "al_url": "https://anilist.co/manga/181296",
-   "country": "KR",
-   "al_title_en": "Surviving the Apocalypse",
    "latest": 112.0,
    "last_read": 81.0,
    "progress_known": true,
@@ -23634,8 +23474,9 @@
    ],
    "al_id": 189981,
    "latest": 85.0,
-   "last_read": null,
-   "progress_known": false
+   "last_read": 0.0,
+   "progress_known": true,
+   "behind": 85.0
   },
   {
    "md_id": "dbf39cb2-a8a2-4abc-b276-cde09bf45553",
@@ -23787,12 +23628,6 @@
     "중세 판타지 속 망나니 경비조장"
    ],
    "al_id": 182511,
-   "al_score": 67,
-   "al_status": "RELEASING",
-   "al_chapters": null,
-   "al_url": "https://anilist.co/manga/182511",
-   "country": "KR",
-   "al_title_en": "The Roguish Guard in a Medieval Fantasy",
    "latest": 42.0,
    "last_read": 29.0,
    "progress_known": true,
@@ -24204,8 +24039,9 @@
    "country": "JP",
    "al_title_en": "Kagurabachi",
    "latest": 135.0,
-   "last_read": null,
-   "progress_known": false
+   "last_read": 0.0,
+   "progress_known": true,
+   "behind": 135.0
   },
   {
    "md_id": "c53caf9a-95b6-4400-b41b-d1b09167ef7a",
@@ -24383,8 +24219,8 @@
      "last_read": "105"
     }
    },
-   "md_rating": 9.152594894157813,
-   "md_follows": 28624,
+   "md_rating": 9.15288060459421,
+   "md_follows": 28625,
    "md_latest": {
     "chapter": "85",
     "date": "2026-04-19T06:49:42+00:00",
@@ -24585,8 +24421,9 @@
    "country": "JP",
    "al_title_en": "12cm Promise with a Cool Girl",
    "latest": 75.0,
-   "last_read": null,
-   "progress_known": false
+   "last_read": 0.0,
+   "progress_known": true,
+   "behind": 75.0
   },
   {
    "md_id": "2e69b544-f897-4cec-893f-d9a1790032d9",
@@ -24736,8 +24573,9 @@
    "country": "JP",
    "al_title_en": "The Drops of God",
    "latest": 439.0,
-   "last_read": null,
-   "progress_known": false
+   "last_read": 0.0,
+   "progress_known": true,
+   "behind": 439.0
   },
   {
    "md_id": "c93b96e9-29bb-419c-b756-f098b05a4b65",
@@ -25023,7 +24861,7 @@
     }
    },
    "md_rating": 9.47953176546059,
-   "md_follows": 94404,
+   "md_follows": 94406,
    "md_latest": {
     "chapter": "53",
     "date": "2026-10-15T19:13:53+00:00",
@@ -25064,8 +24902,9 @@
    "country": "JP",
    "al_title_en": "They Are Still Being Shaken This Morning",
    "latest": 53.0,
-   "last_read": null,
-   "progress_known": false
+   "last_read": 0.0,
+   "progress_known": true,
+   "behind": 53.0
   },
   {
    "md_id": "9d3d3403-1a87-4737-9803-bc3d99db1424",
@@ -25116,8 +24955,8 @@
      "last_read": 0.0
     }
    },
-   "md_rating": 9.53338949220031,
-   "md_follows": 157557,
+   "md_rating": 9.53341669349921,
+   "md_follows": 157558,
    "md_latest": {
     "chapter": "183",
     "date": "2026-10-18T07:11:06+00:00",
@@ -25173,8 +25012,9 @@
    "country": "JP",
    "al_title_en": "The Guy She Was Interested In Wasn't a Guy at All",
    "latest": 183.0,
-   "last_read": null,
-   "progress_known": false
+   "last_read": 0.0,
+   "progress_known": true,
+   "behind": 183.0
   },
   {
    "md_id": "af8eed7a-024d-445d-a89d-14493b94a83b",
@@ -25243,15 +25083,10 @@
     "機動戦士ガンダム 水星の魔女 青春フロンティア"
    ],
    "al_id": 185872,
-   "al_score": 64,
-   "al_status": "RELEASING",
-   "al_chapters": null,
-   "al_url": "https://anilist.co/manga/185872",
-   "country": "JP",
-   "al_title_en": null,
    "latest": 7.1,
-   "last_read": null,
-   "progress_known": false
+   "last_read": 0.0,
+   "progress_known": true,
+   "behind": 7.1
   },
   {
    "md_id": "e4bcff13-c805-41b3-b4c6-e4ebade29b4d",
@@ -25325,8 +25160,9 @@
    "country": "JP",
    "al_title_en": "Mobile Suit Moon Gundam",
    "latest": 77.0,
-   "last_read": null,
-   "progress_known": false
+   "last_read": 0.0,
+   "progress_known": true,
+   "behind": 77.0
   },
   {
    "md_id": "dfd7e5e0-d638-4f1d-9f38-ffc626c4167e",
@@ -25402,8 +25238,9 @@
    "country": "JP",
    "al_title_en": "Sword of the Demon Hunter: Kijin Gentosho",
    "latest": 29.0,
-   "last_read": null,
-   "progress_known": false
+   "last_read": 0.0,
+   "progress_known": true,
+   "behind": 29.0
   },
   {
    "md_id": "3a8488a3-8b93-4576-baee-cae53c2be018",
@@ -25665,7 +25502,7 @@
     }
    },
    "md_rating": 8.711639533330777,
-   "md_follows": 22469,
+   "md_follows": 22476,
    "md_latest": {
     "chapter": "5",
     "date": "2026-10-19T07:53:43+00:00",
@@ -25741,7 +25578,7 @@
     }
    },
    "md_rating": 9.328622096013467,
-   "md_follows": 112994,
+   "md_follows": 112995,
    "md_latest": {
     "chapter": "214",
     "date": "2025-05-09T18:34:54+00:00",
@@ -25904,7 +25741,7 @@
     }
    },
    "md_rating": 9.051066300615975,
-   "md_follows": 29017,
+   "md_follows": 29018,
    "md_latest": {
     "chapter": "11",
     "date": "2026-10-06T17:09:32+00:00",
@@ -26547,8 +26384,8 @@
    "mu_id": null,
    "al_id": null,
    "latest": null,
-   "last_read": null,
-   "progress_known": false
+   "last_read": 0.0,
+   "progress_known": true
   },
   {
    "md_id": "4bde51e5-e420-45a4-98e9-7405bf2d59ff",
@@ -26596,7 +26433,7 @@
     "weebcentral": {
      "url": "https://weebcentral.com/series/01J76XY9BSRSBCTQ5XP68H64BJ",
      "latest": "62",
-     "last_read": null
+     "last_read": "0"
     }
    },
    "md_rating": 9.3745827690837,
@@ -26645,8 +26482,9 @@
    "country": "JP",
    "al_title_en": "A Silent Voice",
    "latest": 62.0,
-   "last_read": null,
-   "progress_known": false
+   "last_read": 0.0,
+   "progress_known": true,
+   "behind": 62.0
   },
   {
    "md_id": "4242c6d3-4ee4-4b0b-9ca0-23bd57952805",
@@ -26684,7 +26522,7 @@
     }
    },
    "md_rating": 8.932798151203338,
-   "md_follows": 43512,
+   "md_follows": 43513,
    "md_latest": {
     "chapter": "9",
     "date": "2026-09-25T17:29:02+00:00",
@@ -26753,7 +26591,7 @@
     }
    },
    "md_rating": 8.95369548856963,
-   "md_follows": 17282,
+   "md_follows": 17284,
    "md_latest": {
     "chapter": "10.3",
     "date": "2026-10-21T07:23:08+00:00",
@@ -26780,12 +26618,6 @@
     "恋するふたりは牙を隠す　～ギャップがありすぎるカップルの話～"
    ],
    "al_id": 188228,
-   "al_score": 65,
-   "al_status": "RELEASING",
-   "al_chapters": null,
-   "al_url": "https://anilist.co/manga/188228",
-   "country": "JP",
-   "al_title_en": null,
    "latest": 10.3,
    "last_read": 1.0,
    "progress_known": true,
@@ -26900,7 +26732,7 @@
     }
    },
    "md_rating": 8.809673605055243,
-   "md_follows": 23408,
+   "md_follows": 23409,
    "md_latest": {
     "chapter": "16",
     "date": "2026-10-03T10:55:24+00:00",
@@ -27004,12 +26836,6 @@
     "このクラスにギャルはいない"
    ],
    "al_id": 180740,
-   "al_score": 67,
-   "al_status": "FINISHED",
-   "al_chapters": 47,
-   "al_url": "https://anilist.co/manga/180740",
-   "country": "JP",
-   "al_title_en": "No Gyaru in This Class",
    "latest": 44.0,
    "last_read": 14.0,
    "progress_known": true,
@@ -27177,8 +27003,9 @@
    "country": "JP",
    "al_title_en": null,
    "latest": 142.0,
-   "last_read": null,
-   "progress_known": false
+   "last_read": 0.0,
+   "progress_known": true,
+   "behind": 142.0
   },
   {
    "md_id": "fbc8e1e4-cba6-48ec-b828-d613fe3d93a6",
@@ -27504,7 +27331,7 @@
     }
    },
    "md_rating": 9.081883960319841,
-   "md_follows": 45273,
+   "md_follows": 45274,
    "md_latest": {
     "chapter": "49",
     "date": "2026-09-13T09:27:05+00:00",
@@ -27639,8 +27466,9 @@
    "country": "JP",
    "al_title_en": "Kowloon Generic Romance",
    "latest": 108.0,
-   "last_read": null,
-   "progress_known": false
+   "last_read": 0.0,
+   "progress_known": true,
+   "behind": 108.0
   },
   {
    "md_id": "94bfc769-f5e5-4f88-838c-4f69e7a663c2",
@@ -27716,8 +27544,9 @@
    "country": "JP",
    "al_title_en": "Even If You Slit My Mouth",
    "latest": 80.0,
-   "last_read": null,
-   "progress_known": false
+   "last_read": 0.0,
+   "progress_known": true,
+   "behind": 80.0
   },
   {
    "md_id": "9ef7698f-9a77-4622-bd7c-a73fcbbc03af",
@@ -28119,8 +27948,9 @@
    "country": "JP",
    "al_title_en": "Black Butler",
    "latest": 219.0,
-   "last_read": null,
-   "progress_known": false
+   "last_read": 0.0,
+   "progress_known": true,
+   "behind": 219.0
   },
   {
    "md_id": "b65fbf0e-6768-407d-ba79-fa9fcb319155",
@@ -28498,8 +28328,9 @@
    "country": "JP",
    "al_title_en": "The Apothecary Diaries: Maomao's Notes from the Inner Palace",
    "latest": 80.0,
-   "last_read": null,
-   "progress_known": false
+   "last_read": 0.0,
+   "progress_known": true,
+   "behind": 80.0
   },
   {
    "md_id": "0984daf7-068e-4862-a583-e7f7519dfe29",
@@ -29552,7 +29383,7 @@
      "last_read": 0.0
     }
    },
-   "md_rating": 9.50381687490271,
+   "md_rating": 9.503878041779501,
    "md_follows": 52733,
    "md_latest": {
     "chapter": "16",
@@ -29591,8 +29422,9 @@
    "country": "JP",
    "al_title_en": "Love Bullet",
    "latest": 16.0,
-   "last_read": null,
-   "progress_known": false
+   "last_read": 0.0,
+   "progress_known": true,
+   "behind": 16.0
   },
   {
    "md_id": "4a4d2e5f-c4f4-47e3-9725-133bd5869c05",
@@ -29668,8 +29500,9 @@
    "country": "JP",
    "al_title_en": null,
    "latest": 8.0,
-   "last_read": null,
-   "progress_known": false
+   "last_read": 0.0,
+   "progress_known": true,
+   "behind": 8.0
   },
   {
    "md_id": "c089b50c-beeb-434a-ab8d-2676dc026564",
@@ -29766,8 +29599,9 @@
    "country": "CN",
    "al_title_en": "Lucky Me: I Secretly Cultivated for 1,000 Years",
    "latest": 281.0,
-   "last_read": null,
-   "progress_known": false
+   "last_read": 0.0,
+   "progress_known": true,
+   "behind": 281.0
   },
   {
    "title": "m being misunderstood as a soccer genius",
@@ -30026,7 +29860,7 @@
     }
    },
    "md_rating": 8.145652897551596,
-   "md_follows": 44568,
+   "md_follows": 44569,
    "md_latest": {
     "chapter": "13.5",
     "date": "2026-10-14T15:30:27+00:00",
@@ -30147,12 +29981,6 @@
     "魔男阿一"
    ],
    "al_id": 180752,
-   "al_score": 79,
-   "al_status": "RELEASING",
-   "al_chapters": null,
-   "al_url": "https://anilist.co/manga/180752",
-   "country": "JP",
-   "al_title_en": "Ichi the Witch",
    "latest": 102.0,
    "last_read": 54.0,
    "progress_known": true,
@@ -30347,8 +30175,9 @@
    "country": "JP",
    "al_title_en": "Magi: The Labyrinth of Magic",
    "latest": 369.0,
-   "last_read": null,
-   "progress_known": false
+   "last_read": 0.0,
+   "progress_known": true,
+   "behind": 369.0
   },
   {
    "md_id": "71b16e06-8c0d-42a3-b457-73cf55343bc0",
@@ -30521,7 +30350,7 @@
     "weebcentral": {
      "url": "https://weebcentral.com/series/01J76XYDYNY0V43YK7299WZE1Q",
      "latest": "Lecon 40",
-     "last_read": null
+     "last_read": "0"
     }
    },
    "md_rating": 8.325373271790339,
@@ -30560,8 +30389,9 @@
    "country": "JP",
    "al_title_en": "The Ancient Magus’ Bride: Wizard’s Blue",
    "latest": 50.0,
-   "last_read": null,
-   "progress_known": false
+   "last_read": 0.0,
+   "progress_known": true,
+   "behind": 50.0
   },
   {
    "md_id": "1551da93-c715-43ac-ad0f-7d682eafdfae",
@@ -30590,7 +30420,7 @@
     "weebcentral": {
      "url": "https://weebcentral.com/series/01J76XYDQYCPXX2E0VENQVD9E9",
      "latest": "# 19",
-     "last_read": null
+     "last_read": "0"
     }
    },
    "md_rating": 8.173067760030847,
@@ -30627,8 +30457,9 @@
    "country": "JP",
    "al_title_en": "The Ancient Magus' Bride: Jack Flash and the Faerie Case Files",
    "latest": 19.0,
-   "last_read": null,
-   "progress_known": false
+   "last_read": 0.0,
+   "progress_known": true,
+   "behind": 19.0
   },
   {
    "md_id": "d7037b2a-874a-4360-8a7b-07f2899152fd",
@@ -30681,7 +30512,7 @@
     }
    },
    "md_rating": 9.467554906788463,
-   "md_follows": 154025,
+   "md_follows": 154026,
    "md_latest": {
     "chapter": "463",
     "date": "2026-10-21T23:50:35+00:00",
@@ -30811,8 +30642,9 @@
    "country": "JP",
    "al_title_en": "Welcome to Demon School! Iruma-kun: IruMafia Edition",
    "latest": 48.0,
-   "last_read": null,
-   "progress_known": false
+   "last_read": 0.0,
+   "progress_known": true,
+   "behind": 48.0
   },
   {
    "md_id": "b0c50912-623b-4bd7-84fc-7811f7961518",
@@ -30907,8 +30739,9 @@
    "country": "JP",
    "al_title_en": "Wandering Witch: The Journey of Elaina",
    "latest": 26.4,
-   "last_read": null,
-   "progress_known": false
+   "last_read": 0.0,
+   "progress_known": true,
+   "behind": 26.4
   },
   {
    "md_id": "ebfbf002-13f1-4f0f-b06f-2894e4f58fe1",
@@ -31834,11 +31667,11 @@
     "weebcentral": {
      "url": "https://weebcentral.com/series/01J76XY9H7ESGDF25RXJMEF2ZR",
      "latest": "223",
-     "last_read": null
+     "last_read": "0"
     }
    },
-   "md_rating": 9.396976160975594,
-   "md_follows": 29789,
+   "md_rating": 9.396853027801418,
+   "md_follows": 29790,
    "md_latest": {
     "chapter": "224",
     "date": "2026-10-22T15:10:16+00:00",
@@ -31941,7 +31774,7 @@
    "mu_url": "https://www.mangaupdates.com/series/xm91yr4/maerchen-crown",
    "mu_title": "Märchen Crown",
    "mu_rating": 5.64,
-   "mu_latest": 53,
+   "mu_latest": 54,
    "mu_status": "5 Volumes (Ongoing)",
    "mu_completed": false,
    "mu_type": "Manga",
@@ -31963,12 +31796,6 @@
     "童话王冠"
    ],
    "al_id": 186909,
-   "al_score": 54,
-   "al_status": "RELEASING",
-   "al_chapters": null,
-   "al_url": "https://anilist.co/manga/186909",
-   "country": "JP",
-   "al_title_en": "Märchen Crown",
    "latest": 54.0,
    "last_read": 1.0,
    "progress_known": true,
@@ -32010,7 +31837,7 @@
     }
    },
    "md_rating": 8.465165312589729,
-   "md_follows": 76757,
+   "md_follows": 76758,
    "md_latest": {
     "chapter": "25",
     "date": "2026-08-12T10:44:38+00:00",
@@ -32044,12 +31871,6 @@
     "茉莉花ちゃんの好感度はぶっ壊れている"
    ],
    "al_id": 188743,
-   "al_score": 61,
-   "al_status": "RELEASING",
-   "al_chapters": null,
-   "al_url": "https://anilist.co/manga/188743",
-   "country": "JP",
-   "al_title_en": "Marika's Love Meter Malfunction",
    "latest": 25.0,
    "last_read": 1.0,
    "progress_known": true,
@@ -32603,12 +32424,6 @@
     "まやか姉さんは噓がつけない"
    ],
    "al_id": 180725,
-   "al_score": 59,
-   "al_status": "RELEASING",
-   "al_chapters": null,
-   "al_url": "https://anilist.co/manga/180725",
-   "country": "JP",
-   "al_title_en": null,
    "latest": 9.0,
    "last_read": 1.0,
    "progress_known": true,
@@ -32761,8 +32576,9 @@
    "country": "JP",
    "al_title_en": "Medalist",
    "latest": 56.5,
-   "last_read": null,
-   "progress_known": false
+   "last_read": 0.0,
+   "progress_known": true,
+   "behind": 56.5
   },
   {
    "md_id": "1834ead6-82fd-4a79-a998-c5ab0c8edeef",
@@ -32823,12 +32639,6 @@
     "メタファー：リファンタジオ"
    ],
    "al_id": 182097,
-   "al_score": 59,
-   "al_status": "RELEASING",
-   "al_chapters": null,
-   "al_url": "https://anilist.co/manga/182097",
-   "country": "JP",
-   "al_title_en": "Metaphor: ReFantazio",
    "latest": 22.0,
    "last_read": 1.0,
    "progress_known": true,
@@ -33043,8 +32853,9 @@
    ],
    "al_id": null,
    "latest": 107.0,
-   "last_read": null,
-   "progress_known": false
+   "last_read": 0.0,
+   "progress_known": true,
+   "behind": 107.0
   },
   {
    "md_id": "46708527-d28a-4833-bd8b-e3ee553a20ee",
@@ -33116,12 +32927,6 @@
     "見た目地雷系幼馴染の恋愛ストーリー"
    ],
    "al_id": 183341,
-   "al_score": 53,
-   "al_status": "RELEASING",
-   "al_chapters": null,
-   "al_url": "https://anilist.co/manga/183341",
-   "country": "JP",
-   "al_title_en": null,
    "latest": 18.0,
    "last_read": 13.0,
    "progress_known": true,
@@ -33277,8 +33082,9 @@
    ],
    "al_id": null,
    "latest": 8.0,
-   "last_read": null,
-   "progress_known": false
+   "last_read": 0.0,
+   "progress_known": true,
+   "behind": 8.0
   },
   {
    "md_id": "48f9fb61-e165-4ec7-91c5-6772fa1a0274",
@@ -33682,12 +33488,6 @@
     "モノクロのふたり"
    ],
    "al_id": 182911,
-   "al_score": 73,
-   "al_status": "FINISHED",
-   "al_chapters": 56,
-   "al_url": "https://anilist.co/manga/182911",
-   "country": "JP",
-   "al_title_en": "Monochrome Days",
    "latest": 43.0,
    "last_read": 43.0,
    "progress_known": true,
@@ -33758,8 +33558,9 @@
    ],
    "al_id": 217323,
    "latest": 43.0,
-   "last_read": null,
-   "progress_known": false
+   "last_read": 0.0,
+   "progress_known": true,
+   "behind": 43.0
   },
   {
    "title": "monster hunting manual",
@@ -34195,7 +33996,7 @@
     }
    },
    "md_rating": 7.6723152542215995,
-   "md_follows": 24760,
+   "md_follows": 24761,
    "md_latest": {
     "chapter": "18",
     "date": "2025-07-30T01:51:46+00:00",
@@ -34224,12 +34025,6 @@
     "最も嫌われている最凶の悪役に転生"
    ],
    "al_id": 180780,
-   "al_score": 57,
-   "al_status": "FINISHED",
-   "al_chapters": 18,
-   "al_url": "https://anilist.co/manga/180780",
-   "country": "JP",
-   "al_title_en": null,
    "latest": 18.0,
    "last_read": 4.0,
    "progress_known": true,
@@ -34398,12 +34193,6 @@
     "無知な彼女の◯◯年後…"
    ],
    "al_id": 188834,
-   "al_score": null,
-   "al_status": "RELEASING",
-   "al_chapters": null,
-   "al_url": "https://anilist.co/manga/188834",
-   "country": "JP",
-   "al_title_en": null,
    "latest": 36.0,
    "last_read": 25.0,
    "progress_known": true,
@@ -35183,7 +34972,7 @@
     }
    },
    "md_rating": 9.325490070871568,
-   "md_follows": 320724,
+   "md_follows": 320723,
    "md_latest": {
     "chapter": "15",
     "date": "2023-09-05T17:14:12+00:00",
@@ -35327,12 +35116,6 @@
     "내 최애는 막차를 탄다"
    ],
    "al_id": 187944,
-   "al_score": 85,
-   "al_status": "RELEASING",
-   "al_chapters": null,
-   "al_url": "https://anilist.co/manga/187944",
-   "country": "KR",
-   "al_title_en": "My Bias Gets on the Last Train",
    "latest": 91.0,
    "last_read": 85.0,
    "progress_known": true,
@@ -35379,8 +35162,8 @@
      "last_read": 0.0
     }
    },
-   "md_rating": 9.304399183640868,
-   "md_follows": 10034,
+   "md_rating": 9.303263894642445,
+   "md_follows": 10035,
    "md_latest": {
     "chapter": "116",
     "date": "2024-03-14T16:35:04+00:00",
@@ -35426,8 +35209,9 @@
    "country": "JP",
    "al_title_en": "Natsume's Book of Friends",
    "latest": 116.0,
-   "last_read": null,
-   "progress_known": false
+   "last_read": 0.0,
+   "progress_known": true,
+   "behind": 116.0
   },
   {
    "md_id": "0c9e19cd-86cb-490c-93e9-955af41746ca",
@@ -35529,8 +35313,9 @@
    "country": "JP",
    "al_title_en": "Nausicaä of the Valley of the Wind",
    "latest": 59.0,
-   "last_read": null,
-   "progress_known": false
+   "last_read": 0.0,
+   "progress_known": true,
+   "behind": 59.0
   },
   {
    "md_id": "d2d22b38-4b3f-4ffb-9387-d18f870d5a91",
@@ -35561,7 +35346,7 @@
     }
    },
    "md_rating": 8.787194593338768,
-   "md_follows": 18234,
+   "md_follows": 18233,
    "md_latest": {
     "chapter": "25",
     "date": "2026-09-04T15:18:25+00:00",
@@ -35727,7 +35512,7 @@
     }
    },
    "md_rating": 9.051277167016625,
-   "md_follows": 51973,
+   "md_follows": 51975,
    "md_latest": {
     "chapter": "33",
     "date": "2026-10-14T07:11:34+00:00",
@@ -35937,8 +35722,9 @@
    "country": "JP",
    "al_title_en": "The Elusive Samurai",
    "latest": 238.0,
-   "last_read": null,
-   "progress_known": false
+   "last_read": 0.0,
+   "progress_known": true,
+   "behind": 238.0
   },
   {
    "md_id": "418be4a0-a376-4a7e-aa34-51576b2e6fa7",
@@ -35983,7 +35769,7 @@
     "weebcentral": {
      "url": "https://weebcentral.com/series/01J76XYFY7R50MJ76VH4R0XHWY",
      "latest": "22",
-     "last_read": null
+     "last_read": "0"
     }
    },
    "md_rating": 9.323013819108139,
@@ -36170,7 +35956,7 @@
     }
    },
    "md_rating": 8.985173214402916,
-   "md_follows": 84132,
+   "md_follows": 84133,
    "md_latest": {
     "chapter": "62",
     "date": "2026-09-27T06:54:51+00:00",
@@ -36377,7 +36163,7 @@
     }
    },
    "md_rating": 8.576268904432418,
-   "md_follows": 27019,
+   "md_follows": 27018,
    "md_latest": {
     "chapter": "21",
     "date": "2026-09-29T14:16:34+00:00",
@@ -36975,7 +36761,7 @@
     }
    },
    "md_rating": 9.3193895634531,
-   "md_follows": 182996,
+   "md_follows": 182997,
    "md_latest": null,
    "mu_id": 30535847369,
    "mu_url": "https://www.mangaupdates.com/series/e1096mh/one-punch-man",
@@ -37019,8 +36805,9 @@
    "country": "JP",
    "al_title_en": "One-Punch Man",
    "latest": 239.0,
-   "last_read": null,
-   "progress_known": false
+   "last_read": 0.0,
+   "progress_known": true,
+   "behind": 239.0
   },
   {
    "md_id": "99e912e1-ca9d-4019-8fe8-349bf814b75e",
@@ -37055,8 +36842,8 @@
      "last_read": 2.1
     }
    },
-   "md_rating": 8.266177981454716,
-   "md_follows": 7879,
+   "md_rating": 8.24725045848135,
+   "md_follows": 7931,
    "md_latest": {
     "chapter": "2.2",
     "date": "2026-10-22T13:48:51+00:00",
@@ -37246,12 +37033,6 @@
     "鬼売れアイドルが今日も私を推してくる"
    ],
    "al_id": 181543,
-   "al_score": 67,
-   "al_status": "FINISHED",
-   "al_chapters": 30,
-   "al_url": "https://anilist.co/manga/181543",
-   "country": "JP",
-   "al_title_en": null,
    "latest": 30.0,
    "last_read": 4.0,
    "progress_known": true,
@@ -37376,7 +37157,7 @@
     }
    },
    "md_rating": 8.827981861623272,
-   "md_follows": 49378,
+   "md_follows": 49379,
    "md_latest": {
     "chapter": "45",
     "date": "2026-05-12T13:45:17+00:00",
@@ -37484,12 +37265,6 @@
     "俺が告白されてから、お嬢の様子がおかしい。"
    ],
    "al_id": 183719,
-   "al_score": 62,
-   "al_status": "RELEASING",
-   "al_chapters": null,
-   "al_url": "https://anilist.co/manga/183719",
-   "country": "JP",
-   "al_title_en": "Since I Was Confessed To, Milady Has Been Acting Strange",
    "latest": 9.1,
    "last_read": 1.2,
    "progress_known": true,
@@ -37637,12 +37412,6 @@
     "俺にだけ小悪魔な後輩は現実でも可愛いが、夢の中ではもっと可愛い"
    ],
    "al_id": 188741,
-   "al_score": 61,
-   "al_status": "RELEASING",
-   "al_chapters": null,
-   "al_url": "https://anilist.co/manga/188741",
-   "country": "JP",
-   "al_title_en": null,
    "latest": 15.0,
    "last_read": 6.0,
    "progress_known": true,
@@ -37961,7 +37730,7 @@
     }
    },
    "md_rating": 8.878577853384634,
-   "md_follows": 28866,
+   "md_follows": 28867,
    "md_latest": {
     "chapter": "15",
     "date": "2026-10-21T18:20:16+00:00",
@@ -38114,8 +37883,9 @@
    "country": "JP",
    "al_title_en": "[Oshi no Ko]",
    "latest": 166.5,
-   "last_read": null,
-   "progress_known": false
+   "last_read": 0.0,
+   "progress_known": true,
+   "behind": 166.5
   },
   {
    "md_id": "ec0f5d68-b14a-4d83-82f7-8a5b150affe4",
@@ -38194,8 +37964,9 @@
    "country": "JP",
    "al_title_en": "My Former Student Is a Hunk?!",
    "latest": 11.2,
-   "last_read": null,
-   "progress_known": false
+   "last_read": 0.0,
+   "progress_known": true,
+   "behind": 11.2
   },
   {
    "md_id": "1fc3d326-c037-43fa-8953-ed52a56caa18",
@@ -38230,7 +38001,7 @@
      "last_read": 38.0
     }
    },
-   "md_rating": 9.328587677947018,
+   "md_rating": 9.328633709365038,
    "md_follows": 138323,
    "md_latest": {
     "chapter": "38",
@@ -38489,7 +38260,7 @@
     "weebcentral": {
      "url": "https://weebcentral.com/series/01J76XYCZDSZ9SY94SC0EYVVGJ",
      "latest": "47",
-     "last_read": null
+     "last_read": "0"
     }
    },
    "md_rating": 9.010902221008923,
@@ -38730,7 +38501,7 @@
     }
    },
    "md_rating": 9.543234834278294,
-   "md_follows": 27604,
+   "md_follows": 27605,
    "md_latest": {
     "chapter": "49",
     "date": "2026-10-16T20:07:01+00:00",
@@ -38831,7 +38602,7 @@
     "weebcentral": {
      "url": "https://weebcentral.com/series/01J76XY7NRG2GVV1AA4ZBTT93T",
      "latest": "109",
-     "last_read": null
+     "last_read": "0"
     }
    },
    "md_rating": 9.455942547637587,
@@ -38881,8 +38652,9 @@
    "country": "JP",
    "al_title_en": "A Bride's Story",
    "latest": 113.0,
-   "last_read": null,
-   "progress_known": false
+   "last_read": 0.0,
+   "progress_known": true,
+   "behind": 113.0
   },
   {
    "md_id": "5666ae25-a015-4d06-a44e-2dca0446f8fc",
@@ -39005,13 +38777,7 @@
     "退魔師は妖怪を洗濯する",
     "주상복합 퇴마사"
    ],
-   "al_id": 157124,
-   "al_score": null,
-   "al_status": "FINISHED",
-   "al_chapters": 50,
-   "al_url": "https://anilist.co/manga/157124",
-   "country": "KR",
-   "al_title_en": "Our Resident Exorcist",
+   "al_id": null,
    "latest": 49.0,
    "last_read": 1.0,
    "progress_known": true,
@@ -39102,8 +38868,9 @@
    "country": "JP",
    "al_title_en": "Ranking of Kings",
    "latest": 276.0,
-   "last_read": null,
-   "progress_known": false
+   "last_read": 0.0,
+   "progress_known": true,
+   "behind": 276.0
   },
   {
    "md_id": "ac4e2459-d995-45ae-8421-4c4cf4a87770",
@@ -39199,8 +38966,9 @@
    "country": "JP",
    "al_title_en": "Overlord",
    "latest": 78.0,
-   "last_read": null,
-   "progress_known": false
+   "last_read": 0.0,
+   "progress_known": true,
+   "behind": 78.0
   },
   {
    "md_id": "17ce37ea-1cda-4429-b062-c4b627814225",
@@ -39298,8 +39066,9 @@
    "country": "JP",
    "al_title_en": "Seraph of the End: Vampire Reign",
    "latest": 159.0,
-   "last_read": null,
-   "progress_known": false
+   "last_read": 0.0,
+   "progress_known": true,
+   "behind": 159.0
   },
   {
    "md_id": "3cbc4293-3623-470a-9405-f46b328c83d4",
@@ -39644,8 +39413,9 @@
    "country": "KR",
    "al_title_en": null,
    "latest": 264.0,
-   "last_read": null,
-   "progress_known": false
+   "last_read": 0.0,
+   "progress_known": true,
+   "behind": 264.0
   },
   {
    "md_id": "700223c7-f5e3-42ef-8577-42392b349f8a",
@@ -39755,7 +39525,7 @@
     }
    },
    "md_rating": 9.600980064958152,
-   "md_follows": 17142,
+   "md_follows": 17143,
    "md_latest": {
     "chapter": "20",
     "date": "2026-10-06T00:24:30+00:00",
@@ -39784,8 +39554,9 @@
    ],
    "al_id": null,
    "latest": 20.0,
-   "last_read": null,
-   "progress_known": false
+   "last_read": 0.0,
+   "progress_known": true,
+   "behind": 20.0
   },
   {
    "md_id": "472c4347-408b-4c52-8080-595387eacee9",
@@ -39936,8 +39707,9 @@
    "country": "JP",
    "al_title_en": "The Klutzy Class Monitor and the Girl with the Short Skirt",
    "latest": 92.0,
-   "last_read": null,
-   "progress_known": false
+   "last_read": 0.0,
+   "progress_known": true,
+   "behind": 92.0
   },
   {
    "md_id": "dd16dbbc-c317-4f62-8cf5-3525b4083aab",
@@ -40147,15 +39919,10 @@
     "サイコアイズ"
    ],
    "al_id": 182797,
-   "al_score": 60,
-   "al_status": "RELEASING",
-   "al_chapters": null,
-   "al_url": "https://anilist.co/manga/182797",
-   "country": "JP",
-   "al_title_en": null,
    "latest": 21.0,
-   "last_read": null,
-   "progress_known": false
+   "last_read": 0.0,
+   "progress_known": true,
+   "behind": 21.0
   },
   {
    "md_id": "d97db976-eeec-4eb4-8868-346fbd7ed1e5",
@@ -40312,8 +40079,9 @@
    "country": "JP",
    "al_title_en": "Red Cat Ramen",
    "latest": 210.0,
-   "last_read": null,
-   "progress_known": false
+   "last_read": 0.0,
+   "progress_known": true,
+   "behind": 210.0
   },
   {
    "md_id": "8de2456c-95ef-4958-8f27-af7a4cc275b7",
@@ -40767,7 +40535,7 @@
     }
    },
    "md_rating": 9.439728870210624,
-   "md_follows": 20688,
+   "md_follows": 20689,
    "md_latest": {
     "chapter": "105",
     "date": "2026-08-25T03:27:19+00:00",
@@ -41183,12 +40951,6 @@
     "천중용문"
    ],
    "al_id": 188216,
-   "al_score": 64,
-   "al_status": "RELEASING",
-   "al_chapters": null,
-   "al_url": "https://anilist.co/manga/188216",
-   "country": "KR",
-   "al_title_en": "Regression of the Yong Clan Heir",
    "latest": 64.0,
    "last_read": 9.0,
    "progress_known": true,
@@ -41403,8 +41165,9 @@
    ],
    "al_id": 209725,
    "latest": 6.0,
-   "last_read": null,
-   "progress_known": false
+   "last_read": 0.0,
+   "progress_known": true,
+   "behind": 6.0
   },
   {
    "title": "reset life of regression police",
@@ -42127,14 +41890,15 @@
     "weebcentral": {
      "url": "https://weebcentral.com/series/01KGMEJJK2T4QMF4DT1ZMGEDGT",
      "latest": "1",
-     "last_read": null
+     "last_read": "0"
     }
    },
    "mu_id": null,
    "al_id": null,
    "latest": 1.0,
-   "last_read": null,
-   "progress_known": false
+   "last_read": 0.0,
+   "progress_known": true,
+   "behind": 1.0
   },
   {
    "md_id": "ac743453-99ef-49e5-93e5-265cfff01fe0",
@@ -42175,7 +41939,7 @@
     }
    },
    "md_rating": 8.965734343530789,
-   "md_follows": 46697,
+   "md_follows": 46699,
    "md_latest": {
     "chapter": "30",
     "date": "2026-08-09T17:24:06+00:00",
@@ -42368,8 +42132,9 @@
    "country": "JP",
    "al_title_en": null,
    "latest": 2.0,
-   "last_read": null,
-   "progress_known": false
+   "last_read": 0.0,
+   "progress_known": true,
+   "behind": 2.0
   },
   {
    "md_id": "4b5bd39d-8c06-4265-bc13-9ad90d85ff91",
@@ -42638,7 +42403,7 @@
     "weebcentral": {
      "url": "https://weebcentral.com/series/01J76XYCMJ30ED86E2JBCPNNV3",
      "latest": "77",
-     "last_read": null
+     "last_read": "0"
     },
     "mgeko": {
      "url": "https://www.mgeko.cc/manga/saihate-no-paladin/",
@@ -43184,12 +42949,6 @@
     "사시미 한 자루로 아카데미를 씹어먹음"
    ],
    "al_id": 184502,
-   "al_score": 74,
-   "al_status": "RELEASING",
-   "al_chapters": null,
-   "al_url": "https://anilist.co/manga/184502",
-   "country": "KR",
-   "al_title_en": "The Academy’s Sashimi Sword Master",
    "latest": 100.0,
    "last_read": 8.0,
    "progress_known": true,
@@ -43290,8 +43049,8 @@
    "country": "JP",
    "al_title_en": "Goodbye, Eri",
    "latest": null,
-   "last_read": null,
-   "progress_known": false
+   "last_read": 0.0,
+   "progress_known": true
   },
   {
    "title": "school of streets",
@@ -43452,7 +43211,7 @@
     }
    },
    "md_rating": 8.885805456019128,
-   "md_follows": 38448,
+   "md_follows": 38449,
    "md_latest": {
     "chapter": "69",
     "date": "2026-04-26T20:39:35+00:00",
@@ -43494,8 +43253,9 @@
    "country": "JP",
    "al_title_en": "Even the Student Council Has Its Holes!",
    "latest": 107.0,
-   "last_read": null,
-   "progress_known": false
+   "last_read": 0.0,
+   "progress_known": true,
+   "behind": 107.0
   },
   {
    "md_id": "d1fa8ce7-ad9d-475d-9311-2a850b1f3336",
@@ -43573,8 +43333,9 @@
    "country": "JP",
    "al_title_en": "Have Fun! It's the End of the World!",
    "latest": 37.2,
-   "last_read": null,
-   "progress_known": false
+   "last_read": 0.0,
+   "progress_known": true,
+   "behind": 37.2
   },
   {
    "md_id": "335c0929-a00e-4c10-9561-cc0991705bad",
@@ -43795,7 +43556,7 @@
     }
    },
    "md_rating": 8.95442530199405,
-   "md_follows": 77756,
+   "md_follows": 77757,
    "md_latest": {
     "chapter": "45",
     "date": "2026-09-29T19:00:10+00:00",
@@ -43831,12 +43592,6 @@
     "戦姫サバイバルサガ　－異世界の運命をかけた無人島フジュン異性交遊－"
    ],
    "al_id": 184773,
-   "al_score": 70,
-   "al_status": "RELEASING",
-   "al_chapters": null,
-   "al_url": "https://anilist.co/manga/184773",
-   "country": "JP",
-   "al_title_en": null,
    "latest": 45.0,
    "last_read": 7.5,
    "progress_known": true,
@@ -43929,8 +43684,9 @@
    "country": "JP",
    "al_title_en": "Teacher, We Will Destroy the World!",
    "latest": 61.1,
-   "last_read": null,
-   "progress_known": false
+   "last_read": 0.0,
+   "progress_known": true,
+   "behind": 61.1
   },
   {
    "md_id": "f7b62193-bdfb-4953-a6c6-0bd1b9a872f9",
@@ -44063,7 +43819,7 @@
     }
    },
    "md_rating": 8.765154668220577,
-   "md_follows": 47891,
+   "md_follows": 47890,
    "md_latest": {
     "chapter": "178",
     "date": "2024-09-09T09:01:37+00:00",
@@ -44106,8 +43862,9 @@
    "country": "JP",
    "al_title_en": "Go! Go! Loser Ranger!",
    "latest": 178.0,
-   "last_read": null,
-   "progress_known": false
+   "last_read": 0.0,
+   "progress_known": true,
+   "behind": 178.0
   },
   {
    "md_id": "ba0c0be4-910d-4601-9996-add0f7ff444a",
@@ -44167,12 +43924,6 @@
     "세상에 나쁜 금쪽이는 없다"
    ],
    "al_id": 189200,
-   "al_score": null,
-   "al_status": "RELEASING",
-   "al_chapters": null,
-   "al_url": "https://anilist.co/manga/189200",
-   "country": "KR",
-   "al_title_en": "There's No Such Thing as a Naughty Munchkin",
    "latest": 90.0,
    "last_read": 68.0,
    "progress_known": true,
@@ -44304,7 +44055,7 @@
     }
    },
    "md_rating": 8.937901914550645,
-   "md_follows": 72124,
+   "md_follows": 72126,
    "md_latest": {
     "chapter": "70",
     "date": "2026-10-22T16:08:33+00:00",
@@ -44430,8 +44181,9 @@
    "country": "JP",
    "al_title_en": "Shadows House",
    "latest": 241.0,
-   "last_read": null,
-   "progress_known": false
+   "last_read": 0.0,
+   "progress_known": true,
+   "behind": 241.0
   },
   {
    "md_id": "29ab6984-7c1d-4d45-b925-25aa082b492e",
@@ -44629,7 +44381,7 @@
     }
    },
    "md_rating": 7.7311783036201644,
-   "md_follows": 36575,
+   "md_follows": 36576,
    "md_latest": {
     "chapter": "79",
     "date": "2026-10-13T17:01:44+00:00",
@@ -44747,8 +44499,9 @@
    "country": "JP",
    "al_title_en": "Our Dreams at Dusk: Shimanami Tasogare",
    "latest": 23.0,
-   "last_read": null,
-   "progress_known": false
+   "last_read": 0.0,
+   "progress_known": true,
+   "behind": 23.0
   },
   {
    "md_id": "51f96647-89e6-430a-a96a-f45e72543f8c",
@@ -44781,7 +44534,7 @@
     }
    },
    "md_rating": 7.818898703167128,
-   "md_follows": 35093,
+   "md_follows": 35092,
    "md_latest": {
     "chapter": "7.5",
     "date": "2026-10-17T07:03:02+00:00",
@@ -44893,8 +44646,9 @@
    "country": "JP",
    "al_title_en": null,
    "latest": 86.0,
-   "last_read": null,
-   "progress_known": false
+   "last_read": 0.0,
+   "progress_known": true,
+   "behind": 86.0
   },
   {
    "md_id": "bb6f1eb0-2ab5-46d6-aab6-5a43fd5e2f0c",
@@ -44959,8 +44713,9 @@
    ],
    "al_id": 204866,
    "latest": 6.0,
-   "last_read": null,
-   "progress_known": false
+   "last_read": 0.0,
+   "progress_known": true,
+   "behind": 6.0
   },
   {
    "md_id": "38179337-1640-4927-8851-9bedd8d19e82",
@@ -45071,7 +44826,7 @@
     }
    },
    "md_rating": 8.724078602878386,
-   "md_follows": 3186,
+   "md_follows": 3188,
    "md_latest": {
     "chapter": "25.5",
     "date": "2026-10-21T14:38:50+00:00",
@@ -45406,7 +45161,7 @@
     "weebcentral": {
      "url": "https://weebcentral.com/series/01J76XY8FMGJ7QZ85KPM7XAKX2",
      "latest": "Fasul 142",
-     "last_read": null
+     "last_read": "0"
     }
    },
    "md_rating": 8.686522298529464,
@@ -45600,8 +45355,8 @@
    "country": "JP",
    "al_title_en": "Agents of the Four Seasons: Dance of Spring",
    "latest": null,
-   "last_read": null,
-   "progress_known": false
+   "last_read": 0.0,
+   "progress_known": true
   },
   {
    "md_id": "b5b21ca1-bba5-4b9a-8cd1-6248f731650b",
@@ -45653,7 +45408,7 @@
     }
    },
    "md_rating": 8.945948658837125,
-   "md_follows": 114586,
+   "md_follows": 114585,
    "md_latest": {
     "chapter": "125",
     "date": "2026-10-01T19:11:16+00:00",
@@ -46066,12 +45821,6 @@
     "セイレーンは君に歌わない"
    ],
    "al_id": 186160,
-   "al_score": 62,
-   "al_status": "FINISHED",
-   "al_chapters": 35,
-   "al_url": "https://anilist.co/manga/186160",
-   "country": "JP",
-   "al_title_en": "Sirens Won't Sing For You",
    "latest": 35.0,
    "last_read": 1.0,
    "progress_known": true,
@@ -46330,12 +46079,6 @@
     "나 혼자 부활한다"
    ],
    "al_id": 180904,
-   "al_score": 68,
-   "al_status": "RELEASING",
-   "al_chapters": null,
-   "al_url": "https://anilist.co/manga/180904",
-   "country": "KR",
-   "al_title_en": null,
    "latest": 99.0,
    "last_read": 25.0,
    "progress_known": true,
@@ -46378,7 +46121,7 @@
     }
    },
    "md_rating": 8.642662549239287,
-   "md_follows": 4279,
+   "md_follows": 4280,
    "md_latest": {
     "chapter": "53",
     "date": "2026-10-18T15:16:23+00:00",
@@ -46633,12 +46376,6 @@
     "組織の宿敵と結婚したらめちゃ甘い"
    ],
    "al_id": 185089,
-   "al_score": 58,
-   "al_status": "RELEASING",
-   "al_chapters": null,
-   "al_url": "https://anilist.co/manga/185089",
-   "country": "JP",
-   "al_title_en": "My Sweet Marriage to My Ex-Nemesis",
    "latest": 8.2,
    "last_read": 2.0,
    "progress_known": true,
@@ -46967,12 +46704,6 @@
     "소년법칙"
    ],
    "al_id": 181996,
-   "al_score": 68,
-   "al_status": "RELEASING",
-   "al_chapters": null,
-   "al_url": "https://anilist.co/manga/181996",
-   "country": "KR",
-   "al_title_en": "Dead Mansion",
    "latest": 52.0,
    "last_read": 12.0,
    "progress_known": true,
@@ -47051,12 +46782,6 @@
     "우주천마 3077"
    ],
    "al_id": 186490,
-   "al_score": 72,
-   "al_status": "RELEASING",
-   "al_chapters": null,
-   "al_url": "https://anilist.co/manga/186490",
-   "country": "KR",
-   "al_title_en": "Space Cheon-ma 3077",
    "latest": 110.0,
    "last_read": 83.0,
    "progress_known": true,
@@ -47329,8 +47054,9 @@
    "country": "JP",
    "al_title_en": "Steins;Gate",
    "latest": 23.0,
-   "last_read": null,
-   "progress_known": false
+   "last_read": 0.0,
+   "progress_known": true,
+   "behind": 23.0
   },
   {
    "title": "strong representative",
@@ -47500,7 +47226,7 @@
     }
    },
    "md_rating": 9.373189986562846,
-   "md_follows": 103849,
+   "md_follows": 103850,
    "md_latest": {
     "chapter": "63.1",
     "date": "2026-09-08T04:13:57+00:00",
@@ -47740,7 +47466,7 @@
     }
    },
    "md_rating": 8.617885040963941,
-   "md_follows": 23802,
+   "md_follows": 23807,
    "md_latest": {
     "chapter": "15.1",
     "date": "2026-09-07T05:57:54+00:00",
@@ -47896,8 +47622,8 @@
      "last_read": 5.0
     }
    },
-   "md_rating": 8.764915965642329,
-   "md_follows": 138807,
+   "md_rating": 8.764936813896457,
+   "md_follows": 138806,
    "md_latest": {
     "chapter": "27.2",
     "date": "2026-10-18T17:05:40+00:00",
@@ -47931,12 +47657,6 @@
     "轉生為懶惰的惡辱貴族，破壞劇情後，以超規格的魔力成為了最兇惡之人"
    ],
    "al_id": 182970,
-   "al_score": 70,
-   "al_status": "RELEASING",
-   "al_chapters": null,
-   "al_url": "https://anilist.co/manga/182970",
-   "country": "JP",
-   "al_title_en": "Reborn as an Aristocratic Scoundrel, I Broke the Game and Mastered Magic Beyond Limits!",
    "latest": 27.2,
    "last_read": 5.0,
    "progress_known": true,
@@ -48191,8 +47911,8 @@
      "last_read": "15"
     }
    },
-   "md_rating": 8.822764947671372,
-   "md_follows": 50068,
+   "md_rating": 8.822820179014924,
+   "md_follows": 50069,
    "md_latest": {
     "chapter": "15",
     "date": "2026-10-11T04:15:00+00:00",
@@ -48390,8 +48110,9 @@
    "country": "JP",
    "al_title_en": "Home Office Romance",
    "latest": 20.5,
-   "last_read": null,
-   "progress_known": false
+   "last_read": 0.0,
+   "progress_known": true,
+   "behind": 20.5
   },
   {
    "md_id": "17ec45f0-e88e-475e-b86d-a568dc53bb84",
@@ -48549,8 +48270,9 @@
    "country": "JP",
    "al_title_en": "Heavenly Delusion",
    "latest": 85.0,
-   "last_read": null,
-   "progress_known": false
+   "last_read": 0.0,
+   "progress_known": true,
+   "behind": 85.0
   },
   {
    "md_id": "46596dea-95de-40e8-b2b8-4e63aa6acd1a",
@@ -48717,12 +48439,6 @@
     "転生したら才能があった件～異世界行っても努力する～"
    ],
    "al_id": 187488,
-   "al_score": 47,
-   "al_status": "RELEASING",
-   "al_chapters": null,
-   "al_url": "https://anilist.co/manga/187488",
-   "country": "JP",
-   "al_title_en": null,
    "latest": 29.0,
    "last_read": 1.2,
    "progress_known": true,
@@ -48991,12 +48707,6 @@
     "転生勇者の気まま旅"
    ],
    "al_id": 181499,
-   "al_score": 54,
-   "al_status": "RELEASING",
-   "al_chapters": null,
-   "al_url": "https://anilist.co/manga/181499",
-   "country": "JP",
-   "al_title_en": "The Carefree Journey of the Reincarnated Hero",
    "latest": 33.0,
    "last_read": 1.0,
    "progress_known": true,
@@ -49030,7 +48740,7 @@
     }
    },
    "md_rating": 8.941104569678439,
-   "md_follows": 25374,
+   "md_follows": 25378,
    "md_latest": {
     "chapter": "24",
     "date": "2026-10-20T02:06:50+00:00",
@@ -49198,7 +48908,7 @@
     "weebcentral": {
      "url": "https://weebcentral.com/series/01J76XYA4AVQG9FK53NGCE8FW6",
      "latest": "106",
-     "last_read": null
+     "last_read": "0"
     }
    },
    "md_rating": 9.220295158876032,
@@ -49268,7 +48978,7 @@
     "weebcentral": {
      "url": "https://weebcentral.com/series/01KHV2JFPH39843RXHBZADWMSD",
      "latest": "1",
-     "last_read": null
+     "last_read": "0"
     }
    },
    "mu_url": "https://www.mangaupdates.com/series/z52erty/mahou-tsukai-no-yome-fragment",
@@ -49289,8 +48999,9 @@
    ],
    "al_id": null,
    "latest": 1.0,
-   "last_read": null,
-   "progress_known": false
+   "last_read": 0.0,
+   "progress_known": true,
+   "behind": 1.0
   },
   {
    "md_id": "ff14c29a-3456-4047-828d-10c9671cac4c",
@@ -50030,12 +49741,6 @@
     "아카데미의 천재 테이머"
    ],
    "al_id": 183698,
-   "al_score": 62,
-   "al_status": "FINISHED",
-   "al_chapters": 83,
-   "al_url": "https://anilist.co/manga/183698",
-   "country": "KR",
-   "al_title_en": "The Academy's Genius Tamer",
    "latest": 83.0,
    "last_read": 1.0,
    "progress_known": true,
@@ -50385,8 +50090,9 @@
    "country": "KR",
    "al_title_en": "The Horizon",
    "latest": 21.0,
-   "last_read": null,
-   "progress_known": false
+   "last_read": 0.0,
+   "progress_known": true,
+   "behind": 21.0
   },
   {
    "md_id": "793ff622-8a37-47a7-9b7a-915e9ddbb6b8",
@@ -50699,8 +50405,9 @@
    ],
    "al_id": null,
    "latest": 14.0,
-   "last_read": null,
-   "progress_known": false
+   "last_read": 0.0,
+   "progress_known": true,
+   "behind": 14.0
   },
   {
    "md_id": "aacfd2c5-4faa-44d2-9673-42dab6edd0b1",
@@ -50799,8 +50506,9 @@
    ],
    "al_id": 189627,
    "latest": 75.0,
-   "last_read": null,
-   "progress_known": false
+   "last_read": 0.0,
+   "progress_known": true,
+   "behind": 75.0
   },
   {
    "title": "the mysterious worlds greatest martial artist little prince",
@@ -51052,8 +50760,8 @@
    "country": "KR",
    "al_title_en": "The Night Market",
    "latest": null,
-   "last_read": null,
-   "progress_known": false
+   "last_read": 0.0,
+   "progress_known": true
   },
   {
    "md_id": "6f18c4ef-3eb6-40ee-98a4-507343f05855",
@@ -51138,8 +50846,9 @@
    "country": "KR",
    "al_title_en": "The Novel's Extra",
    "latest": 176.0,
-   "last_read": null,
-   "progress_known": false
+   "last_read": 0.0,
+   "progress_known": true,
+   "behind": 176.0
   },
   {
    "title": "The Postman of the Apocalypse",
@@ -52046,12 +51755,6 @@
     "？？？階的隱藏裝備無雙"
    ],
    "al_id": 185383,
-   "al_score": 52,
-   "al_status": "FINISHED",
-   "al_chapters": 94,
-   "al_url": "https://anilist.co/manga/185383",
-   "country": "JP",
-   "al_title_en": "The Unparalleled Hidden Rank Equipment",
    "latest": 94.0,
    "last_read": 7.0,
    "progress_known": true,
@@ -52258,12 +51961,6 @@
     "악당은 살고 싶다 (악살싶)"
    ],
    "al_id": 187427,
-   "al_score": 78,
-   "al_status": "RELEASING",
-   "al_chapters": null,
-   "al_url": "https://anilist.co/manga/187427",
-   "country": "KR",
-   "al_title_en": "The Villain's Survival Route",
    "latest": 69.0,
    "last_read": 69.0,
    "progress_known": true,
@@ -52472,12 +52169,6 @@
     "飛び降りる直前の同級生に『×××しよう！』と提案してみた。"
    ],
    "al_id": 181020,
-   "al_score": 56,
-   "al_status": "RELEASING",
-   "al_chapters": null,
-   "al_url": "https://anilist.co/manga/181020",
-   "country": "JP",
-   "al_title_en": null,
    "latest": 12.2,
    "last_read": 1.0,
    "progress_known": true,
@@ -52823,12 +52514,6 @@
     "となりの黒川さん"
    ],
    "al_id": 180788,
-   "al_score": 72,
-   "al_status": "RELEASING",
-   "al_chapters": null,
-   "al_url": "https://anilist.co/manga/180788",
-   "country": "JP",
-   "al_title_en": null,
    "latest": 53.5,
    "last_read": 7.0,
    "progress_known": true,
@@ -53643,8 +53328,9 @@
    "country": "JP",
    "al_title_en": "The Laid-Off Cheat-Granting Mage Enjoys a Second Lease on Life",
    "latest": 45.0,
-   "last_read": null,
-   "progress_known": false
+   "last_read": 0.0,
+   "progress_known": true,
+   "behind": 45.0
   },
   {
    "md_id": "9950720b-21e8-4fac-9e34-bd5bf02fed77",
@@ -53867,8 +53553,9 @@
    ],
    "al_id": 194614,
    "latest": 21.0,
-   "last_read": null,
-   "progress_known": false
+   "last_read": 0.0,
+   "progress_known": true,
+   "behind": 21.0
   },
   {
    "md_id": "e4351665-25f3-4edd-8546-10e5122e721d",
@@ -54227,7 +53914,7 @@
      "last_read": 29.0
     }
    },
-   "md_rating": 9.074802187571313,
+   "md_rating": 9.074561844923078,
    "md_follows": 54606,
    "md_latest": {
     "chapter": "29",
@@ -54267,12 +53954,6 @@
     "팔다 남은 노예 엘프를 주워서, 딸로 삼기로 했습니다"
    ],
    "al_id": 183596,
-   "al_score": 72,
-   "al_status": "RELEASING",
-   "al_chapters": null,
-   "al_url": "https://anilist.co/manga/183596",
-   "country": "JP",
-   "al_title_en": null,
    "latest": 29.0,
    "last_read": 29.0,
    "progress_known": true,
@@ -54310,7 +53991,7 @@
     }
    },
    "md_rating": 8.742818025933264,
-   "md_follows": 96158,
+   "md_follows": 96159,
    "md_latest": {
     "chapter": "29",
     "date": "2026-10-09T00:13:45+00:00",
@@ -54488,7 +54169,7 @@
     }
    },
    "md_rating": 9.661122151998693,
-   "md_follows": 84646,
+   "md_follows": 84647,
    "md_latest": {
     "chapter": "327",
     "date": "2018-03-19T02:20:43+00:00",
@@ -54539,8 +54220,9 @@
    "country": "JP",
    "al_title_en": "Vagabond",
    "latest": 327.0,
-   "last_read": null,
-   "progress_known": false
+   "last_read": 0.0,
+   "progress_known": true,
+   "behind": 327.0
   },
   {
    "title": "valhalla sage",
@@ -54787,8 +54469,9 @@
    "country": "JP",
    "al_title_en": "Veil",
    "latest": 77.0,
-   "last_read": null,
-   "progress_known": false
+   "last_read": 0.0,
+   "progress_known": true,
+   "behind": 77.0
   },
   {
    "md_id": "09bbbb75-1086-4e7c-b775-ae9ee1816e0d",
@@ -54831,7 +54514,7 @@
     "weebcentral": {
      "url": "https://weebcentral.com/series/01J76XYG0DD79B889BC3894M0Q",
      "latest": "37",
-     "last_read": null
+     "last_read": "0"
     }
    },
    "md_rating": 9.021249096055008,
@@ -54872,8 +54555,9 @@
    "country": "JP",
    "al_title_en": "Versus",
    "latest": 37.0,
-   "last_read": null,
-   "progress_known": false
+   "last_read": 0.0,
+   "progress_known": true,
+   "behind": 37.0
   },
   {
    "md_id": "94e6f5a4-a215-4f5b-ae82-febc560be66d",
@@ -55067,7 +54751,7 @@
     }
    },
    "md_rating": 8.971241678439098,
-   "md_follows": 26805,
+   "md_follows": 26806,
    "md_latest": {
     "chapter": "50.5",
     "date": "2026-09-11T14:30:28+00:00",
@@ -55347,8 +55031,9 @@
    "country": "JP",
    "al_title_en": "No Matter How I Look at It, It's You Guys' Fault I'm Not Popular!",
    "latest": 243.0,
-   "last_read": null,
-   "progress_known": false
+   "last_read": 0.0,
+   "progress_known": true,
+   "behind": 243.0
   },
   {
    "md_id": "b4737285-9592-4382-827e-3d951520a6ec",
@@ -55413,12 +55098,6 @@
     "나에게만 허둥대는 상사의 이야기"
    ],
    "al_id": 182183,
-   "al_score": 59,
-   "al_status": "FINISHED",
-   "al_chapters": 66,
-   "al_url": "https://anilist.co/manga/182183",
-   "country": "JP",
-   "al_title_en": "My Boss Only Gets Flustered Around Me",
    "latest": 20.4,
    "last_read": 3.0,
    "progress_known": true,
@@ -55492,12 +55171,6 @@
     "私の心はおじさんである"
    ],
    "al_id": 183382,
-   "al_score": 68,
-   "al_status": "RELEASING",
-   "al_chapters": null,
-   "al_url": "https://anilist.co/manga/183382",
-   "country": "JP",
-   "al_title_en": "This Alluring Dark Elf Has the Heart of a Middle-Aged Man!",
    "latest": 45.0,
    "last_read": 45.0,
    "progress_known": true,
@@ -55918,12 +55591,6 @@
     "ウィキッドスポット"
    ],
    "al_id": 182947,
-   "al_score": 70,
-   "al_status": "FINISHED",
-   "al_chapters": 18,
-   "al_url": "https://anilist.co/manga/182947",
-   "country": "JP",
-   "al_title_en": "Wicked Spot",
    "latest": 17.0,
    "last_read": 1.0,
    "progress_known": true,
@@ -56000,8 +55667,9 @@
    "country": "JP",
    "al_title_en": "WIND BREAKER",
    "latest": 227.0,
-   "last_read": null,
-   "progress_known": false
+   "last_read": 0.0,
+   "progress_known": true,
+   "behind": 227.0
   },
   {
    "md_id": "e41721c0-f7cf-49c1-9712-8543e1ea7c99",
@@ -56154,7 +55822,7 @@
    "mu_url": "https://www.mangaupdates.com/series/7q0clgw/witchriv",
    "mu_title": "WITCHRIV",
    "mu_rating": 6.42,
-   "mu_latest": 43,
+   "mu_latest": 44,
    "mu_status": "4 Volumes (Ongoing)",
    "mu_completed": false,
    "mu_type": "Manga",
@@ -56475,7 +56143,7 @@
     }
    },
    "md_rating": 9.09555854711814,
-   "md_follows": 26383,
+   "md_follows": 26384,
    "md_latest": {
     "chapter": "200",
     "date": "2026-10-07T20:25:46+00:00",
@@ -56777,8 +56445,9 @@
    "country": "CN",
    "al_title_en": null,
    "latest": 294.0,
-   "last_read": null,
-   "progress_known": false
+   "last_read": 0.0,
+   "progress_known": true,
+   "behind": 294.0
   },
   {
    "md_id": "92e53a36-3207-4ca2-a41c-6070dc27ef5b",
@@ -56813,7 +56482,7 @@
     }
    },
    "md_rating": 7.64296053520594,
-   "md_follows": 2455,
+   "md_follows": 2456,
    "md_latest": {
     "chapter": "7",
     "date": "2026-10-19T20:02:40+00:00",
@@ -56841,12 +56510,6 @@
     "やがて英雄になる最強主人公に転生したけど、僕には荷が重かったようです"
    ],
    "al_id": 188871,
-   "al_score": null,
-   "al_status": "RELEASING",
-   "al_chapters": null,
-   "al_url": "https://anilist.co/manga/188871",
-   "country": "JP",
-   "al_title_en": null,
    "latest": 17.0,
    "last_read": 3.0,
    "progress_known": true,
@@ -57203,8 +56866,9 @@
    "country": "JP",
    "al_title_en": "Call of the Night",
    "latest": 200.0,
-   "last_read": null,
-   "progress_known": false
+   "last_read": 0.0,
+   "progress_known": true,
+   "behind": 200.0
   },
   {
    "md_id": "1a69d1cc-b060-4f35-8778-4621424fe5f4",
@@ -57283,8 +56947,9 @@
    "country": "JP",
    "al_title_en": "Yokohama Kaidashi Kikou",
    "latest": 140.5,
-   "last_read": null,
-   "progress_known": false
+   "last_read": 0.0,
+   "progress_known": true,
+   "behind": 140.5
   },
   {
    "md_id": "b340d77a-6bfe-4f33-8352-4d305ecf264c",
@@ -57637,8 +57302,9 @@
    "country": "CN",
    "al_title_en": null,
    "latest": 1254.0,
-   "last_read": null,
-   "progress_known": false
+   "last_read": 0.0,
+   "progress_known": true,
+   "behind": 1254.0
   },
   {
    "md_id": "d773c8be-8e82-4ff1-a4e9-46171395319b",
@@ -57705,7 +57371,7 @@
     }
    },
    "md_rating": 9.410707794878414,
-   "md_follows": 68532,
+   "md_follows": 68533,
    "md_latest": {
     "chapter": "118",
     "date": "2026-08-27T03:44:55+00:00",
@@ -57935,7 +57601,7 @@
     }
    },
    "md_rating": 8.47114321405624,
-   "md_follows": 12204,
+   "md_follows": 12203,
    "md_latest": {
     "chapter": "35",
     "date": "2026-10-22T15:12:57+00:00",
@@ -57946,7 +57612,7 @@
    "mu_url": "https://www.mangaupdates.com/series/v8qsky1/yuusha-izoku",
    "mu_title": "Yuusha Izoku",
    "mu_rating": 6.85,
-   "mu_latest": 34,
+   "mu_latest": 35,
    "mu_status": "2 Volumes (Ongoing)",
    "mu_completed": false,
    "mu_type": "Manga",
@@ -58044,8 +57710,9 @@
    "country": "JP",
    "al_title_en": "Sentenced to Be a Hero: The Prison Records of Penal Hero Unit 9004",
    "latest": 6.5,
-   "last_read": null,
-   "progress_known": false
+   "last_read": 0.0,
+   "progress_known": true,
+   "behind": 6.5
   },
   {
    "md_id": "f7efacbb-46b1-4648-b2a8-9f82761a02de",
@@ -58108,12 +57775,6 @@
     "勇者の母ですが、魔王軍の幹部になりました。"
    ],
    "al_id": 185199,
-   "al_score": null,
-   "al_status": "RELEASING",
-   "al_chapters": null,
-   "al_url": "https://anilist.co/manga/185199",
-   "country": "JP",
-   "al_title_en": "The Hero's Mother Became a General Staff of the Demon Army.",
    "latest": 7.0,
    "last_read": 7.0,
    "progress_known": true,
@@ -58184,8 +57845,9 @@
    "country": "JP",
    "al_title_en": "Porter of Heroes",
    "latest": 39.1,
-   "last_read": null,
-   "progress_known": false
+   "last_read": 0.0,
+   "progress_known": true,
+   "behind": 39.1
   },
   {
    "md_id": "f8438f87-3142-4ee5-b0f0-836aa5515c61",
@@ -58249,12 +57911,6 @@
     "자하의 사랑"
    ],
    "al_id": 187819,
-   "al_score": null,
-   "al_status": "FINISHED",
-   "al_chapters": 10,
-   "al_url": "https://anilist.co/manga/187819",
-   "country": "JP",
-   "al_title_en": "Zacha’s Undying Love",
    "latest": 10.0,
    "last_read": 1.0,
    "progress_known": true,
