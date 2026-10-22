@@ -890,6 +890,8 @@ details.sub summary { cursor: pointer; font-weight: 700; color: var(--ink); marg
   const C_TO_KIND = { JP: "manga", KR: "manhwa", CN: "manhua", TW: "manhua" };
   const chunk = (a, n) => { const o = []; for (let i = 0; i < a.length; i += n) o.push(a.slice(i, i + n)); return o; };
   async function alPub(query, variables, tries = 0) {
+    // AniList treats an explicit null filter (e.g. countryOfOrigin: null) as "match nothing", so drop empty ones
+    variables = Object.fromEntries(Object.entries(variables || {}).filter(([, v]) => v != null && !(Array.isArray(v) && !v.length)));
     const r = await fetch("https://graphql.anilist.co", { method: "POST", headers: { "Content-Type": "application/json", Accept: "application/json" }, body: JSON.stringify({ query, variables }) });
     if (r.status === 429 && tries < 3) {
       const wait = Math.min(65, +(r.headers.get("Retry-After") || 30));
@@ -910,6 +912,7 @@ details.sub summary { cursor: pointer; font-weight: 700; color: var(--ink); marg
   }
   async function loadLibTags() {
     if (FIND.libTags) return FIND.libTags;
+    if (!LIB.length) return {};   // library not loaded yet — don't cache anything
     let cache = null; try { cache = JSON.parse(localStorage.getItem("nc.altags") || "null"); } catch (e) {}
     const fresh = cache && Date.now() - cache.at < 14 * 864e5;
     const have = fresh ? cache.data : {};
@@ -922,7 +925,7 @@ details.sub summary { cursor: pointer; font-weight: 700; color: var(--ink); marg
       for (const id of c) if (!have[id]) have[id] = [[], [], null];
       done += c.length;
     }
-    try { localStorage.setItem("nc.altags", JSON.stringify({ at: fresh ? cache.at : Date.now(), data: have })); } catch (e) {}
+    if (Object.keys(have).length) try { localStorage.setItem("nc.altags", JSON.stringify({ at: fresh ? cache.at : Date.now(), data: have })); } catch (e) {}
     if (!DETAILS) await loadDetails();
     return (FIND.libTags = have);
   }
