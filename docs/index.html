@@ -1,0 +1,528 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Next Chapter</title>
+<meta name="robots" content="noindex">
+<meta name="theme-color" content="#11131A">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,500;62..125,700;62..125,800&family=Atkinson+Hyperlegible:wght@400;700&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: sticky toolbar; "New chapters" feed first, then the shelf (tabs + filters + cover grid); a side drawer per series. */
+:root {
+  --bg: #11131A; --panel: #191C25; --raise: #222633; --ink: #ECEEF4; --muted: #9AA0B2; --line: #2A2F3D;
+  --accent: #FFB547;           /* marigold "new chapter" */
+  --accent-ink: #1A1305;
+  --new: #FF6B5B; --good: #6FD39B; --warn: #F2C14E;
+  --f-display: "Archivo", "Arial Narrow", system-ui, sans-serif;
+  --f-body: "Atkinson Hyperlegible", "Segoe UI", system-ui, sans-serif;
+  --f-mono: "IBM Plex Mono", ui-monospace, Consolas, monospace;
+  --shadow: 0 10px 30px rgba(0,0,0,.35);
+  color-scheme: dark;
+}
+@media (prefers-color-scheme: light) { :root:not([data-theme="dark"]) {
+  --bg: #F3F2EF; --panel: #FFFFFF; --raise: #ECEAE5; --ink: #17181D; --muted: #5F6372; --line: #DEDBD3;
+  --accent: #C77700; --accent-ink: #FFFFFF; --new: #D8432F; --good: #237A4B; --warn: #9A6B00;
+  --shadow: 0 10px 30px rgba(20,20,30,.12); color-scheme: light } }
+:root[data-theme="light"] {
+  --bg: #F3F2EF; --panel: #FFFFFF; --raise: #ECEAE5; --ink: #17181D; --muted: #5F6372; --line: #DEDBD3;
+  --accent: #C77700; --accent-ink: #FFFFFF; --new: #D8432F; --good: #237A4B; --warn: #9A6B00;
+  --shadow: 0 10px 30px rgba(20,20,30,.12); color-scheme: light }
+* { box-sizing: border-box; }
+html, body { margin: 0; }
+body { background: var(--bg); color: var(--ink); font: 400 15px/1.45 var(--f-body); -webkit-text-size-adjust: 100%; }
+button, input, select { font: inherit; color: inherit; }
+a { color: inherit; }
+:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; border-radius: 6px; }
+[hidden] { display: none !important; }
+.wrap { max-width: 1240px; margin: 0 auto; padding-left: max(16px, env(safe-area-inset-left)); padding-right: max(16px, env(safe-area-inset-right)); }
+
+/* toolbar */
+.bar { position: sticky; top: 0; z-index: 20; background: color-mix(in srgb, var(--bg) 88%, transparent); backdrop-filter: blur(10px); border-bottom: 1px solid var(--line); padding-top: env(safe-area-inset-top); }
+.bar .wrap { display: flex; align-items: center; gap: 12px; padding-block: 10px; }
+.logo { font: 800 22px/1 var(--f-display); font-stretch: 75%; letter-spacing: .01em; text-transform: uppercase; white-space: nowrap; display: flex; align-items: center; gap: 8px; }
+.logo i { display: inline-block; width: 12px; height: 18px; background: var(--accent); transform: skewX(-12deg); }
+.search { flex: 1; min-width: 0; position: relative; }
+.search input { width: 100%; background: var(--panel); border: 1px solid var(--line); border-radius: 10px; padding: 9px 12px 9px 34px; }
+.search svg { position: absolute; left: 10px; top: 50%; transform: translateY(-50%); opacity: .6; }
+.ibtn { background: var(--panel); border: 1px solid var(--line); border-radius: 10px; height: 38px; min-width: 38px; padding: 0 10px; display: inline-grid; place-items: center; cursor: pointer; }
+.ibtn:hover { border-color: var(--muted); }
+.checked { font: 400 12px/1.2 var(--f-mono); color: var(--muted); white-space: nowrap; }
+
+/* section heads */
+.sec { margin-top: 26px; }
+.shead { display: flex; align-items: baseline; justify-content: space-between; gap: 12px; flex-wrap: wrap; margin-bottom: 12px; }
+h2 { font: 800 30px/1 var(--f-display); font-stretch: 70%; text-transform: uppercase; letter-spacing: .01em; margin: 0; }
+h2 .n { font: 500 14px/1 var(--f-mono); color: var(--accent); margin-left: 8px; letter-spacing: 0; vertical-align: middle; }
+.sub { color: var(--muted); font-size: 13.5px; }
+.link { background: none; border: 0; color: var(--accent); cursor: pointer; padding: 0; font-weight: 700; }
+
+/* feed rows */
+.feed { display: grid; gap: 8px; }
+.row { display: grid; grid-template-columns: 52px 1fr auto; gap: 14px; align-items: center; background: var(--panel); border: 1px solid var(--line); border-radius: 12px; padding: 8px 10px 8px 8px; position: relative; }
+.row.fresh::before { content: ""; position: absolute; left: -1px; top: 10px; bottom: 10px; width: 3px; background: var(--new); border-radius: 0 3px 3px 0; }
+.thumb { width: 52px; aspect-ratio: 5 / 7; border-radius: 6px; background: var(--raise) center / cover no-repeat; display: block; overflow: hidden; position: relative; cursor: pointer; border: 0; padding: 0; }
+.thumb img { width: 100%; height: 100%; object-fit: cover; display: block; }
+.thumb .ph, .cover .ph { position: absolute; inset: 0; display: grid; place-items: center; font: 800 18px/1 var(--f-display); color: var(--muted); }
+.rmain { min-width: 0; }
+.rtitle { font: 700 16px/1.2 var(--f-display); font-stretch: 90%; margin: 0; cursor: pointer; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; background: none; border: 0; padding: 0; text-align: left; max-width: 100%; display: block; }
+.rmeta { display: flex; flex-wrap: wrap; gap: 4px 10px; margin-top: 4px; font-size: 13px; color: var(--muted); align-items: center; }
+.ch { font: 500 13px/1 var(--f-mono); color: var(--ink); }
+.behind { font: 700 12px/1 var(--f-body); background: color-mix(in srgb, var(--new) 18%, transparent); color: var(--new); padding: 4px 7px; border-radius: 999px; }
+.newtag { font: 700 10.5px/1 var(--f-body); letter-spacing: .08em; text-transform: uppercase; color: var(--accent-ink); background: var(--accent); padding: 4px 6px; border-radius: 5px; }
+.racts { display: flex; gap: 6px; align-items: center; }
+.btn { border: 1px solid var(--line); background: var(--raise); border-radius: 9px; padding: 8px 12px; cursor: pointer; font-weight: 700; white-space: nowrap; text-decoration: none; display: inline-flex; align-items: center; gap: 6px; font-size: 14px; }
+.btn:hover { border-color: var(--muted); }
+.btn.primary { background: var(--accent); color: var(--accent-ink); border-color: var(--accent); }
+.btn.sm { padding: 6px 9px; font-size: 13px; }
+.btn.icon { padding: 8px 10px; }
+.more { margin-top: 10px; }
+
+/* shelf */
+.tabs { display: flex; gap: 4px; overflow-x: auto; border-bottom: 1px solid var(--line); scrollbar-width: none; }
+.tab { background: none; border: 0; padding: 10px 12px; cursor: pointer; font: 700 14px/1 var(--f-body); color: var(--muted); border-bottom: 2px solid transparent; white-space: nowrap; display: inline-flex; gap: 6px; align-items: center; }
+.tab .n { font: 500 12px/1 var(--f-mono); }
+.tab[aria-selected="true"] { color: var(--ink); border-color: var(--accent); }
+.filters { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; margin: 12px 0; }
+.chip { border: 1px solid var(--line); background: var(--panel); border-radius: 999px; padding: 6px 11px; cursor: pointer; font-size: 13px; font-weight: 700; color: var(--muted); }
+.chip[aria-pressed="true"] { color: var(--accent-ink); background: var(--accent); border-color: var(--accent); }
+.filters select { background: var(--panel); border: 1px solid var(--line); border-radius: 9px; padding: 7px 10px; margin-left: auto; }
+.grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: 16px 14px; padding-bottom: 60px; }
+.card { background: none; border: 0; padding: 0; text-align: left; cursor: pointer; display: flex; flex-direction: column; gap: 7px; min-width: 0; content-visibility: auto; contain-intrinsic-size: 150px 290px; }
+.cover { position: relative; aspect-ratio: 5 / 7; border-radius: 10px; overflow: hidden; background: var(--raise); border: 1px solid var(--line); }
+.cover img { width: 100%; height: 100%; object-fit: cover; display: block; transition: transform .25s ease; }
+.card:hover .cover img { transform: scale(1.03); }
+.cover .badge { position: absolute; top: 7px; left: 7px; background: var(--new); color: #fff; font: 700 12px/1 var(--f-mono); padding: 5px 7px; border-radius: 6px; box-shadow: 0 2px 8px rgba(0,0,0,.3); }
+.cover .st { position: absolute; top: 7px; right: 7px; font: 700 10.5px/1 var(--f-body); text-transform: uppercase; letter-spacing: .06em; padding: 4px 6px; border-radius: 5px; background: rgba(0,0,0,.65); color: #fff; }
+.cover .bar2 { position: absolute; left: 0; right: 0; bottom: 0; height: 4px; background: rgba(0,0,0,.45); }
+.cover .bar2 span { display: block; height: 100%; background: var(--accent); }
+.ctitle { font: 700 14.5px/1.2 var(--f-display); font-stretch: 90%; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+.cmeta { font: 400 12px/1.2 var(--f-mono); color: var(--muted); display: flex; justify-content: space-between; gap: 6px; }
+.empty { color: var(--muted); padding: 24px 0; }
+
+/* drawer */
+.scrim { position: fixed; inset: 0; background: rgba(5,6,10,.55); z-index: 40; }
+.drawer { position: fixed; top: 0; right: 0; bottom: 0; width: min(520px, 100vw); background: var(--panel); border-left: 1px solid var(--line); z-index: 41; overflow-y: auto; box-shadow: var(--shadow);
+  padding: calc(18px + env(safe-area-inset-top)) max(18px, env(safe-area-inset-right)) calc(28px + env(safe-area-inset-bottom)) 18px; }
+.dtop { display: grid; grid-template-columns: 120px 1fr; gap: 16px; }
+.dtop .cover { border-radius: 10px; }
+.dtitle { font: 800 26px/1.05 var(--f-display); font-stretch: 75%; text-transform: uppercase; margin: 0 0 6px; overflow-wrap: anywhere; }
+.dalt { color: var(--muted); font-size: 13px; margin-bottom: 8px; }
+.pills { display: flex; flex-wrap: wrap; gap: 5px; }
+.pill { font: 500 12px/1 var(--f-mono); background: var(--raise); color: var(--muted); padding: 5px 7px; border-radius: 6px; }
+.close { position: absolute; top: calc(12px + env(safe-area-inset-top)); right: max(12px, env(safe-area-inset-right)); }
+.dsec { margin-top: 20px; }
+.dsec h3 { font: 700 12px/1 var(--f-body); letter-spacing: .1em; text-transform: uppercase; color: var(--muted); margin: 0 0 8px; }
+.prog { display: flex; gap: 8px; align-items: center; flex-wrap: wrap; }
+.prog input { width: 110px; background: var(--bg); border: 1px solid var(--line); border-radius: 9px; padding: 8px 10px; font-family: var(--f-mono); }
+.big { font: 800 34px/1 var(--f-display); font-stretch: 75%; }
+.big small { font: 400 14px/1 var(--f-mono); color: var(--muted); }
+.srcs { display: grid; gap: 6px; }
+.src { display: flex; justify-content: space-between; align-items: center; gap: 10px; background: var(--bg); border: 1px solid var(--line); border-radius: 10px; padding: 9px 11px; text-decoration: none; }
+.src:hover { border-color: var(--muted); }
+.src b { font-weight: 700; }
+.src span { color: var(--muted); font-size: 13px; }
+.hist { display: grid; gap: 4px; font-size: 13.5px; }
+.hist div { display: flex; justify-content: space-between; gap: 10px; border-bottom: 1px dashed var(--line); padding: 5px 0; }
+.hist a { color: var(--accent); }
+.desc { color: var(--muted); font-size: 14px; }
+.toast { position: fixed; left: 50%; bottom: calc(18px + env(safe-area-inset-bottom)); transform: translateX(-50%); background: var(--ink); color: var(--bg); padding: 10px 14px; border-radius: 10px; font-weight: 700; z-index: 60; }
+.panel { background: var(--panel); border: 1px solid var(--line); border-radius: 14px; padding: 16px; }
+.setgrid { display: grid; gap: 16px; }
+.order { display: grid; gap: 6px; }
+.order div { display: flex; align-items: center; justify-content: space-between; background: var(--bg); border: 1px solid var(--line); border-radius: 9px; padding: 7px 10px; }
+.progressbar { height: 6px; background: var(--raise); border-radius: 99px; overflow: hidden; margin-top: 8px; }
+.progressbar span { display: block; height: 100%; background: var(--accent); width: 0; }
+
+@media (max-width: 640px) {
+  .checked { display: none; }
+  .row { grid-template-columns: 46px 1fr; }
+  .thumb { width: 46px; }
+  .racts { grid-column: 1 / -1; justify-content: flex-end; }
+  .grid { grid-template-columns: repeat(auto-fill, minmax(112px, 1fr)); gap: 14px 10px; }
+  h2 { font-size: 26px; }
+  .filters select { margin-left: 0; }
+  .dtop { grid-template-columns: 96px 1fr; }
+}
+@media (prefers-reduced-motion: reduce) { .cover img { transition: none; } }
+</style>
+<script src="config.js"></script>
+</head>
+<body>
+<header class="bar">
+  <div class="wrap">
+    <div class="logo"><i></i>Next Chapter</div>
+    <div class="search">
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
+      <label for="q" hidden>Search</label>
+      <input id="q" type="search" placeholder="Search your library…" autocomplete="off">
+    </div>
+    <span class="checked" id="checked"></span>
+    <button class="ibtn" id="open-settings" aria-label="Settings" title="Settings">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.7 1.7 0 0 0 .3 1.8l.1.1a2 2 0 1 1-2.8 2.8l-.1-.1a1.7 1.7 0 0 0-1.8-.3 1.7 1.7 0 0 0-1 1.5V21a2 2 0 1 1-4 0v-.1a1.7 1.7 0 0 0-1.1-1.5 1.7 1.7 0 0 0-1.8.3l-.1.1a2 2 0 1 1-2.8-2.8l.1-.1a1.7 1.7 0 0 0 .3-1.8 1.7 1.7 0 0 0-1.5-1H3a2 2 0 1 1 0-4h.1a1.7 1.7 0 0 0 1.5-1.1 1.7 1.7 0 0 0-.3-1.8l-.1-.1a2 2 0 1 1 2.8-2.8l.1.1a1.7 1.7 0 0 0 1.8.3H9a1.7 1.7 0 0 0 1-1.5V3a2 2 0 1 1 4 0v.1a1.7 1.7 0 0 0 1 1.5 1.7 1.7 0 0 0 1.8-.3l.1-.1a2 2 0 1 1 2.8 2.8l-.1.1a1.7 1.7 0 0 0-.3 1.8V9a1.7 1.7 0 0 0 1.5 1H21a2 2 0 1 1 0 4h-.1a1.7 1.7 0 0 0-1.5 1z"/></svg>
+    </button>
+  </div>
+</header>
+
+<main class="wrap">
+  <section class="sec" id="sec-new">
+    <div class="shead">
+      <h2>New chapters<span class="n" id="n-new"></span></h2>
+      <span class="sub" id="new-sub"></span>
+    </div>
+    <div class="feed" id="feed"></div>
+    <div class="more"><button class="link" id="feed-more" hidden></button></div>
+  </section>
+
+  <section class="sec" id="sec-shelf">
+    <div class="shead"><h2>Library<span class="n" id="n-lib"></span></h2></div>
+    <div class="tabs" role="tablist" id="tabs"></div>
+    <div class="filters">
+      <div id="kinds" style="display:contents"></div>
+      <label for="sort" hidden>Sort</label>
+      <select id="sort">
+        <option value="update">Latest release</option>
+        <option value="behind">Most behind</option>
+        <option value="rating">Rating</option>
+        <option value="title">Title A–Z</option>
+      </select>
+    </div>
+    <div class="grid" id="grid"></div>
+  </section>
+
+  <section class="sec" id="sec-settings" hidden>
+    <div class="shead"><h2>Settings</h2><button class="link" id="close-settings">Back</button></div>
+    <div class="setgrid">
+      <div class="panel">
+        <h3 style="margin:0 0 6px">AniList sync</h3>
+        <p class="sub" id="al-status" style="margin:0 0 10px"></p>
+        <div class="prog">
+          <button class="btn primary" id="al-connect"></button>
+          <button class="btn" id="al-copy" hidden>Copy my progress to AniList</button>
+          <button class="btn" id="al-logout" hidden>Disconnect</button>
+        </div>
+        <div class="progressbar" id="al-bar" hidden><span></span></div>
+      </div>
+      <div class="panel">
+        <h3 style="margin:0 0 6px">Where to open chapters first</h3>
+        <p class="sub" style="margin:0 0 10px">"Read" opens the exact chapter when the release has a direct link (MangaDex or official). Otherwise it opens your page for that series on the first site below that has it.</p>
+        <div class="order" id="order"></div>
+      </div>
+      <div class="panel">
+        <h3 style="margin:0 0 6px">Backup</h3>
+        <p class="sub" style="margin:0 0 10px">Your progress is saved in this browser (and on AniList once connected). You can copy it to another device.</p>
+        <div class="prog">
+          <button class="btn" id="export">Copy progress</button>
+          <button class="btn" id="import">Paste progress</button>
+          <button class="btn" id="theme">Switch light/dark</button>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<div class="scrim" id="scrim" hidden></div>
+<aside class="drawer" id="drawer" hidden aria-label="Series details"></aside>
+<div class="toast" id="toast" hidden></div>
+
+<script>
+(() => {
+  const CFG = window.NC_CONFIG || {};
+  const SOURCE_NAMES = { weebcentral: "Weeb Central", mgeko: "mgeko", mangadex: "MangaDex", comick: "Comick", mangakakalot: "Mangakakalot" };
+  const $ = id => document.getElementById(id);
+  const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+  const num = v => { const m = String(v ?? "").match(/\d+(?:\.\d+)?/); return m ? +m[0] : null; };
+  const fmtCh = n => n == null ? "?" : (Math.round(n * 10) / 10).toString();
+  function ago(iso) {
+    if (!iso) return "";
+    const s = (Date.now() - new Date(iso).getTime()) / 1000;
+    if (s < 3600) return Math.max(1, Math.round(s / 60)) + "m ago";
+    if (s < 86400) return Math.round(s / 3600) + "h ago";
+    if (s < 86400 * 30) return Math.round(s / 86400) + "d ago";
+    if (s < 86400 * 365) return Math.round(s / 86400 / 30) + "mo ago";
+    return Math.round(s / 86400 / 365) + "y ago";
+  }
+  function toast(m) { const t = $("toast"); t.textContent = m; t.hidden = false; clearTimeout(toast.h); toast.h = setTimeout(() => t.hidden = true, 2200); }
+
+  // ---------- local state
+  const KEY = "nc.v1";
+  const load = () => { try { return JSON.parse(localStorage.getItem(KEY) || "{}"); } catch (e) { return {}; } };
+  const st = Object.assign({ progress: {}, hidden: {}, pref: ["weebcentral", "mgeko", "mangadex", "comick", "mangakakalot"], lastVisit: null, theme: null }, load());
+  const save = () => { try { localStorage.setItem(KEY, JSON.stringify(st)); } catch (e) {} };
+  const prevVisit = st.lastVisit ? new Date(st.lastVisit) : null;
+  st.lastVisit = new Date().toISOString(); save();
+  if (st.theme) document.documentElement.dataset.theme = st.theme;
+
+  let LIB = [], REL = { series: {} }, AL = { token: null, user: null, progress: {} }, DETAILS = null;
+  function loadDetails() {
+    if (DETAILS) return Promise.resolve(DETAILS);
+    return fetch("data/details.json", { cache: "no-cache" }).then(r => r.json()).then(d => (DETAILS = d)).catch(() => (DETAILS = {}));
+  }
+  const FEED_MAX = 15;
+  let ui = { tab: "all", kind: "", sort: "update", q: "", feedLimit: 30 };
+
+  // ---------- model
+  const rel = s => REL.series[s.id] || {};
+  const latestOf = s => rel(s).latest ?? null;
+  function progressOf(s) {
+    if (st.progress[s.id] != null) return st.progress[s.id];
+    if (s.al_id && AL.progress[s.al_id] != null) return AL.progress[s.al_id];
+    return s.start ?? 0;
+  }
+  const behindOf = s => { const l = latestOf(s); return l == null ? 0 : Math.max(0, Math.round((l - progressOf(s)) * 10) / 10); };
+  const isFresh = s => { const d = rel(s).date; return d && prevVisit && new Date(d) > prevVisit; };
+  function coverHtml(s, cls) {
+    const init = esc((s.title || "?").split(/\s+/).slice(0, 2).map(w => w[0]).join("").toUpperCase());
+    return `<span class="ph">${init}</span>${s.cover ? `<img src="${esc(s.cover)}" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.remove()">` : ""}`;
+  }
+  function readTarget(s) {
+    const r = rel(s), b = behindOf(s);
+    if (r.exact && r.url && b > 0 && b <= 1.01) return { url: r.url, label: "Read ch. " + fmtCh(r.latest) };
+    for (const name of st.pref) if (s.sources[name] && s.sources[name].url) return { url: s.sources[name].url, label: b > 0 ? "Continue on " + SOURCE_NAMES[name] : "Open on " + SOURCE_NAMES[name] };
+    if (r.url) return { url: r.url, label: "Open release" };
+    const l = s.links || {};
+    return { url: l.mangadex || l.mangaupdates || l.anilist || "#", label: "Open" };
+  }
+  function setProgress(s, value, quiet) {
+    st.progress[s.id] = value; save();
+    if (AL.token && s.al_id) alSave(s.al_id, Math.floor(value)).catch(() => {});
+    if (!quiet) toast(`${s.title.slice(0, 40)}: ch. ${fmtCh(value)}`);
+    render();
+  }
+
+  // ---------- rendering
+  function filtered(list) {
+    const q = ui.q.trim().toLowerCase();
+    return list.filter(s => !st.hidden[s.id] && (!ui.kind || s.kind === ui.kind) &&
+      (!q || [s.title, s.orig, ...(s.alt || [])].join(" ").toLowerCase().includes(q)));
+  }
+  function renderFeed() {
+    // series you're keeping up with (15 or fewer chapters behind); bigger gaps live in the "Behind" tab
+    const items = filtered(LIB).filter(s => behindOf(s) > 0 && behindOf(s) <= FEED_MAX && rel(s).date && (Date.now() - new Date(rel(s).date)) < 45 * 864e5)
+      .sort((a, b) => new Date(rel(b).date) - new Date(rel(a).date));
+    const fresh = items.filter(isFresh).length;
+    $("n-new").textContent = items.length;
+    $("new-sub").textContent = prevVisit ? (fresh ? `${fresh} since your last visit` : "Nothing new since your last visit") : "Series you keep up with that have unread chapters";
+    const shown = items.slice(0, ui.feedLimit);
+    $("feed").innerHTML = shown.length ? shown.map(s => {
+      const r = rel(s), b = behindOf(s), tgt = readTarget(s);
+      return `<div class="row${isFresh(s) ? " fresh" : ""}">
+        <button class="thumb" data-open="${esc(s.id)}" aria-label="Details for ${esc(s.title)}">${coverHtml(s)}</button>
+        <div class="rmain">
+          <button class="rtitle" data-open="${esc(s.id)}">${esc(s.title)}</button>
+          <div class="rmeta">
+            ${isFresh(s) ? `<span class="newtag">New</span>` : ""}
+            <span class="ch">Ch. ${fmtCh(r.latest)}</span>
+            <span class="behind">${b >= 1 ? fmtCh(b) + " behind" : "new"}</span>
+            <span>${esc(r.group || "")}${r.group ? " · " : ""}${ago(r.date)}</span>
+          </div>
+        </div>
+        <div class="racts">
+          <a class="btn primary" href="${esc(tgt.url)}" target="_blank" rel="noopener" data-read="${esc(s.id)}">${esc(tgt.label)} →</a>
+          <button class="btn icon" data-caught="${esc(s.id)}" title="Mark caught up" aria-label="Mark caught up">✓</button>
+        </div>
+      </div>`;
+    }).join("") : `<p class="empty">You're all caught up. New chapters will show up here.</p>`;
+    $("feed-more").hidden = items.length <= ui.feedLimit;
+    $("feed-more").textContent = `Show all ${items.length}`;
+  }
+  const TABS = [
+    ["all", "All", s => true],
+    ["behind", "Far behind", s => behindOf(s) > FEED_MAX],
+    ["caught", "Caught up", s => latestOf(s) != null && behindOf(s) === 0],
+    ["hiatus", "Hiatus / finished", s => ["hiatus", "finished", "cancelled"].includes(s.status)],
+    ["untracked", "No release data", s => latestOf(s) == null],
+    ["hidden", "Hidden", s => true]
+  ];
+  function renderShelf() {
+    const base = LIB.filter(s => (!ui.kind || s.kind === ui.kind));
+    $("n-lib").textContent = LIB.filter(s => !st.hidden[s.id]).length;
+    $("tabs").innerHTML = TABS.map(([id, label, fn]) => {
+      const n = id === "hidden" ? base.filter(s => st.hidden[s.id]).length : base.filter(s => !st.hidden[s.id] && fn(s)).length;
+      return `<button class="tab" role="tab" data-tab="${id}" aria-selected="${ui.tab === id}">${label} <span class="n">${n}</span></button>`;
+    }).join("");
+    const kinds = [["", "All types"], ["manga", "Manga"], ["manhwa", "Manhwa"], ["manhua", "Manhua"]];
+    $("kinds").innerHTML = kinds.map(([v, l]) => `<button class="chip" data-kind="${v}" aria-pressed="${ui.kind === v}">${l}</button>`).join("");
+    const fn = TABS.find(t => t[0] === ui.tab)[2];
+    const q = ui.q.trim().toLowerCase();
+    let list = LIB.filter(s => (ui.tab === "hidden" ? st.hidden[s.id] : !st.hidden[s.id] && fn(s)) && (!ui.kind || s.kind === ui.kind) &&
+      (!q || [s.title, s.orig, ...(s.alt || [])].join(" ").toLowerCase().includes(q)));
+    const rating = s => s.rating.mu ?? (s.rating.al != null ? s.rating.al / 10 : null) ?? s.rating.md ?? 0;
+    const sorts = {
+      update: (a, b) => (new Date(rel(b).date || 0)) - (new Date(rel(a).date || 0)) || a.title.localeCompare(b.title),
+      behind: (a, b) => behindOf(b) - behindOf(a),
+      rating: (a, b) => rating(b) - rating(a),
+      title: (a, b) => a.title.localeCompare(b.title)
+    };
+    list.sort(sorts[ui.sort]);
+    $("grid").innerHTML = list.length ? list.map(s => {
+      const b = behindOf(s), l = latestOf(s), p = progressOf(s);
+      const pct = l ? Math.min(100, Math.round((p / l) * 100)) : 0;
+      const stl = { hiatus: "Hiatus", finished: "Finished", cancelled: "Cancelled" }[s.status];
+      return `<button class="card" data-open="${esc(s.id)}">
+        <span class="cover">${coverHtml(s)}${b > 0 ? `<span class="badge">+${fmtCh(b)}</span>` : ""}${stl ? `<span class="st">${stl}</span>` : ""}${l ? `<span class="bar2"><span style="width:${pct}%"></span></span>` : ""}</span>
+        <span class="ctitle">${esc(s.title)}</span>
+        <span class="cmeta"><span>${l != null ? `${fmtCh(p)} / ${fmtCh(l)}` : "—"}</span><span>${esc(ago(rel(s).date))}</span></span>
+      </button>`;
+    }).join("") : `<p class="empty">Nothing here.</p>`;
+  }
+  function render() {
+    $("checked").textContent = REL.checked ? "Checked " + ago(REL.checked) : "";
+    renderFeed(); renderShelf();
+    if (openId) renderDrawer(openId);
+  }
+
+  // ---------- drawer
+  let openId = null;
+  function renderDrawer(id) {
+    const s0 = LIB.find(x => x.id === id); if (!s0) return;
+    if (!DETAILS) loadDetails().then(() => { if (openId === id) renderDrawer(id); });
+    const s = Object.assign({}, s0, (DETAILS || {})[id] || {});
+    const r = rel(s), b = behindOf(s), tgt = readTarget(s), p = progressOf(s);
+    const ratings = [s.rating.mu != null ? `MU ${s.rating.mu}` : "", s.rating.al != null ? `AniList ${s.rating.al}%` : "", s.rating.md != null ? `MD ${s.rating.md}` : ""].filter(Boolean);
+    const srcs = Object.entries(s.sources || {}).map(([k, v]) => `<a class="src" href="${esc(v.url)}" target="_blank" rel="noopener"><b>${esc(SOURCE_NAMES[k] || k)}</b><span>${v.last_read ? "read up to " + esc(v.last_read) + " · " : ""}open ↗</span></a>`);
+    const extra = Object.entries(s.links || {}).filter(([k, v]) => v && !(s.sources || {})[k]).map(([k, v]) => `<a class="src" href="${esc(v)}" target="_blank" rel="noopener"><b>${esc({ mangadex: "MangaDex", mangaupdates: "MangaUpdates", anilist: "AniList" }[k] || k)}</b><span>info ↗</span></a>`);
+    $("drawer").innerHTML = `
+      <button class="ibtn close" data-close aria-label="Close">✕</button>
+      <div class="dtop">
+        <div class="cover">${coverHtml(s)}</div>
+        <div>
+          <h3 class="dtitle">${esc(s.title)}</h3>
+          ${s.orig ? `<div class="dalt">${esc(s.orig)}</div>` : ""}
+          <div class="pills">
+            ${s.kind ? `<span class="pill">${esc(s.kind)}</span>` : ""}${s.status ? `<span class="pill">${esc(s.status)}</span>` : ""}${s.year ? `<span class="pill">${esc(s.year)}</span>` : ""}
+            ${ratings.map(x => `<span class="pill">★ ${esc(x)}</span>`).join("")}
+          </div>
+          <div class="pills" style="margin-top:6px">${(s.genres || []).map(g => `<span class="pill">${esc(g)}</span>`).join("")}</div>
+        </div>
+      </div>
+      <div class="dsec">
+        <h3>Your progress</h3>
+        <div class="big">${fmtCh(p)} <small>/ ${fmtCh(latestOf(s))}${b > 0 ? ` · ${fmtCh(b)} behind` : latestOf(s) != null ? " · caught up" : ""}</small></div>
+        <div class="prog" style="margin-top:10px">
+          <a class="btn primary" href="${esc(tgt.url)}" target="_blank" rel="noopener" data-read="${esc(s.id)}">${esc(tgt.label)} →</a>
+          <button class="btn" data-plus="${esc(s.id)}">+1</button>
+          ${latestOf(s) != null ? `<button class="btn" data-caught="${esc(s.id)}">Caught up</button>` : ""}
+          <label for="pin" hidden>Chapter</label><input id="pin" inputmode="decimal" value="${esc(fmtCh(p))}" aria-label="Set chapter">
+          <button class="btn" data-set="${esc(s.id)}">Set</button>
+        </div>
+      </div>
+      ${r.latest != null ? `<div class="dsec"><h3>Latest release</h3>
+        <div class="hist">${(r.history && r.history.length ? r.history : [r]).slice(0, 8).map(h => `<div><span>Ch. ${esc(h.chapter ?? fmtCh(h.latest))}${h.group ? " · " + esc(h.group) : ""}</span><span>${esc(ago(h.date))}${h.url ? ` · <a href="${esc(h.url)}" target="_blank" rel="noopener">${h.exact ? "read" : "group site"} ↗</a>` : ""}</span></div>`).join("")}</div></div>` : ""}
+      <div class="dsec"><h3>Your sites</h3><div class="srcs">${srcs.join("") || `<p class="sub">No saved link.</p>`}${extra.join("")}</div></div>
+      ${s.desc ? `<div class="dsec"><h3>About</h3><p class="desc">${esc(s.desc)}</p></div>` : ""}
+      <div class="dsec"><button class="btn sm" data-hide="${esc(s.id)}">${st.hidden[s.id] ? "Show again" : "Hide from tracker"}</button></div>`;
+  }
+  function openDrawer(id) { openId = id; renderDrawer(id); $("drawer").hidden = false; $("scrim").hidden = false; }
+  function closeDrawer() { openId = null; $("drawer").hidden = true; $("scrim").hidden = true; }
+
+  // ---------- events
+  document.addEventListener("click", e => {
+    const t = e.target.closest("[data-open],[data-read],[data-caught],[data-plus],[data-set],[data-hide],[data-close],[data-tab],[data-kind]");
+    if (!t) return;
+    const find = id => LIB.find(x => x.id === id);
+    if (t.dataset.open) openDrawer(t.dataset.open);
+    else if (t.dataset.read) {   // opening a chapter marks the next one as read
+      const s = find(t.dataset.read), r = rel(s), b = behindOf(s);
+      if (b > 0) setProgress(s, b <= 1.01 ? r.latest : Math.min(r.latest, Math.floor(progressOf(s)) + 1), true);
+    }
+    else if (t.dataset.caught) { const s = find(t.dataset.caught); setProgress(s, latestOf(s)); }
+    else if (t.dataset.plus) { const s = find(t.dataset.plus); setProgress(s, Math.floor(progressOf(s)) + 1); }
+    else if (t.dataset.set) { const s = find(t.dataset.set), v = num($("pin").value); if (v != null) setProgress(s, v); }
+    else if (t.dataset.hide) { const id = t.dataset.hide; if (st.hidden[id]) delete st.hidden[id]; else st.hidden[id] = true; save(); render(); }
+    else if (t.dataset.close !== undefined) closeDrawer();
+    else if (t.dataset.tab) { ui.tab = t.dataset.tab; renderShelf(); }
+    else if (t.dataset.kind !== undefined) { ui.kind = t.dataset.kind; render(); }
+  });
+  $("scrim").addEventListener("click", closeDrawer);
+  document.addEventListener("keydown", e => { if (e.key === "Escape") closeDrawer(); if (e.key === "/" && document.activeElement !== $("q")) { e.preventDefault(); $("q").focus(); } });
+  $("q").addEventListener("input", e => { ui.q = e.target.value; render(); });
+  $("sort").addEventListener("change", e => { ui.sort = e.target.value; renderShelf(); });
+  $("feed-more").addEventListener("click", () => { ui.feedLimit = 1e9; renderFeed(); });
+
+  // settings
+  function showSettings(on) { $("sec-settings").hidden = !on; $("sec-new").hidden = on; $("sec-shelf").hidden = on; if (on) renderSettings(); window.scrollTo(0, 0); }
+  $("open-settings").addEventListener("click", () => showSettings($("sec-settings").hidden));
+  $("close-settings").addEventListener("click", () => showSettings(false));
+  function renderSettings() {
+    $("order").innerHTML = st.pref.map((k, i) => `<div><span>${i + 1}. ${esc(SOURCE_NAMES[k] || k)}</span><span><button class="btn sm" data-up="${i}" ${i ? "" : "disabled"} aria-label="Move up">↑</button> <button class="btn sm" data-down="${i}" ${i < st.pref.length - 1 ? "" : "disabled"} aria-label="Move down">↓</button></span></div>`).join("");
+    const can = !!CFG.ANILIST_CLIENT_ID;
+    $("al-status").textContent = AL.user ? `Connected as ${AL.user.name}. Progress for series that are on AniList is saved there and syncs to your other devices.`
+      : can ? "Connect your AniList account to sync progress between phone and PC." : "AniList isn't set up yet for this site — progress is saved in this browser for now.";
+    $("al-connect").textContent = AL.user ? "Refresh from AniList" : "Connect AniList";
+    $("al-connect").disabled = !can;
+    $("al-copy").hidden = !AL.user; $("al-logout").hidden = !AL.user;
+  }
+  $("order").addEventListener("click", e => {
+    const u = e.target.closest("[data-up]"), d = e.target.closest("[data-down]");
+    const i = u ? +u.dataset.up : d ? +d.dataset.down : -1; if (i < 0) return;
+    const j = u ? i - 1 : i + 1; [st.pref[i], st.pref[j]] = [st.pref[j], st.pref[i]]; save(); renderSettings(); render();
+  });
+  $("theme").addEventListener("click", () => {
+    const cur = document.documentElement.dataset.theme || (matchMedia("(prefers-color-scheme: light)").matches ? "light" : "dark");
+    st.theme = cur === "light" ? "dark" : "light"; document.documentElement.dataset.theme = st.theme; save();
+  });
+  $("export").addEventListener("click", async () => {
+    const txt = JSON.stringify({ progress: st.progress, hidden: st.hidden, pref: st.pref });
+    try { await navigator.clipboard.writeText(txt); toast("Progress copied — paste it on the other device"); } catch (e) { prompt("Copy this:", txt); }
+  });
+  $("import").addEventListener("click", async () => {
+    let txt = ""; try { txt = await navigator.clipboard.readText(); } catch (e) { txt = prompt("Paste your progress here:") || ""; }
+    try { const d = JSON.parse(txt); Object.assign(st.progress, d.progress || {}); Object.assign(st.hidden, d.hidden || {}); if (d.pref) st.pref = d.pref; save(); render(); toast("Progress imported"); }
+    catch (e) { toast("That didn't look like copied progress"); }
+  });
+
+  // ---------- AniList
+  const ALK = "nc.anilist";
+  async function alQuery(query, variables) {
+    const r = await fetch("https://graphql.anilist.co", { method: "POST", headers: { "Content-Type": "application/json", Accept: "application/json", Authorization: "Bearer " + AL.token }, body: JSON.stringify({ query, variables }) });
+    if (r.status === 429) { await new Promise(res => setTimeout(res, 61000)); return alQuery(query, variables); }
+    const j = await r.json(); if (j.errors) throw new Error(j.errors[0].message); return j.data;
+  }
+  async function alLoad() {
+    const v = await alQuery("{ Viewer { id name } }");
+    AL.user = v.Viewer;
+    const d = await alQuery("query($u:Int){ MediaListCollection(userId:$u, type:MANGA){ lists { entries { mediaId progress status } } } }", { u: AL.user.id });
+    AL.progress = {};
+    for (const l of d.MediaListCollection.lists) for (const e of l.entries) AL.progress[e.mediaId] = e.progress;
+  }
+  function alSave(mediaId, progress) {
+    return alQuery("mutation($m:Int,$p:Int){ SaveMediaListEntry(mediaId:$m, progress:$p, status:CURRENT){ id } }", { m: mediaId, p: progress }).then(() => { AL.progress[mediaId] = progress; });
+  }
+  $("al-connect").addEventListener("click", async () => {
+    if (!AL.user) { location.href = `https://anilist.co/api/v2/oauth/authorize?client_id=${encodeURIComponent(CFG.ANILIST_CLIENT_ID)}&response_type=token`; return; }
+    try { await alLoad(); render(); renderSettings(); toast("Synced with AniList"); } catch (e) { toast("AniList: " + e.message); }
+  });
+  $("al-logout").addEventListener("click", () => { try { localStorage.removeItem(ALK); } catch (e) {} AL = { token: null, user: null, progress: {} }; renderSettings(); render(); });
+  $("al-copy").addEventListener("click", async () => {
+    const todo = LIB.filter(s => s.al_id && !st.hidden[s.id] && AL.progress[s.al_id] == null);
+    const bar = $("al-bar"), fill = bar.querySelector("span"); bar.hidden = false; $("al-copy").disabled = true;
+    let done = 0;
+    for (const s of todo) {
+      try { await alSave(s.al_id, Math.floor(progressOf(s))); } catch (e) {}
+      done++; fill.style.width = Math.round(done / todo.length * 100) + "%";
+      await new Promise(r => setTimeout(r, 750));
+    }
+    $("al-copy").disabled = false; toast(`Copied ${done} series to AniList`);
+  });
+  async function alInit() {
+    const m = location.hash.match(/access_token=([^&]+)/);
+    if (m) { try { localStorage.setItem(ALK, m[1]); } catch (e) {} history.replaceState(null, "", location.pathname); }
+    let tok = null; try { tok = localStorage.getItem(ALK); } catch (e) {}
+    if (!tok) return;
+    AL.token = tok;
+    try { await alLoad(); render(); } catch (e) { AL = { token: null, user: null, progress: {} }; }
+  }
+
+  // ---------- boot
+  Promise.all([
+    fetch("data/library.json", { cache: "no-cache" }).then(r => r.json()),
+    fetch("data/releases.json", { cache: "no-cache" }).then(r => r.json()).catch(() => ({ series: {} }))
+  ]).then(([lib, rel]) => { LIB = lib.series; REL = rel; render(); alInit(); })
+    .catch(() => { $("feed").innerHTML = `<p class="empty">Couldn't load the library. Try reloading.</p>`; });
+})();
+</script>
+</body>
+</html>

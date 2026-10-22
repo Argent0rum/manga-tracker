@@ -1,0 +1,9 @@
+{
+ "_help": "Hand-made fixes. 'overrides' changes fields of a series by its id (e.g. start = chapter you're on). 'series' adds series the importer couldn't find.",
+ "overrides": {
+  "md-67e7453b": {
+   "progress_known": false
+  }
+ },
+ "series": []
+}
