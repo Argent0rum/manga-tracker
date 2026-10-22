@@ -45,9 +45,13 @@ def status(e):
 def main():
     full = json.loads(FULL.read_text(encoding="utf-8"))["series"]
     extra = json.loads(EXTRA.read_text(encoding="utf-8")) if EXTRA.exists() else {"series": [], "overrides": {}}
-    out, rel_seed = [], {}
+    out, rel_seed, seen = [], {}, set()
+    removed = set(extra.get("removed", []))
     for e in full + extra.get("series", []):
         k = e.get("id") or key(e)
+        if k in removed or k in seen:
+            continue
+        seen.add(k)
         e.update(extra.get("overrides", {}).get(k, {}))
         title = e.get("al_title_en") or e.get("en_title") or e.get("title")
         src = {name: {kk: vv for kk, vv in s.items() if kk in ("url", "last_read")} for name, s in (e.get("sources") or {}).items()}
