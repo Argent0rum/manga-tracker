@@ -745,7 +745,11 @@ details.sub summary { cursor: pointer; font-weight: 700; color: var(--ink); marg
       const hit = idx.mg.find(([k]) => k === key) || idx.mg.find(([k]) => (key.length >= 20 && k.startsWith(key)) || (k.length >= 20 && key.startsWith(k)));
       s = hit ? hit[1] : null;
     }
-    return s || (title ? idx.title.get(normT(title)) || null : null);
+    if (s || !title) return s;
+    // title fallback, but never onto a series that's already linked to a different page on this same site
+    const t2 = idx.title.get(normT(title));
+    if (!t2 || (t2.sources || {})[site] || (site === "mangadex" && t2.md_id && t2.md_id !== key)) return null;
+    return t2;
   }
   let syncPlan = null;
   function readSyncHash() {
