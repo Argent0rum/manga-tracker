@@ -1,0 +1,3785 @@
+{
+ "mangadex": [
+  {
+   "md_id": "6b06fe1e-ff99-4c8d-be0b-5ad2a4df7603",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "801513ba-a712-498c-8f57-cae55b38cc92",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "83e6e476-63e0-4c86-aaed-c011150d8cab",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "e1d8b192-fa28-4651-bdaf-d4e0d4418ea8",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "dea77c2d-dbaa-434a-b0af-0c116642434c",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "cf58401e-91ae-452f-b79a-5c83f34f6804",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "23fed86c-a2f0-4cdc-a1b3-13596aac6e7c",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "d16f92a6-6f5f-442c-b011-b68abc986209",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "9422a147-c0c8-400d-9106-57cb8ece3dba",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "6233aed2-2f42-4308-a2b9-7d37b836cc33",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "d773c8be-8e82-4ff1-a4e9-46171395319b",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "6f81b440-3ece-4d24-ac12-1d460a1a3ca3",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "0ab4fbb8-4eba-4722-b6d2-7a51d39b1b8b",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "6b9bd81a-ae0f-4495-bde9-9ba20ee00981",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "d58abdf4-9268-41d8-9920-f8fe8858a173",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "c595a11d-8610-48c8-bd72-1755a5b6372b",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "4b5bd39d-8c06-4265-bc13-9ad90d85ff91",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "3bb0279f-a01d-4aa4-93e4-305800f4b83e",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "5f64d517-c4ea-40c0-a463-fcc069d39d3b",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "944f8f69-9a9c-4678-9e0d-c8202de70cb3",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "8ab795c4-47d2-4d24-8ea1-4ed1e91abd96",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "f75c2845-0241-4e69-87c7-b93575b532dd",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "4a4d2e5f-c4f4-47e3-9725-133bd5869c05",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "398a26c5-04fa-4076-b921-0b0fb44edb10",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "01e360bc-22da-4e86-bbb7-3ae1091a223b",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "f77aca92-0b8d-4583-9294-8644f71b1e01",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "46708527-d28a-4833-bd8b-e3ee553a20ee",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "0984daf7-068e-4862-a583-e7f7519dfe29",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "a846b1d7-2e57-4622-acdf-9c584d07ce7f",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "a1f9462a-a340-4098-81de-1f2536b2f782",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "cbf96d7b-e41f-4add-9181-d7f69dcac688",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "905920ed-6229-469d-bf28-58a23747da3c",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "10de26cf-f750-44b2-a504-7bb9a53e0419",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "8c1d7d0c-e0b7-4170-941d-29f652c3c19d",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "5de1e60c-92ce-40d0-bb02-63ee22217dbd",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "2fec6641-beb1-4ae9-a32f-204dd06688ac",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "f4ad14b4-64d9-470f-9b4c-0fab84f0d507",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "ec0c3cbf-dc3d-4df2-b2c6-2af7ad41541e",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "36bad9cb-6310-4048-a48e-a1ab7b7dcb3e",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "1d330951-583e-423e-9cd7-abcd6f761f53",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "792e28fb-27be-425d-b92a-64e2d5474657",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "51f96647-89e6-430a-a96a-f45e72543f8c",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "e6a2254a-a8e3-477d-9460-94c9b7b81399",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "f0aa2ca6-8985-4b6f-beda-f7fa1956422e",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "09bbbb75-1086-4e7c-b775-ae9ee1816e0d",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "fe1394fe-3d67-48fb-b452-06580d2dd9d7",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "a8c6395b-aa04-426f-aa09-284ae1c3a1e5",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "51e8b63a-00ca-4d71-8031-41ccc647324c",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "d042e605-a07a-4cd2-87d5-ebe53c0b135f",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "7cd3ca23-2d70-4c03-99f0-b1ee848c4dc4",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "ac743453-99ef-49e5-93e5-265cfff01fe0",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "f89ed57a-e4c0-48f5-b664-8ef88aa87fd9",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "67e7453b-9ee5-4ae5-9316-215b03e4a71d",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "b4737285-9592-4382-827e-3d951520a6ec",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "da25c95f-e062-48ea-b5a0-9b51aeeddc05",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "bb6f1eb0-2ab5-46d6-aab6-5a43fd5e2f0c",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "331deec0-fb1a-4680-9248-8a0fc55b5b07",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "6a6e24ed-9d9c-4f7b-9ee0-db65bea9189e",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "d9f7540f-4934-446a-923c-81619b5d3b53",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "efd02206-1cd8-4823-b497-02bb8b8d09ca",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "8c21fe3b-4fe6-4f11-b51b-ced00d8aec60",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "33d986ba-6bda-4276-952a-ed38d1da8c2c",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "64edb636-7dd5-406e-90ae-98796f38f00a",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "3a49d29c-a100-49d6-b48b-2b526c3154a6",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "ef105a86-4b7e-4ac4-b45c-b7d83b8f5b5e",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "38554690-65d0-476f-909a-9b14b3c04e60",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "ea47525d-99df-45b5-9103-dd853f49f8c3",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "8516915a-51a2-44e0-a915-aff325216a26",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "157ab2cc-1fc7-4b29-8955-72d94a140982",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "141609b6-cf86-4266-904c-6648f389cdc9",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "a920060c-7e39-4ac1-980c-f0e605a40ae4",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "31d5534e-4a74-4952-8f37-2701d6353c98",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "ecad68c0-aa99-4148-89ec-07752de7834e",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "1834ead6-82fd-4a79-a998-c5ab0c8edeef",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "63dbbf80-0189-4ae4-a549-68a0caa2f834",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "9661f9e7-3c6a-448f-9b1e-2c563ed1e5e9",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "4242c6d3-4ee4-4b0b-9ca0-23bd57952805",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "8896ec06-cca8-4ee8-872a-cc8a359c3bb8",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "ed5dddc0-999d-4fd2-a702-9fef1ec2c955",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "c1e284bc-0436-42fe-b571-fa35a94279ce",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "56dec7d4-9d44-4689-a748-1434c6dfd17f",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "19a5c7e3-b743-4cb6-8dd8-41459bfc685d",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "6cc85df7-e44b-4fa1-97f2-be04430cc570",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "f30a2fd3-cf2c-4f77-9910-51a908459a82",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "c089b50c-beeb-434a-ab8d-2676dc026564",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "1548a4c8-db3c-4bab-8916-a2c202160026",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "6f023c87-14cd-467b-b006-9359d485d246",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "8572da1b-3b5d-44aa-a40c-8a92b512c336",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "9356fa3f-9ecd-4ff7-a7fe-241884680079",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "4604db12-cafd-4572-a9f8-68525fb1b167",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "3c0dddc9-d6da-4aa5-8ed2-12d26a6b08d4",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "af9aad67-fe97-4174-91a4-263979d62b0b",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "138654de-b955-4d9e-ad83-1e1e9e9ccc24",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "c0ad8919-4646-4a61-adf9-0fd6d8612efa",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "8de2456c-95ef-4958-8f27-af7a4cc275b7",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "ac4e2459-d995-45ae-8421-4c4cf4a87770",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "99e912e1-ca9d-4019-8fe8-349bf814b75e",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "d7037b2a-874a-4360-8a7b-07f2899152fd",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "af6667a4-ae4c-4baa-9283-a01f56d7f489",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "af1f3853-6b99-44a2-b01d-28e9ce9a1e05",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "e660da42-375c-4fca-80f1-1afbe5342b8f",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "b340d77a-6bfe-4f33-8352-4d305ecf264c",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "65ab0e41-9cf9-420c-b860-2457d8cf403e",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "a9ce0a44-ae4b-40b9-be3d-76e978cbbdad",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "e4351665-25f3-4edd-8546-10e5122e721d",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "61830b36-1712-4b7b-9421-f671e9ced6d3",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "cb1b1da5-9436-49f5-8a6b-a1689fb86d91",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "6370bf37-e997-4a5b-8651-3c5bb60c9c3a",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "e31b62b8-68ec-4bb6-bf7e-33db5be5e0b0",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "b41bef1e-7df9-4255-bd82-ecf570fec566",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "10ea7852-418e-4945-bfd3-5c1c58a17b38",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "3ea7e763-654b-46a6-9c36-6afbed1baa47",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "80422e14-b9ad-4fda-970f-de370d5fa4e5",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "971fb926-e2c7-40da-be30-59e540aeb013",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "195023bf-cf9a-4772-94ef-09dd6eddea84",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "8cc979c5-9c2d-4c16-9e83-e0a30dbcc6c7",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "17ce37ea-1cda-4429-b062-c4b627814225",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "ac783473-e74c-4ed4-b3d7-89e50b171b5f",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "d97db976-eeec-4eb4-8868-346fbd7ed1e5",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "4413d794-e0da-4a6e-b61a-afd5758914e6",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "2c3cd370-04bd-4994-87dc-e54a4d80c4ec",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "ff3d509c-21a1-455f-a785-ef394e9dbfb7",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "66b0511a-528c-43de-b572-a7ff7a30ebd9",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "d803df2d-9706-41ed-8b45-cc6fe3b10185",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "d09c8abd-24ec-41de-ac8b-b6381a2f3a63",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "7cdafb87-bde5-4025-aba0-36efd9432a61",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "9f4a3252-6dc3-48fb-b0c1-cf7f63e1219d",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "ebfbf002-13f1-4f0f-b06f-2894e4f58fe1",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "6f2b317e-17ff-491a-8f61-e6e591ae2df2",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "f6ce20ca-73c3-4fdd-9367-e2901fca780e",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "61b0d21c-b703-4999-910d-ebffc44791bb",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "25e1d17b-6a4d-4698-a4f6-bf53460c10af",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "101c7648-2599-4167-a4e8-5e1bc07fedae",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "b4c93297-b32f-4f90-b619-55456a38b0aa",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "ffbd1ee1-65e8-45d4-ba03-6441f584b74b",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "3486c56e-47db-4d62-a9b4-71ea44acbaec",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "94d60d12-452d-49f0-8d0f-5af785e561a8",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "b1a9ac33-4978-4fa9-a5ae-2cc728342dab",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "16dcfceb-4382-45f1-adb0-d57fc5ea0d06",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "077a3fed-1634-424f-be7a-9a96b7f07b78",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "e78a489b-6632-4d61-b00b-5206f5b8b22b",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "7e64a45c-c6b2-4983-9694-7d13509a5751",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "ee16d489-9a09-445c-89fc-dd887b0c11f0",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "40c058a2-430e-4ced-b663-369dcf38583f",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "e4d23997-f20f-4da6-b7b3-e463d92abd62",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "eb95c066-5f46-483a-af69-a83b5cf324ee",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "b6a5d154-7845-4129-b473-ba0aec3deffd",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "be8fe64b-37da-4fba-b14d-603aba19be1f",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "fa442671-f5ef-4397-93c4-0560b9a3a278",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "d6cdbe06-5b67-47f1-ad1d-24ceec1e2956",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "aad8a8ac-2990-4f3c-be68-7bbb59a75a9e",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "d1fa8ce7-ad9d-475d-9311-2a850b1f3336",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "bfbecb6e-8a6f-4b31-a040-5928a7635894",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "bd29a3d0-9551-45e3-b1ac-941214e535b5",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "e76f1a4f-d21a-4f50-9472-45737f7f1480",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "0953cced-141c-490f-a5d2-a359587be7f1",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "d57ceb17-3831-42ab-b42e-1ce1a7029285",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "d90ea6cb-7bc3-4d80-8af0-28557e6c4e17",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "5fc86cdc-ade2-472b-b077-c9f92beb213d",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "ce63e6b8-fad8-48bc-a2aa-d801fb8d5d43",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "1bad66ee-4857-433e-a075-704d93672341",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "fc0dbb8a-8e13-4c8b-aebc-14b16168cdb4",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "a76b6b97-e434-40d6-b7c5-6026d22986d6",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "2b5a3b43-effb-4f54-aa9b-d6093d523452",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "9eb78304-0436-484d-9a79-a925b45e2731",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "3fba42cf-2ad6-4c30-a7ab-46cb8149208a",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "d65c0332-3764-4c89-84bd-b1a4e7278ad7",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "e9173a7b-d763-43ac-866f-aa5b8240a37c",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "e18fe8c6-f6dc-4f05-8462-7b2083ff9a6c",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "99daf7bc-3a3b-4fe8-b10d-951b32bfea64",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "5e3a710f-0b0d-482b-9e84-d9c91960c625",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "a29bd145-116e-49c8-bc2f-b15857299304",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "4bf066dc-3a6d-4c33-997b-6033208c4176",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "0f5ab57b-bc85-423b-b2d2-19a97dfc46f1",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "7337b917-c57f-4d4a-930c-57ec71776cf9",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "82148d28-92b9-4f02-9996-07b4017d2be7",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "737a846b-2e67-4d63-9f7e-f54b3beebac4",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "cedc7401-8c70-4057-b14a-4ecbbcd73945",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "1cf64f4a-c565-44ea-8a8e-c210dec6e441",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "24c0f6c0-ec09-4b83-ab52-a855283bb6e3",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "9478665e-412b-4e08-9844-5c07a732a71b",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "d95d6b8a-bc03-4de9-b79a-2cdca17e9dd3",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "10a4985d-0713-462e-a9d6-767bf91e4fd7",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "4c2de9ed-5fab-4337-bd87-78df95cad4af",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "5efc2417-d036-48e6-b86d-e4299a077093",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "5e8b3e5a-9e19-47e7-8921-0bfe5fdc7f46",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "fa3b04d5-399f-4c92-80b9-a43f413ea932",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "8edf35b1-8948-45df-9971-981094126f48",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "4bde51e5-e420-45a4-98e9-7405bf2d59ff",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "7ad10953-14f2-411e-83e3-5c22c4e7e1e2",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "dd8a907a-3850-4f95-ba03-ba201a8399e3",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "6478cd0d-0756-4dee-a21f-ceb404f762ba",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "7e905fc7-d534-479e-9880-f89effbf30e2",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "29ab6984-7c1d-4d45-b925-25aa082b492e",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "d8a959f7-648e-4c8d-8f23-f1f3f8e129f3",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "9e954c6b-7a02-4fd7-986d-6331c0ba95d4",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "c4b36f15-4ee5-425f-a77d-c2e7cbb970d8",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "e0ab9365-1174-4090-bbb2-7e3631b6eeeb",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "2e0fdb3b-632c-4f8f-a311-5b56952db647",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "5ca26e13-c7d4-46de-a035-90c9bc52e06d",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "6532bfa8-1a83-47f6-bec2-38fb2444f3e3",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "e05dd982-6d09-4f3d-8e8e-6c9ae65b5857",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "99182618-ae92-4aec-a5df-518659b7b613",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "7f15e45c-b7fd-4164-8d8e-ede14a817f0d",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "8280b28c-aeff-4f89-ac99-a4c783e14782",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "da36a727-7686-4e92-8fac-94bc292b8e91",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "aefbf95e-5fad-4a92-94d2-ac6dc7c44351",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "77c4966f-ead7-45bb-87e0-9ac618b11e8e",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "0550851a-961b-4b34-9684-4b2901e62079",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "ef473f14-8c4d-435e-9015-b714512e69eb",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "d64b0768-bebe-433c-b923-99870503c0a3",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "f678b24d-f1fd-4717-8824-4138845390eb",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "0ca1627e-95dd-4118-892a-f144adf02256",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "bed89b51-15d3-44a5-b27a-a13a2f9a6dd8",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "a8dbdba7-6904-46cb-b03b-cf869b11110b",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "65fa324d-4075-4f59-a71c-2c82f69f6779",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "f7b62193-bdfb-4953-a6c6-0bd1b9a872f9",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "fd72da46-b7f5-48a1-811c-b1be0bacf3a9",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "f8438f87-3142-4ee5-b0f0-836aa5515c61",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "f3d562a9-84a0-464c-93dc-4d090042691b",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "7bcbb316-76d0-47c7-abcb-6588d2b7f865",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "1a69d1cc-b060-4f35-8778-4621424fe5f4",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "b9c6525a-b113-49af-8251-bf12b9a0f67c",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "4eaa6fad-5934-4311-8128-e32d900564b0",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "4809bb6c-1af2-41c5-9291-983027602d7f",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "dfd7e5e0-d638-4f1d-9f38-ffc626c4167e",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "38179337-1640-4927-8851-9bedd8d19e82",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "f7420b67-1a93-459c-a9e8-b04ee6e4fb84",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "68112dc1-2b80-4f20-beb8-2f2a8716a430",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "11b74211-f4c0-4f08-b5a4-c491da0d0c0b",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "5666ae25-a015-4d06-a44e-2dca0446f8fc",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "ce25484a-6be2-4f29-807c-569dfed8a091",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "91a2e0c9-cd81-4bf7-b5f7-bb37434bf6b3",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "a08cd14f-68d4-4942-9305-2fe9d7d0339e",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "bb5f1b24-58a6-49e4-847b-a322c2addbd5",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "17a56d33-9443-433a-9e0d-70459893ed8f",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "62849a26-0c93-42a8-8627-14dbf2dd72f7",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "a5ee781b-e01f-4da8-90ca-962056cb5435",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "1ef6ddce-7930-45ae-a335-9a45604b99f7",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "2c4b353f-d968-461b-be49-4f2599189a79",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "8a3aeff4-8d5b-471e-94f3-fe0f9425d94d",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "259dfd8a-f06a-4825-8fa6-a2dcd7274230",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "3b8e4dc5-bffa-4382-a23c-be97c44ab4e2",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "77ae6d99-0d2d-4f63-8903-6246cac20897",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "576f3eec-a728-4f36-a87f-dd3fc2342812",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "f7f430ab-2c24-49d3-b698-c9ff4787805b",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "c49feee4-126f-48d0-9a6c-418d7da05265",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "837e01d6-f59b-4c2a-b9f7-68469215d0c6",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "672be603-c8f1-478b-866a-811652cffabc",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "3a8488a3-8b93-4576-baee-cae53c2be018",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "9a901eb2-94f6-4761-97fe-de211050b344",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "9a67ec4e-fa2a-4cc0-9873-1dd8edff59eb",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "cb676e05-8e6e-4ec4-8ba0-d3cb4f033cfa",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "359eb456-02e7-4906-bd48-10624d0419fd",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "eeea01ed-4838-45ca-8e90-88d6f6e95603",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "69c9edc9-0f39-4b9e-951f-249403d492cb",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "eb9dd396-dfc5-473f-8eb3-86e528caaf48",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "9d3d3403-1a87-4737-9803-bc3d99db1424",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "b16f2554-9525-4f2a-bbe4-5b75b6605176",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "8e95570e-93a7-494d-8e83-bd755e3b631d",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "eb2d1a45-d4e7-4e32-a171-b5b029c5b0cb",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "30f3ac69-21b6-45ad-a110-d011b7aaadaa",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "d2d22b38-4b3f-4ffb-9387-d18f870d5a91",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "e42f6486-e018-4f29-b54c-7baed2ee855d",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "b05918e4-fb1a-4b10-a919-eaecf00fd7dd",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "b0ecd95c-06a3-4aa7-8dad-0e278515865f",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "b65fbf0e-6768-407d-ba79-fa9fcb319155",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "b0475326-9f58-4258-8876-d33d4cb1bdc9",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "9b96ec17-deb7-402b-b822-ae40e03533db",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "ab541412-f0d0-4fcf-a7a3-084a835d9d4a",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "d36bea9f-853f-4908-9957-5514b1903e36",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "4710b856-0585-40d2-a87e-099fc032511f",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "eeb2ab0e-7dbc-4f0c-b476-8181d44217a8",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "6994b74a-2ecd-4a54-8d23-d2adff5e0b0c",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "296cbc31-af1a-4b5b-a34b-fee2b4cad542",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "9f9fa579-6320-4d01-943b-5be5356e1995",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "a4a44881-8ae3-460c-be02-9d51201d7605",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "7bf163e3-123a-41c1-b2bc-8254dbe5a09b",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "7fe4b18c-7092-487a-b7bd-0a0089ce65d1",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "0874979e-301a-47a5-a559-0e33a1162571",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "cf7b7869-3d9a-4c4d-bd06-249eba113558",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "0cf1c1c7-2894-4b4d-a3cc-3e1501fb3e36",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "7e2933d2-8587-4c0f-b69c-4233864b96a8",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "0681ae41-df2e-4ffa-8063-c8d18877853c",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "73886188-f459-4b80-8781-66a60520b420",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "4ec3dcd1-62da-4712-a0f7-b2509d61a36b",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "0c9e19cd-86cb-490c-93e9-955af41746ca",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "96bfa6c4-23c2-4a1f-afb2-e1a6b85da65b",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "df361a38-eef6-4674-bec6-86d08aa1d1aa",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "770c61b9-0ef2-460b-8c25-c10ab23349ce",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "ef1e89d8-2ea8-426d-80c8-0c87c9377334",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "cf1c93cc-4bb5-4311-b926-0f02ad123ad2",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "8d2e9520-4127-4bf2-94a3-b2571029562d",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "ee96e2b7-9af2-4864-9656-649f4d3b6fec",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "d8f1d7da-8bb1-407b-8be3-10ac2894d3c6",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "657ccfcc-5847-40f7-8859-5631eeeb3784",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "3da96505-f8e8-49d5-8c26-fbe4786a897f",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "fffbfac3-b7ad-41ee-9581-b4d90ecec941",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "9a5b657d-b6db-45a7-a2b7-b165884d9603",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "ce398cd4-33cf-4717-9e2c-ef98c7a5c578",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "3cbc4293-3623-470a-9405-f46b328c83d4",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "0d4f9dba-f55f-4ff7-9f49-52311939504e",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "596e14bb-a7eb-4aad-8a0e-8ecc854fd4a8",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "d0ddd740-4b91-4c66-bfd0-b36a77f8e730",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "b0c50912-623b-4bd7-84fc-7811f7961518",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "b4615bd9-7cbd-4243-a8a2-5c24671663e0",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "ee51d8fb-ba27-46a5-b204-d565ea1b11aa",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "722a45c0-5e55-40f2-929b-ff69b0989edb",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "3c2bcd68-d4ba-41f5-b5a7-fdc884427184",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "c9926df8-a200-40ba-8c05-0f5b375180c9",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "62b74aa6-24df-4b91-b76d-39e7ab3c3ca5",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "c53caf9a-95b6-4400-b41b-d1b09167ef7a",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "0976963e-c0b4-4bdc-abde-831e9cb29cc2",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "0e6c8a1b-df05-43b0-8f15-14ef8b41867f",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "027de3a2-a35f-4290-be23-935ada2b3812",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "9e76dadd-e0c6-452a-9f7d-b9f2ae85bc35",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "a71e9594-6269-447f-99fa-3d4c8e1fff6f",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "1f40b922-6abb-418e-a7e9-cc4d25b21439",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "2129e537-2853-4612-98f8-a83dce42dccd",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "1090afe3-3b91-4325-a9b4-d92875aa815e",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "ffeef500-d3e0-4c8d-b0f4-ce178afe7b87",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "151bca3e-db98-4ad2-8d8d-239943b91437",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "c6886f02-c7e5-41eb-aa35-c78bbd3bc757",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "8ef11280-30bc-434b-bf61-c61e092905ac",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "9c1cd558-fba3-40f1-bb84-b320f5d1eab1",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "7991e715-40ae-4c3e-b0e0-aa8bee90ece7",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "b6886009-e60b-44a7-abc2-a575765277ba",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "dd13dad6-7cda-46cf-8d4f-13adfc6c37d6",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "b700777b-b007-436a-8830-951cd5e1df97",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "0d4b349e-b7a2-4d63-9ce0-f864e790c4a2",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "af8eed7a-024d-445d-a89d-14493b94a83b",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "86d25eac-eb2f-4ec0-a341-f1a5cbbe80b8",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "984df7d5-ae4c-43c6-aa65-737b9f37e5ef",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "3df1a9a3-a1be-47a3-9e90-9b3e55b1d0ac",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "87ebd557-8394-4f16-8afe-a8644e555ddc",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "bc20fa98-b707-43cc-b195-bcee8e518ed9",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "a4b39b6e-a448-4644-a540-64ceff1d8305",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "822c9883-385c-4fd0-9523-16e7789cbeae",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "8bd19e5c-94f7-4368-a918-50f463857446",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "48f9fb61-e165-4ec7-91c5-6772fa1a0274",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "94bfc769-f5e5-4f88-838c-4f69e7a663c2",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "d7104032-14e6-4209-8e2e-7a772d5008dd",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "6f18c4ef-3eb6-40ee-98a4-507343f05855",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "677fb60b-2deb-46db-9ece-704f6144faf0",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "6a109fbb-8777-41ef-b338-62e893907926",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "3e8cf40f-ba17-480a-b60b-a675db032ee2",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "5bad4a36-31a3-491d-a63c-2640f08f0cba",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "8e3740ef-34f9-4ed4-928d-465f685f4c30",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "d9414237-832b-46a7-9fb4-1c66f4b97736",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "9f7530e3-3fc0-4d2b-a1f9-00caadbf2d05",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "2d0d55b1-1c35-4f99-965d-7665e5b9c415",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "2c2a45bc-42c8-4d62-995c-bd5523642ba8",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "28b8be97-44f2-4bc7-8164-f9ae8ff85491",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "59f41b42-db80-41e5-b410-78d4ce2ac735",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "1f9fb803-733a-4104-bea3-f4b449da5e3c",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "e182b09f-09ab-4201-8f37-0ced6822eb39",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "32505911-558f-4ce0-9eed-0b4538f29efc",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "d553645b-03a3-4fc8-9a9c-57f91cbbab89",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "baa95345-24fb-47a9-83e9-434ff671f968",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "fa88b96d-492c-4535-8843-1ee277aea717",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "acdbf57f-bf54-41b4-8d92-b3f3d14c852e",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "8f811ac6-182c-4c5c-8cf7-448a22aa3584",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "a4304d3b-191d-471f-8c78-353d403a35d0",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "733fc3ac-deca-444e-bb79-14186e00ccf1",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "244c9d4f-e5fb-4590-9b96-4da191977b33",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "7878c129-a33d-4bf9-b5d2-ff98cbe85bd6",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "aa6c76f7-5f5f-46b6-a800-911145f81b9b",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "fbc8e1e4-cba6-48ec-b828-d613fe3d93a6",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "e41721c0-f7cf-49c1-9712-8543e1ea7c99",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "f8e294c0-7c11-4c66-bdd7-4e25df52bf69",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "188e4f34-a80c-4a91-b54e-69572e8ed4d5",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "2d0fe163-c669-4a38-b33a-bfbc452d91ea",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "ddeea1f1-9edf-4b81-8369-8b4411a37968",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "6cb9a577-2226-4971-bc79-506895715c57",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "5d1fc77e-706a-4fc5-bea8-486c9be0145d",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "dc22c201-a2a8-40aa-a23f-69852b0c8d0f",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "07c370b3-4f14-4834-a5c2-0d7b42028fc3",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "71b16e06-8c0d-42a3-b457-73cf55343bc0",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "2910f3bb-5f3c-408a-b861-786048b2b4c6",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "0c76e194-919d-4143-a7a4-f7b3504183d9",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "ced1a3f9-9a34-4ada-a3b7-ca773e5af0b8",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "ef4b0094-cc78-489f-978e-d56e0ff28347",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "59807770-c066-4fd4-b39a-d0f273c5d44b",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "95cecdad-de3b-4e47-ade1-57c7add60dc1",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "b5b21ca1-bba5-4b9a-8cd1-6248f731650b",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "c4ca02fb-8378-433b-8049-fbbea5d25cba",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "9316b513-7adc-4c1e-9405-fb65ea8570bc",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "85b3504c-62e8-49e7-9a81-fb64a3f51def",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "1fc3d326-c037-43fa-8953-ed52a56caa18",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "d1a9fdeb-f713-407f-960c-8326b586e6fd",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "b0dc2f88-4e89-4e30-8d68-20116db788ff",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "48221bce-0fd2-4519-b5f3-4fdc1921007b",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "dbbca2b5-bdd1-4f2b-8b2e-d72bf7fd89a0",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "c88ca39b-c68a-4551-ac6f-65d23cfcca72",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "ff81b6ac-277a-48a7-bb55-79cef19c49a1",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "178d3cd8-4624-4afc-81b0-b2f260a1b28b",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "46596dea-95de-40e8-b2b8-4e63aa6acd1a",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "e421aa24-46c5-472d-b587-b8e42fb3803a",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "bd9144b1-8602-4efb-bdb3-3dd08dbab521",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "af7cc594-4f6a-4c0a-8f74-16748910dee5",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "553d4b8f-9ab9-4711-8ed2-ef337d8e7923",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "6f85c1da-c739-4a62-a3eb-53e072ec582e",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "6158dcf1-359c-429f-8bf2-41f3c42abc91",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "fd2d7c3e-87ab-4775-a1e3-17403994043b",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "cb77e4a6-3921-43b9-9d64-7d78cd3205ce",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "f323e102-8ffa-4541-9d80-f8e610fb825b",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "e4bcff13-c805-41b3-b4c6-e4ebade29b4d",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "baed25ca-569e-4461-bb31-b64883b39d99",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "7f8f8b55-0b59-4d4a-afab-e439c5ba468a",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "49d390f1-05de-4d9d-a60d-36df735cf8e8",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "df9be021-ff37-419e-ba6e-dda3e28eb763",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "6da0b34b-db19-491a-b85c-6e31e0986f15",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "91b67596-9bc3-48f5-8aad-02ff520fdfa9",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "ec0f5d68-b14a-4d83-82f7-8a5b150affe4",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "fe18fe91-fa82-441c-9d87-66414d59a622",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "e5e6b437-611a-4d7f-81a3-c3cd692fc885",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "efb4278c-a761-406b-9d69-19603c5e4c8b",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "f4397b12-137c-426f-92ff-618ddfbad51a",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "1aad07fb-3ec1-4acf-8c5b-d8f5f5929a5d",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "84703c86-eb83-45ec-8fc5-f34a25115893",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "b85141eb-8051-451a-bf95-608351e2b613",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "f5c25341-d6ff-4585-8548-3a48fc7654d9",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "e2249870-322e-461f-9704-249d49d8fa89",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "1c4f1dd6-c7cc-4474-b3de-2cc9adc330c3",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "a2b2d55a-4ce8-44fe-9232-d07aad412f63",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "b0b721ff-c388-4486-aa0f-c2b0bb321512",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "4a433d6b-f51a-4c2f-a183-85419fe98efc",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "04c892b3-a202-46f5-ad11-0d433e712ab8",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "418be4a0-a376-4a7e-aa34-51576b2e6fa7",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "23aadc44-d2fe-46ca-83a6-6c86fd36ee12",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "debdff88-8291-45b6-ac46-4055924926cf",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "e48840ea-f28b-44fe-9412-d95db2a1ac3c",
+   "shelf": "reading"
+  },
+  {
+   "md_id": "67bd081f-1c40-4ae2-95a2-6af29de4fc01",
+   "shelf": "reading"
+  }
+ ],
+ "weebcentral": [
+  {
+   "title": "Haimiya Is Scary Cute",
+   "latest": "45",
+   "last_read": "8",
+   "status": "O",
+   "wc_id": "01KB7YRNH4N0TQG3M75SB3ZP0T"
+  },
+  {
+   "title": "Akira Failing in Love",
+   "latest": "102",
+   "last_read": "2",
+   "status": "O",
+   "wc_id": "01J76XYHJ564MT4W72M4FQ6FCP"
+  },
+  {
+   "title": "Albus Changes the World",
+   "latest": "105",
+   "last_read": "105",
+   "status": "O",
+   "wc_id": "01JNRCCAAX4M5K35PHSKAA7CK9"
+  },
+  {
+   "title": "The Journey of a Dark Elf with Fading Powers",
+   "latest": "10",
+   "last_read": "10",
+   "status": "O",
+   "wc_id": "01KDG6EM1KRVW49HBV6B6TH8CX"
+  },
+  {
+   "title": "GALAXIAS",
+   "latest": "35",
+   "last_read": "35",
+   "status": "O",
+   "wc_id": "01J76XYHG2EQ1BDMECZRFSKAY6"
+  },
+  {
+   "title": "Blue Lock",
+   "latest": "365",
+   "last_read": "365",
+   "status": "O",
+   "wc_id": "01J76XYD7E91K8QP6CY0Y53900"
+  },
+  {
+   "title": "The Witch and the Mercenary",
+   "latest": "78",
+   "last_read": "78",
+   "status": "O",
+   "wc_id": "01J76XYH3DBZ29KFB60P2GFPA7"
+  },
+  {
+   "title": "Twilight Blade",
+   "latest": "16",
+   "last_read": "1",
+   "status": "O",
+   "wc_id": "01KW206QYH8HB5AS8A1EJBKD0N"
+  },
+  {
+   "title": "MAD (OTORI Yusuke)",
+   "latest": "56",
+   "last_read": "56",
+   "status": "O",
+   "wc_id": "01J76XYHBSA35Y18Q86HDY7MJ4"
+  },
+  {
+   "title": "Clevatess - The King of Devil Beasts, The Bab",
+   "latest": "97",
+   "last_read": "95",
+   "status": "O",
+   "wc_id": "01J76XYFBKRNDYWQP1WC24QDM7"
+  },
+  {
+   "title": "The Roguish Guard in a Medieval Fantasy",
+   "latest": "42",
+   "last_read": "29",
+   "status": "O",
+   "wc_id": "01JPADNWAJD6SW2T0XA6MHGCQT"
+  },
+  {
+   "title": "Toilet-bound Hanako-kun",
+   "latest": "Spook 133",
+   "last_read": "Spook 0.1",
+   "status": "O",
+   "wc_id": "01J76XYC5FTV65K8XQP2Z0A1RF"
+  },
+  {
+   "title": "Centuria",
+   "latest": "106",
+   "last_read": "106",
+   "status": "O",
+   "wc_id": "01J76XYH789EJ16X8EC7NB0EVK"
+  },
+  {
+   "title": "Ichi the Witch",
+   "latest": "Hunt 102",
+   "last_read": "Hunt 1",
+   "status": "O",
+   "wc_id": "01JBQ6PW20207W4RPSM5X4192B"
+  },
+  {
+   "title": "Someone Hertz",
+   "latest": "53",
+   "last_read": "53",
+   "status": "O",
+   "wc_id": "01K77RV0EHF24GR3MQ45BPC007"
+  },
+  {
+   "title": "Animal Signal",
+   "latest": "18",
+   "last_read": "13",
+   "status": "O",
+   "wc_id": "01KW1Z8AS34F4035NXMK9RSSJM"
+  },
+  {
+   "title": "Cannon Master",
+   "latest": "16",
+   "last_read": "2",
+   "status": "O",
+   "wc_id": "01KW1ZKSC5EFCAA06XQTBA1YV2"
+  },
+  {
+   "title": "Captain Corinth - The Galactic Navy Officer B",
+   "latest": "Phase 68",
+   "last_read": "Phase 68",
+   "status": "O",
+   "wc_id": "01J76XYDPW2PAFE3WNRDHY2KWK"
+  },
+  {
+   "title": "Hero Organization",
+   "latest": "72",
+   "last_read": "72",
+   "status": "O",
+   "wc_id": "01JBQ6M9JWMSPTW40GSM78TVSD"
+  },
+  {
+   "title": "Dai Dark",
+   "latest": "Bone 67",
+   "last_read": "Bone 1",
+   "status": "O",
+   "wc_id": "01J76XYCY7MD7C3P86V79R07VJ"
+  },
+  {
+   "title": "The 100 Girlfriends Who Really, Really, Reall",
+   "latest": "258",
+   "last_read": "1",
+   "status": "O",
+   "wc_id": "01J76XYD8VCP2FN1Q8E31RQ9GJ"
+  },
+  {
+   "title": "Kingdom",
+   "latest": "890",
+   "last_read": "500",
+   "status": "O",
+   "wc_id": "01J76XY7VSG3R5ANYPDWTXDVP6"
+  },
+  {
+   "title": "The Postman of the Apocalypse",
+   "latest": "28",
+   "last_read": "28",
+   "status": "O",
+   "wc_id": "01KRK7P9V84RX0V7W6NY6DMZB3"
+  },
+  {
+   "title": "The Apothecary Diaries",
+   "latest": "87",
+   "last_read": "81",
+   "status": "O",
+   "wc_id": "01J76XYCCTKZ5GDQ05600AG7TQ"
+  },
+  {
+   "title": "WITCHRIV",
+   "latest": "43",
+   "last_read": "3",
+   "status": "O",
+   "wc_id": "01K9YR89KY8Q1NTB494B8FX8P0"
+  },
+  {
+   "title": "Daemons of the Shadow Realm",
+   "latest": "58",
+   "last_read": "58",
+   "status": "O",
+   "wc_id": "01J76XYF9WXVB2VVMCYXHD1P1E"
+  },
+  {
+   "title": "Choujin X",
+   "latest": "78.1",
+   "last_read": "1",
+   "status": "O",
+   "wc_id": "01J76XYERPHPGCM3C3HEME1YAK"
+  },
+  {
+   "title": "The Isekai Doctor - Any Sufficiently Advanced",
+   "latest": "50",
+   "last_read": "50",
+   "status": "O",
+   "wc_id": "01J76XYGDYENGSBNTDQA6AT7GZ"
+  },
+  {
+   "title": "Make the Exorcist Fall in Love",
+   "latest": "127",
+   "last_read": "127",
+   "status": "O",
+   "wc_id": "01J76XYFH535Y7K96RD40PQ467"
+  },
+  {
+   "title": "Tatakai shika Shiranai Onna Kishi o Amayakash",
+   "latest": "15",
+   "last_read": "15",
+   "status": "O",
+   "wc_id": "01KRRNVEVYHV29STN8ST6FW7G5"
+  },
+  {
+   "title": "Ougon no Keikenchi",
+   "latest": "26",
+   "last_read": "26",
+   "status": "O",
+   "wc_id": "01JQH0NA028NDEFCDVDB6FEAZ8"
+  },
+  {
+   "title": "War of the Adults",
+   "latest": "68",
+   "last_read": "6",
+   "status": "O",
+   "wc_id": "01JS4HD6TWCVVKZ0NXQ6MG98G5"
+  },
+  {
+   "title": "Hatori and Furuta's Extraordinarily Ordinary",
+   "latest": "23",
+   "last_read": "21",
+   "status": "O",
+   "wc_id": "01KCRZKPEWYPGHCB76AQ3DV4SQ"
+  },
+  {
+   "title": "Blue Giant Supreme",
+   "latest": "79",
+   "last_read": "1",
+   "status": "O",
+   "wc_id": "01J76XYHHPP6CN1K1P9BFR5JPT"
+  },
+  {
+   "title": "Blue Exorcist",
+   "latest": "170",
+   "last_read": "None",
+   "status": "O",
+   "wc_id": "01J76XY7EBJ4EG5QDZJYFTF8K8"
+  },
+  {
+   "title": "So I'm a Spider, So What",
+   "latest": "80.2",
+   "last_read": "17.2",
+   "status": "O",
+   "wc_id": "01J76XYBPS8A4M6QYZEXNN4KVR"
+  },
+  {
+   "title": "Blue Period",
+   "latest": "Brush 90",
+   "last_read": "Brush 90",
+   "status": "O",
+   "wc_id": "01J76XYDBHTQFGYQX6G69SJPEW"
+  },
+  {
+   "title": "The Case Study of Vanitas",
+   "latest": "Memoire 69",
+   "last_read": "Memoire 1",
+   "status": "O",
+   "wc_id": "01J76XYCX88F32TEQVS26KH0SE"
+  },
+  {
+   "title": "Yakuza Reincarnation",
+   "latest": "62",
+   "last_read": "3",
+   "status": "O",
+   "wc_id": "01J76XYD3GMRCNGWEZSJH3FW02"
+  },
+  {
+   "title": "The Weakest Tamer Began a Journey to Pick Up",
+   "latest": "31.2",
+   "last_read": "29",
+   "status": "O",
+   "wc_id": "01J76XYDM554ZJ347PAMNYDMY9"
+  },
+  {
+   "title": "The Faraway Paladin",
+   "latest": "77",
+   "last_read": "None",
+   "status": "O",
+   "wc_id": "01J76XYCMJ30ED86E2JBCPNNV3"
+  },
+  {
+   "title": "Fool Night",
+   "latest": "122",
+   "last_read": "122",
+   "status": "O",
+   "wc_id": "01J76XYF9KQA7A3WVVFJ7CQJ4C"
+  },
+  {
+   "title": "Fushi no Kami - Rebuilding Civilization Start",
+   "latest": "44",
+   "last_read": "22",
+   "status": "O",
+   "wc_id": "01J76XYFFS90E4BN1SNZJF32C1"
+  },
+  {
+   "title": "VERSUS",
+   "latest": "37",
+   "last_read": "None",
+   "status": "O",
+   "wc_id": "01J76XYG0DD79B889BC3894M0Q"
+  },
+  {
+   "title": "That Time I Got Reincarnated as a Slime",
+   "latest": "146",
+   "last_read": "146",
+   "status": "O",
+   "wc_id": "01J76XYBF8PQ831AW2N7B7BJVV"
+  },
+  {
+   "title": "Wandance",
+   "latest": "72",
+   "last_read": "74",
+   "status": "O",
+   "wc_id": "01J76XYDQ7QAKYWKQNNCDFTNNY"
+  },
+  {
+   "title": "Hope You're Happy, Lemon",
+   "latest": "106",
+   "last_read": "106",
+   "status": "C",
+   "wc_id": "01J76XYGNBBY0C54GYFBAC1KFC"
+  },
+  {
+   "title": "March Comes in Like a Lion",
+   "latest": "223",
+   "last_read": "None",
+   "status": "O",
+   "wc_id": "01J76XY9H7ESGDF25RXJMEF2ZR"
+  },
+  {
+   "title": "Flying Witch",
+   "latest": "93",
+   "last_read": "3",
+   "status": "O",
+   "wc_id": "01J76XY99XMZGK9ZPD5X61ATKM"
+  },
+  {
+   "title": "Witch Hat Atelier",
+   "latest": "99",
+   "last_read": "23",
+   "status": "O",
+   "wc_id": "01J76XYC2K8QWFZZRYYCZMN6EF"
+  },
+  {
+   "title": "Grand Blue Dreaming",
+   "latest": "112",
+   "last_read": "None",
+   "status": "O",
+   "wc_id": "01J76XYBWA1TEW2EBDYC9E3C9G"
+  },
+  {
+   "title": "Zeikin de Katta Hon",
+   "latest": "93",
+   "last_read": "9",
+   "status": "O",
+   "wc_id": "01J76XYG4DZR7KRCXX32HKCYP5"
+  },
+  {
+   "title": "The Hero and the Sage, Reincarnated and Engag",
+   "latest": "40",
+   "last_read": "4",
+   "status": "O",
+   "wc_id": "01J76XYGFFTZ1TPKK42ZW48SPX"
+  },
+  {
+   "title": "The Otome Heroine's Fight for Survival",
+   "latest": "39",
+   "last_read": "39",
+   "status": "O",
+   "wc_id": "01J76XYFKM804S0KKASF7X5NFE"
+  },
+  {
+   "title": "The Saga of Tanya the Evil",
+   "latest": "118",
+   "last_read": "61",
+   "status": "O",
+   "wc_id": "01J76XYBZ2VYHSCH4XATHB91SK"
+  },
+  {
+   "title": "A Man and His Cat",
+   "latest": "Volume 15",
+   "last_read": "Volume 1",
+   "status": "O",
+   "wc_id": "01J76XYE2K7E132QT91TDMZDPK"
+  },
+  {
+   "title": "The Heroic Legend of Arslan",
+   "latest": "154",
+   "last_read": "154",
+   "status": "O",
+   "wc_id": "01J76XY9DZ1RHVX3C9DR9FDBMW"
+  },
+  {
+   "title": "Seasons of Lovesome",
+   "latest": "80",
+   "last_read": "None",
+   "status": "O",
+   "wc_id": "01JP7VHK7AXA8NM788S3HWHC3H"
+  },
+  {
+   "title": "Ascendance of a Bookworm - Part 3",
+   "latest": "51",
+   "last_read": "None",
+   "status": "O",
+   "wc_id": "01J76XYFW2YTY6AYZGYYXKFY4P"
+  },
+  {
+   "title": "Money Forest",
+   "latest": "28",
+   "last_read": "3",
+   "status": "C",
+   "wc_id": "01K9YQRRW3BRMQBVN5PMAJ4E5H"
+  },
+  {
+   "title": "Nigoru Hitomi de Nani wo Negau - Highserk Sen",
+   "latest": "22",
+   "last_read": "None",
+   "status": "O",
+   "wc_id": "01J76XYFY7R50MJ76VH4R0XHWY"
+  },
+  {
+   "title": "The Ravages of Time",
+   "latest": "627",
+   "last_read": "None",
+   "status": "O",
+   "wc_id": "01J76XY9V86NJ3RN9PKW11GQQH"
+  },
+  {
+   "title": "No Gyaru in This Class",
+   "latest": "44",
+   "last_read": "14",
+   "status": "C",
+   "wc_id": "01JBQ83EKR0F8GGVD9PDWRFC4C"
+  },
+  {
+   "title": "The Coppersmith's Bride",
+   "latest": "45",
+   "last_read": "45",
+   "status": "O",
+   "wc_id": "01J76XYDVBSFBA3Z4YEN6HTJ32"
+  },
+  {
+   "title": "Mr. Villain's Day Off",
+   "latest": "91",
+   "last_read": "91",
+   "status": "O",
+   "wc_id": "01J76XYE5EBBV3VPSR18ZEWPZZ"
+  },
+  {
+   "title": "Skip and Loafer",
+   "latest": "Scene 79",
+   "last_read": "Scene 2",
+   "status": "O",
+   "wc_id": "01J76XYDCNM5KV3T1NRFKFCRTZ"
+  },
+  {
+   "title": "D.Gray-Man",
+   "latest": "Night 258",
+   "last_read": "Night 1",
+   "status": "O",
+   "wc_id": "01J76XY7EM2TJ4BVFHJF8CT1JK"
+  },
+  {
+   "title": "After God",
+   "latest": "77",
+   "last_read": "1",
+   "status": "O",
+   "wc_id": "01J76XYFSKMEZ2KH54TAC7P3SK"
+  },
+  {
+   "title": "Ascendance of a Bookworm - Part 2",
+   "latest": "64.6",
+   "last_read": "None",
+   "status": "C",
+   "wc_id": "01J76XYDP83DM4RJMS6RA18KSF"
+  },
+  {
+   "title": "Old Knight in the Frontier - Bard Roehn",
+   "latest": "88",
+   "last_read": "1",
+   "status": "O",
+   "wc_id": "01J76XYCWNK0220523F31243EH"
+  },
+  {
+   "title": "The Ancient Magus' Bride - Collected Fragment",
+   "latest": "1",
+   "last_read": "None",
+   "status": "O",
+   "wc_id": "01KHV2JFPH39843RXHBZADWMSD"
+  },
+  {
+   "title": "Romelia War Chronicle - The Count’s Daughter",
+   "latest": "1",
+   "last_read": "None",
+   "status": "O",
+   "wc_id": "01KGMEJJK2T4QMF4DT1ZMGEDGT"
+  },
+  {
+   "title": "Heterogenia Linguistico",
+   "latest": "50",
+   "last_read": "1",
+   "status": "O",
+   "wc_id": "01J76XYD5THKGYDRM5N5BV5334"
+  },
+  {
+   "title": "Hirayasumi",
+   "latest": "Day 89.5",
+   "last_read": "Day 1",
+   "status": "O",
+   "wc_id": "01J76XYF5CJW47WA276RD6NNGN"
+  },
+  {
+   "title": "The Ancient Magus' Bride",
+   "latest": "106",
+   "last_read": "None",
+   "status": "O",
+   "wc_id": "01J76XYA4AVQG9FK53NGCE8FW6"
+  },
+  {
+   "title": "Kaiju Girl Caramelise",
+   "latest": "47",
+   "last_read": "None",
+   "status": "O",
+   "wc_id": "01J76XYCZDSZ9SY94SC0EYVVGJ"
+  },
+  {
+   "title": "The Archmage's Restaurant",
+   "latest": "98",
+   "last_read": "None",
+   "status": "O",
+   "wc_id": "01JQV9N82X2TN8KKE3CHAEZQJW"
+  },
+  {
+   "title": "Magus of the Library",
+   "latest": "35",
+   "last_read": "35",
+   "status": "O",
+   "wc_id": "01J76XYCZPMX8HF5FW8122G40W"
+  },
+  {
+   "title": "Fate/Type Redline",
+   "latest": "22.1",
+   "last_read": "None",
+   "status": "O",
+   "wc_id": "01J76XYE6RJCBZZB7891BKWYAN"
+  },
+  {
+   "title": "Go with the Clouds, North-by-Northwest",
+   "latest": "48",
+   "last_read": "None",
+   "status": "O",
+   "wc_id": "01J76XYCCJGDV1DS2PNXWT68TJ"
+  },
+  {
+   "title": "Piccolina",
+   "latest": "22.5",
+   "last_read": "22.5",
+   "status": "O",
+   "wc_id": "01JF04RD77WPW4ZRY1KP4PZA2P"
+  },
+  {
+   "title": "Altair - A Record of Battles",
+   "latest": "Fasul 142",
+   "last_read": "None",
+   "status": "C",
+   "wc_id": "01J76XY8FMGJ7QZ85KPM7XAKX2"
+  },
+  {
+   "title": "Re Cervin",
+   "latest": "16",
+   "last_read": "1",
+   "status": "O",
+   "wc_id": "01J76XYFDNYXF163VTN3BN62S3"
+  },
+  {
+   "title": "Saint Cecilia & Pastor Lawrence",
+   "latest": "72",
+   "last_read": "1",
+   "status": "O",
+   "wc_id": "01J76XYEV37BHFSG2904P8441W"
+  },
+  {
+   "title": "Seasons of Blossom",
+   "latest": "130",
+   "last_read": "None",
+   "status": "C",
+   "wc_id": "01J76XYEMAHA9EF4V936RPKPCG"
+  },
+  {
+   "title": "The Ancient Magus' Bride - Wizard's Blue",
+   "latest": "Lecon 40",
+   "last_read": "None",
+   "status": "O",
+   "wc_id": "01J76XYDYNY0V43YK7299WZE1Q"
+  },
+  {
+   "title": "The Ancient Magus' Bride - Jack Flash and the",
+   "latest": "# 19",
+   "last_read": "None",
+   "status": "O",
+   "wc_id": "01J76XYDQYCPXX2E0VENQVD9E9"
+  },
+  {
+   "title": "Next Life",
+   "latest": "50",
+   "last_read": "1",
+   "status": "O",
+   "wc_id": "01J76XYCR4D0EFDC9HXJ598RF7"
+  },
+  {
+   "title": "Ascendance of a Bookworm - Part 1",
+   "latest": "Ch. 33.5",
+   "last_read": "None",
+   "status": "C",
+   "wc_id": "01J76XYBRCCN0R7BTJSW7HSVV7"
+  },
+  {
+   "title": "A Silent Voice",
+   "latest": "62",
+   "last_read": "None",
+   "status": "C",
+   "wc_id": "01J76XY9BSRSBCTQ5XP68H64BJ"
+  },
+  {
+   "title": "Ajin - Demi Human",
+   "latest": "File: 83",
+   "last_read": "File: 83",
+   "status": "C",
+   "wc_id": "01J76XY98H4S64T2J2WJSSQJCT"
+  },
+  {
+   "title": "Chihayafuru",
+   "latest": "Verse 247.5",
+   "last_read": "None",
+   "status": "C",
+   "wc_id": "01J76XY7PJT3HETZA0RQV0N2EE"
+  },
+  {
+   "title": "A Bride's Story",
+   "latest": "109",
+   "last_read": "None",
+   "status": "O",
+   "wc_id": "01J76XY7NRG2GVV1AA4ZBTT93T"
+  },
+  {
+   "title": "Claymore",
+   "latest": "Scene 155",
+   "last_read": "None",
+   "status": "C",
+   "wc_id": "01J76XY7EH7SNNTHJD1CCTJZS7"
+  },
+  {
+   "title": "Hyouka",
+   "latest": "?",
+   "last_read": "?",
+   "status": "?",
+   "wc_id": "01J76XY85RN9RA8G5K1KFTA19V"
+  }
+ ],
+ "mgeko": [
+  {
+   "slug": "the-yellow-haired-villain-in-female-main-character",
+   "latest": "91"
+  },
+  {
+   "slug": "light-of-arad-forerunner",
+   "latest": "119"
+  },
+  {
+   "slug": "apex-future-martial-arts2",
+   "latest": "362"
+  },
+  {
+   "slug": "manga-siaa7",
+   "latest": "257"
+  },
+  {
+   "slug": "i-took-over-the-academy-with-a-single-sashimi-knif",
+   "latest": "100"
+  },
+  {
+   "slug": "erio-to-denki-ningyou",
+   "latest": "42"
+  },
+  {
+   "slug": "modern-man-who-fell-in-murim",
+   "latest": "197"
+  },
+  {
+   "slug": "the-genius-wants-to-be-ordinary",
+   "latest": "77"
+  },
+  {
+   "slug": "reverend-insanity-2025",
+   "latest": "32"
+  },
+  {
+   "slug": "heavenly-demon-cultivation-simulation-mg1",
+   "latest": "203"
+  },
+  {
+   "slug": "reborn-ranker-gravity-user",
+   "latest": "223"
+  },
+  {
+   "slug": "master-this-rebellious-disciple",
+   "latest": "209"
+  },
+  {
+   "slug": "i-became-the-tyrant-of-a-defence-game",
+   "latest": "195"
+  },
+  {
+   "slug": "momose-akira-no-hatsukoi-hatan-chuu",
+   "latest": "102"
+  },
+  {
+   "slug": "star-embracing-swordmaster-frjzo",
+   "latest": "143"
+  },
+  {
+   "slug": "maou-toshi",
+   "latest": "25"
+  },
+  {
+   "slug": "the-witch-and-the-mercenary",
+   "latest": "78"
+  },
+  {
+   "slug": "manga-q1113",
+   "latest": "423"
+  },
+  {
+   "slug": "regressed-life-of-the-sword-clans-ignoble-reincarn",
+   "latest": "117"
+  },
+  {
+   "slug": "absolute-sword-sense-okxdz",
+   "latest": "206"
+  },
+  {
+   "slug": "cosmic-heavenly-demon-3077",
+   "latest": "110"
+  },
+  {
+   "slug": "the-tale-of-the-skeleton-messenger",
+   "latest": "47"
+  },
+  {
+   "slug": "paranoid-mage",
+   "latest": "129"
+  },
+  {
+   "slug": "the-archmages-restaurant",
+   "latest": "155"
+  },
+  {
+   "slug": "the-apocalypse-is-here",
+   "latest": "85"
+  },
+  {
+   "slug": "absolute-regression",
+   "latest": "124"
+  },
+  {
+   "slug": "the-regressed-mercenarys-machinations",
+   "latest": "111"
+  },
+  {
+   "slug": "myst-might-mayhem",
+   "latest": "121"
+  },
+  {
+   "slug": "yagate-eiyuu-ni-naru-saikyou",
+   "latest": "7"
+  },
+  {
+   "slug": "the-shepherd-wizard",
+   "latest": "41"
+  },
+  {
+   "slug": "mookhyang-dark-lady-mg1",
+   "latest": "301"
+  },
+  {
+   "slug": "one-hit-teachermaster-baek-mg1",
+   "latest": "166"
+  },
+  {
+   "slug": "hidden-house-in-the-apocalypse",
+   "latest": "108"
+  },
+  {
+   "slug": "the-exiled-reincarnated-heavy-knight-is-unrivaled-",
+   "latest": "183"
+  },
+  {
+   "slug": "school-of-streets",
+   "latest": "98"
+  },
+  {
+   "slug": "the-murderer",
+   "latest": "79"
+  },
+  {
+   "slug": "m-being-misunderstood-as-a-soccer-genius",
+   "latest": "95"
+  },
+  {
+   "slug": "healing-life-through-camping-in-another-world",
+   "latest": "117"
+  },
+  {
+   "slug": "reincarnated-as-the-lazy-and-villainous-noble-i-br",
+   "latest": "27"
+  },
+  {
+   "slug": "the-great-mage-of-the-hero-s-party-reincarnates",
+   "latest": "159"
+  },
+  {
+   "slug": "the-reincarnation-of-the-forbidden-archmage",
+   "latest": "225"
+  },
+  {
+   "slug": "the-great-mage-returns-after-4000-years-mg1",
+   "latest": "279"
+  },
+  {
+   "slug": "regressing-with-the-kings-power",
+   "latest": "163"
+  },
+  {
+   "slug": "heavenly-demon-sovereign",
+   "latest": "70"
+  },
+  {
+   "slug": "noble-lady-reformation-guide",
+   "latest": "47"
+  },
+  {
+   "slug": "30-years-have-passed-since-the-prologue",
+   "latest": "21"
+  },
+  {
+   "slug": "the-postman-of-the-apocalypse",
+   "latest": "40"
+  },
+  {
+   "slug": "global-martial-arts-mg1",
+   "latest": "376"
+  },
+  {
+   "slug": "genius-archer",
+   "latest": "113"
+  },
+  {
+   "slug": "regression-of-the-yong-clan-heir",
+   "latest": "64"
+  },
+  {
+   "slug": "surviving-the-apocalypse",
+   "latest": "112"
+  },
+  {
+   "slug": "reborn-as-the-enemy-prince",
+   "latest": "123"
+  },
+  {
+   "slug": "reset-life-of-regression-police",
+   "latest": "176"
+  },
+  {
+   "slug": "got-dropped-into-a-ghost-story",
+   "latest": "40"
+  },
+  {
+   "slug": "return-of-the-runebound-professor",
+   "latest": "95"
+  },
+  {
+   "slug": "i-was-more-overpowered-than-the-hero-so",
+   "latest": "143"
+  },
+  {
+   "slug": "bad-born-blood",
+   "latest": "104"
+  },
+  {
+   "slug": "the-mysterious-worlds-greatest-martial-artist-litt",
+   "latest": "139"
+  },
+  {
+   "slug": "different-world-the-graceful-life-of-a-man-who-nev",
+   "latest": "37"
+  },
+  {
+   "slug": "solo-farming-in-the-tower",
+   "latest": "147"
+  },
+  {
+   "slug": "the-extras-academy-survival-guide",
+   "latest": "128"
+  },
+  {
+   "slug": "isekai-kenkokuki2",
+   "latest": "81"
+  },
+  {
+   "slug": "ill-retire-after-saving-the-world",
+   "latest": "107"
+  },
+  {
+   "slug": "real-man-mx1",
+   "latest": "273"
+  },
+  {
+   "slug": "i-quit-the-heros-party",
+   "latest": "178"
+  },
+  {
+   "slug": "class-de-2-banme-ni-kawaii-onna-no-ko-to-tomodachi",
+   "latest": "45"
+  },
+  {
+   "slug": "human-protection-agency",
+   "latest": "33"
+  },
+  {
+   "slug": "build-up-mg1",
+   "latest": "220"
+  },
+  {
+   "slug": "kizoku-no-uchi-ni-totsuidekita-akuyaku-reijo-ga-me",
+   "latest": "19"
+  },
+  {
+   "slug": "xujm-i-became-a-married-man-in-another-world",
+   "latest": "31"
+  },
+  {
+   "slug": "genius-martial-arts-trainer-s",
+   "latest": "134"
+  },
+  {
+   "slug": "records-of-the-swordsman-scholar",
+   "latest": "219"
+  },
+  {
+   "slug": "a-villains-will-to-survive",
+   "latest": "69"
+  },
+  {
+   "slug": "villager-a-wants-to-save-the-villainess-no-matter-",
+   "latest": "51"
+  },
+  {
+   "slug": "igaku-wa-mahou-to-kubetsu-ga-tsukanai",
+   "latest": "50"
+  },
+  {
+   "slug": "my-teacher-girlfriend",
+   "latest": "79"
+  },
+  {
+   "slug": "true-sword",
+   "latest": "50"
+  },
+  {
+   "slug": "my-bias-gets-on-the-last-train",
+   "latest": "91"
+  },
+  {
+   "slug": "boundary-labyrinth-and-magician-of-alien-world",
+   "latest": "96"
+  },
+  {
+   "slug": "with-became-a-slave-so-i-as-an-s-rank",
+   "latest": "24"
+  },
+  {
+   "slug": "isekai-tensei-de-kenja-ni-natte-boukensha-seikatsu",
+   "latest": "43"
+  },
+  {
+   "slug": "death-god",
+   "latest": "158"
+  },
+  {
+   "slug": "tensei-yuusha-no-kimama-tabi",
+   "latest": "33"
+  },
+  {
+   "slug": "maou-wa-sekai-wo-seifukusuru-youdesu",
+   "latest": "42"
+  },
+  {
+   "slug": "the-late-game-healer-is-way-too-strong",
+   "latest": "103"
+  },
+  {
+   "slug": "drawing-saikyou-mangaka-wa-oekaki-skill-de-isekai-",
+   "latest": "203"
+  },
+  {
+   "slug": "tensei-shitara-slime-datta-kenasd",
+   "latest": "146"
+  },
+  {
+   "slug": "my-parents-left-me-their-debt-but-because-i-like-y",
+   "latest": "49"
+  },
+  {
+   "slug": "theres-no-such-thing-as-a-bad-hero-in-the-world",
+   "latest": "90"
+  },
+  {
+   "slug": "time-traveler-toma",
+   "latest": "35"
+  },
+  {
+   "slug": "revenge-of-the-bloom-flower",
+   "latest": "74"
+  },
+  {
+   "slug": "did-know-that-that-barrier-isn-t-permanent-right",
+   "latest": "25"
+  },
+  {
+   "slug": "hiding-a-logistics-center-in-the-apocalypse",
+   "latest": "96"
+  },
+  {
+   "slug": "lantern-of-the-dawn",
+   "latest": "99"
+  },
+  {
+   "slug": "infinite-level-up-in-murim",
+   "latest": "280"
+  },
+  {
+   "slug": "the-strange-adventure-of-a-broke-mercenary",
+   "latest": "29"
+  },
+  {
+   "slug": "i-became-an-s-rank-hunter-with-the-demon-lord-app",
+   "latest": "175"
+  },
+  {
+   "slug": "the-story-of-an-exploration-hero-who-has-worked-hi",
+   "latest": "43"
+  },
+  {
+   "slug": "the-baseball-teams-newbie-is-too-good",
+   "latest": "54"
+  },
+  {
+   "slug": "ah-its-wonderful-to-be-alive",
+   "latest": "62"
+  },
+  {
+   "slug": "a-hero-who-is-good-at-everything",
+   "latest": "89"
+  },
+  {
+   "slug": "ending-maker",
+   "latest": "85"
+  },
+  {
+   "slug": "the-god-of-war-is-leveling-up",
+   "latest": "101"
+  },
+  {
+   "slug": "i-obtained-a-mythic-item-manhwa",
+   "latest": "194"
+  },
+  {
+   "slug": "blinded-by-the-setting-sun-mg1",
+   "latest": "232"
+  },
+  {
+   "slug": "warrior-cariel",
+   "latest": "51"
+  },
+  {
+   "slug": "worthless-regression",
+   "latest": "106"
+  },
+  {
+   "slug": "baek-xx",
+   "latest": "186"
+  },
+  {
+   "slug": "chronicles-of-the-martial-gods-return",
+   "latest": "170"
+  },
+  {
+   "slug": "becoming-the-swordmaster-rank-young",
+   "latest": "121"
+  },
+  {
+   "slug": "unrivaled-warrior",
+   "latest": "85"
+  },
+  {
+   "slug": "to-not-dieasd",
+   "latest": "221"
+  },
+  {
+   "slug": "eternally-regressing-knight",
+   "latest": "112"
+  },
+  {
+   "slug": "heavenly-demon-wants-to-be-a-chef",
+   "latest": "83"
+  },
+  {
+   "slug": "mamono-kurai-no-boukensha-tate",
+   "latest": "9"
+  },
+  {
+   "slug": "jyanome-san-wants-to-smile",
+   "latest": "6"
+  },
+  {
+   "slug": "return-of-the-genius-player",
+   "latest": "55"
+  },
+  {
+   "slug": "water-magician",
+   "latest": "41"
+  },
+  {
+   "slug": "the-strongest-magical-swordsman-ever-reborn-as-an-",
+   "latest": "157"
+  },
+  {
+   "slug": "the-great-master-mg1",
+   "latest": "150"
+  },
+  {
+   "slug": "a-spys-survival-in-the-demonic-cult",
+   "latest": "74"
+  },
+  {
+   "slug": "solo-resurrection",
+   "latest": "99"
+  },
+  {
+   "slug": "legend-of-the-holy-sword",
+   "latest": "107"
+  },
+  {
+   "slug": "the-heavenly-path-is-not-stupid",
+   "latest": "193"
+  },
+  {
+   "slug": "the-genius-tamer-of-the-academy",
+   "latest": "83"
+  },
+  {
+   "slug": "the-undefeatable-swordsman-gnn",
+   "latest": "308"
+  },
+  {
+   "slug": "saihate-no-paladin",
+   "latest": "75"
+  },
+  {
+   "slug": "magic-academy-s-genius-blinker",
+   "latest": "100"
+  },
+  {
+   "slug": "isekai-saikou-no-kizoku",
+   "latest": "58"
+  },
+  {
+   "slug": "the-31st-piece-overturns-the-board",
+   "latest": "119"
+  },
+  {
+   "slug": "memoir-of-the-king-of-war-sop",
+   "latest": "256"
+  },
+  {
+   "slug": "almark",
+   "latest": "33"
+  },
+  {
+   "slug": "frozen-warrior-g",
+   "latest": "49"
+  },
+  {
+   "slug": "that-time-i-got-reincarnated-with-talent-i-ll-work",
+   "latest": "29"
+  },
+  {
+   "slug": "manga-1003",
+   "latest": "311"
+  },
+  {
+   "slug": "saibai-cheat-de-saikyou-saien-e-tada-no-katei-saie",
+   "latest": "32"
+  },
+  {
+   "slug": "kizoku-ni-natte-toshiue-no-musume-to-sekai-saikyou",
+   "latest": "24"
+  },
+  {
+   "slug": "special-civil-servant",
+   "latest": "68"
+  },
+  {
+   "slug": "the-last-adventurer",
+   "latest": "120"
+  },
+  {
+   "slug": "shita-koukou-kyoushi-no-ore-mob-kara-kensei-e-to-n",
+   "latest": "19"
+  },
+  {
+   "slug": "i-really-don-t-want-to-be-reborn",
+   "latest": "475"
+  },
+  {
+   "slug": "the-demonic-cult-leader-is-too-reluctant",
+   "latest": "79"
+  },
+  {
+   "slug": "the-emperors-sword",
+   "latest": "118"
+  },
+  {
+   "slug": "the-new-beggars-sect",
+   "latest": "52"
+  },
+  {
+   "slug": "i-became-an-evolving-space-monster",
+   "latest": "97"
+  },
+  {
+   "slug": "valhalla-sage",
+   "latest": "75"
+  },
+  {
+   "slug": "mercenary-enrollment-mg12",
+   "latest": "280"
+  },
+  {
+   "slug": "king-of-the-octagon",
+   "latest": "193"
+  },
+  {
+   "slug": "revelation-of-youth",
+   "latest": "135"
+  },
+  {
+   "slug": "unparalleled-rank-hidden-equipment",
+   "latest": "94"
+  },
+  {
+   "slug": "ice-lord",
+   "latest": "65"
+  },
+  {
+   "slug": "friendly-rivalry",
+   "latest": "71"
+  },
+  {
+   "slug": "maou-no-ohizamoto-de",
+   "latest": "19"
+  },
+  {
+   "slug": "job-switch-log",
+   "latest": "51"
+  },
+  {
+   "slug": "murim-login",
+   "latest": "250"
+  },
+  {
+   "slug": "0-magic-a-high-spirit-and-a-demonic-sword",
+   "latest": "20"
+  },
+  {
+   "slug": "mizu-zokusei-no-mahoutsukai-part-2",
+   "latest": "7"
+  },
+  {
+   "slug": "king-of-manifestations",
+   "latest": "387"
+  },
+  {
+   "slug": "private-regression-of-the-close-combat-mage",
+   "latest": "91"
+  },
+  {
+   "slug": "the-devil-s-father-s-brave-daughter",
+   "latest": "53"
+  },
+  {
+   "slug": "the-masters-are-subscribing-to-me",
+   "latest": "74"
+  },
+  {
+   "slug": "castle-2-pinnacle",
+   "latest": "115"
+  },
+  {
+   "slug": "the-laws-of-cultivation",
+   "latest": "61"
+  },
+  {
+   "slug": "the-new-employee-is-incredible",
+   "latest": "50"
+  },
+  {
+   "slug": "lightning-degree-mg1",
+   "latest": "220"
+  },
+  {
+   "slug": "the-school-life-of-earth-leader",
+   "latest": "49"
+  },
+  {
+   "slug": "ascension-from-water",
+   "latest": "95"
+  },
+  {
+   "slug": "hero-x-demon-queen",
+   "latest": "182"
+  },
+  {
+   "slug": "my-1000th-lifetime-as-a-furnace",
+   "latest": "68"
+  },
+  {
+   "slug": "monster-pet-evolution-mg1",
+   "latest": "409"
+  },
+  {
+   "slug": "reincarnation-of-the-swordmaster-c",
+   "latest": "80"
+  },
+  {
+   "slug": "kalli-the-champion",
+   "latest": "128"
+  },
+  {
+   "slug": "i-emerge-as-the-continent-s-ultimate-hero",
+   "latest": "38"
+  },
+  {
+   "slug": "i-can-copy-talents",
+   "latest": "106"
+  },
+  {
+   "slug": "asura-manhwa",
+   "latest": "58"
+  },
+  {
+   "slug": "skill-de-saikyou-e-to-nobori-tsumeru",
+   "latest": "13"
+  },
+  {
+   "slug": "king-of-violence",
+   "latest": "74"
+  },
+  {
+   "slug": "yuru-fuwa-noka-no-moji-bake-skill",
+   "latest": "29"
+  },
+  {
+   "slug": "if-i-die-i-will-be-invincible",
+   "latest": "145"
+  },
+  {
+   "slug": "informer",
+   "latest": "81.5"
+  },
+  {
+   "slug": "tales-of-a-shinning-sword",
+   "latest": "129"
+  },
+  {
+   "slug": "academys-reincarnated-hero",
+   "latest": "48"
+  },
+  {
+   "slug": "the-hero-became-the-dukes-eldest-son",
+   "latest": "90"
+  },
+  {
+   "slug": "doctors-time-travel-to-joseon",
+   "latest": "58"
+  },
+  {
+   "slug": "monster-general",
+   "latest": "43"
+  },
+  {
+   "slug": "can-t-i-just-be-a-student",
+   "latest": "29"
+  },
+  {
+   "slug": "admission-is-a-waste-of-time",
+   "latest": "56"
+  },
+  {
+   "slug": "heavenly-blood-star",
+   "latest": "44"
+  },
+  {
+   "slug": "the-worlds-strongest-butler",
+   "latest": "44"
+  },
+  {
+   "slug": "laws-of-the-good-child",
+   "latest": "52"
+  },
+  {
+   "slug": "one-in-seven-billion-irregular",
+   "latest": "123"
+  },
+  {
+   "slug": "escort-warrior-mg1",
+   "latest": "255"
+  },
+  {
+   "slug": "i-use-my-muscles-to-dominate-the-world",
+   "latest": "104"
+  },
+  {
+   "slug": "capture-the-golem-and-escap",
+   "latest": "87"
+  },
+  {
+   "slug": "i-became-a-big-shot-on-the-heavenly-leaderboard",
+   "latest": "114"
+  },
+  {
+   "slug": "alice-yang-kipul",
+   "latest": "31"
+  },
+  {
+   "slug": "should-i-make-you-a-nuclear-weapon",
+   "latest": "55"
+  },
+  {
+   "slug": "motto-mo-kirawareteiru-saikyou-no-akuyaku-ni-tense",
+   "latest": "18"
+  },
+  {
+   "slug": "swallowed-star-mg1",
+   "latest": "266"
+  },
+  {
+   "slug": "musician-genius-who-lives-twice",
+   "latest": "73"
+  },
+  {
+   "slug": "reign",
+   "latest": "52"
+  },
+  {
+   "slug": "asura-gate",
+   "latest": "54"
+  },
+  {
+   "slug": "i-the-sacrifice-somehow-killed-the-evil-god",
+   "latest": "18"
+  },
+  {
+   "slug": "genius-doctor-lee-moo-jin",
+   "latest": "195"
+  },
+  {
+   "slug": "from-useless-to-peerless-a-barrier-mages-journey",
+   "latest": "25"
+  },
+  {
+   "slug": "return-of-the-bachelor-mg1",
+   "latest": "202"
+  },
+  {
+   "slug": "gunslinger-replace",
+   "latest": "6"
+  },
+  {
+   "slug": "superhuman-battlefield",
+   "latest": "151"
+  },
+  {
+   "slug": "killing-spree",
+   "latest": "10"
+  },
+  {
+   "slug": "desperately-making-her-a-princess",
+   "latest": "62"
+  },
+  {
+   "slug": "kage-no-kyuuteimajutsushi",
+   "latest": "6"
+  },
+  {
+   "slug": "akuyaku-reijou-desu-ga-watashi-o-anata-no-seidorei",
+   "latest": "10"
+  },
+  {
+   "slug": "the-self-disciplined-me-is-practically-invincible",
+   "latest": "55"
+  },
+  {
+   "slug": "i-can-raise-skeletons",
+   "latest": "30"
+  },
+  {
+   "slug": "i-can-control-all-opportunities",
+   "latest": "75"
+  },
+  {
+   "slug": "heir-of-mythical-heroes",
+   "latest": "75"
+  },
+  {
+   "slug": "hero-the-maximum",
+   "latest": "63"
+  },
+  {
+   "slug": "yusha-no-haha-desu-ga-mao-gun-no-kambu-ni-narimash",
+   "latest": "7"
+  },
+  {
+   "slug": "manga-wo-yomeru-ore-ga-sekai-saikyou",
+   "latest": "17"
+  },
+  {
+   "slug": "what-do-you-do-when-you-suddenly-become-an-immorta",
+   "latest": "192"
+  },
+  {
+   "slug": "i-killed-him",
+   "latest": "77"
+  },
+  {
+   "slug": "sono-munou-jitsuha-sekai-saikyou-no-mahoutsukai",
+   "latest": "64"
+  },
+  {
+   "slug": "saikyou-no-maou-ni-kitaerareta-yuusha-isekai-kikan",
+   "latest": "30"
+  },
+  {
+   "slug": "i-stole-the-number-one-rankers-soul",
+   "latest": "100"
+  },
+  {
+   "slug": "im-really-not-targeting-the-magicians",
+   "latest": "148"
+  },
+  {
+   "slug": "i-am-the-descendant-of-the-divine-dragon",
+   "latest": "134"
+  },
+  {
+   "slug": "the-lazy-swordmaster",
+   "latest": "121"
+  },
+  {
+   "slug": "strong-representative",
+   "latest": "161"
+  },
+  {
+   "slug": "bowblade-the-descendants-of-bowblade-manhwa",
+   "latest": "126"
+  },
+  {
+   "slug": "rise-from-the-rubble",
+   "latest": "320"
+  },
+  {
+   "slug": "in-the-night-consumed-by-blades-i-walk",
+   "latest": "131"
+  },
+  {
+   "slug": "the-reincarnated-mage-with-inferior-eyes-the-oppre",
+   "latest": "36"
+  },
+  {
+   "slug": "arafoo-otoko-no-isekai-tsuhan-seikatsu",
+   "latest": "59"
+  },
+  {
+   "slug": "the-light-of-youth-training",
+   "latest": "14"
+  },
+  {
+   "slug": "anz",
+   "latest": "120"
+  },
+  {
+   "slug": "i-cultivated-a-nemesis",
+   "latest": "10"
+  },
+  {
+   "slug": "the-strongest-ever123",
+   "latest": "188"
+  },
+  {
+   "slug": "justice-vigilante",
+   "latest": "141"
+  },
+  {
+   "slug": "alive8l-l",
+   "latest": "1"
+  },
+  {
+   "slug": "tondemonai-maken-ni-bakemashita",
+   "latest": "16"
+  },
+  {
+   "slug": "solo-leveling-mg1",
+   "latest": "200.5"
+  },
+  {
+   "slug": "ranker-manhwa-2022",
+   "latest": "55"
+  },
+  {
+   "slug": "sekiro-side-story-hanbei-the-undying",
+   "latest": "8"
+  },
+  {
+   "slug": "the-descent-of-the-patriarch",
+   "latest": "113"
+  },
+  {
+   "slug": "becoming-a-sword-deity-by-expanding-my-sword-domai",
+   "latest": "170"
+  },
+  {
+   "slug": "where-are-you-looking-manager",
+   "latest": "137"
+  },
+  {
+   "slug": "leftovers-day",
+   "latest": "4"
+  },
+  {
+   "slug": "cell",
+   "latest": "71"
+  },
+  {
+   "slug": "tsutometara-yuunou-na-jinzai-ga-atsumari-sugimashi",
+   "latest": "33"
+  },
+  {
+   "slug": "isekai-nihon",
+   "latest": "40"
+  },
+  {
+   "slug": "enemy-soldiers-who-crashed-together-on-a-deserted-",
+   "latest": "10"
+  },
+  {
+   "slug": "final-boss",
+   "latest": "114"
+  },
+  {
+   "slug": "extraordinary-evolution-mg1",
+   "latest": "141"
+  },
+  {
+   "slug": "x-ash",
+   "latest": "107"
+  },
+  {
+   "slug": "taebaek-the-tutorial-man",
+   "latest": "33"
+  },
+  {
+   "slug": "rakudai-kenja-no-gakuin-musou",
+   "latest": "19"
+  },
+  {
+   "slug": "a-banished-failure-survives-in-the-borderland-and-",
+   "latest": "14"
+  },
+  {
+   "slug": "lchemy",
+   "latest": "20"
+  },
+  {
+   "slug": "book-eaters",
+   "latest": "114"
+  },
+  {
+   "slug": "the-reincarnation-magician-of-the-inferior-eyes",
+   "latest": "114"
+  },
+  {
+   "slug": "master-of-the-martial-arts-library",
+   "latest": "44"
+  },
+  {
+   "slug": "damn-reincarnation",
+   "latest": "81"
+  },
+  {
+   "slug": "descent-of-the-predecessor",
+   "latest": "38"
+  },
+  {
+   "slug": "manga-q1992",
+   "latest": "269"
+  },
+  {
+   "slug": "manga-187j",
+   "latest": "135"
+  },
+  {
+   "slug": "my-wife-is-the-empress-of-the-imperial-dynasty",
+   "latest": "26"
+  },
+  {
+   "slug": "the-great-villain-who-threatened",
+   "latest": "12"
+  },
+  {
+   "slug": "master-of-physical-transcendence",
+   "latest": "6"
+  },
+  {
+   "slug": "hundreds-of-invincible-strikes",
+   "latest": "8"
+  },
+  {
+   "slug": "living-comfortably-in-a-different-world-with-a-che",
+   "latest": "21"
+  },
+  {
+   "slug": "the-strongest-protagonist-of-all-time",
+   "latest": "172"
+  },
+  {
+   "slug": "life-and-death-the-awakening",
+   "latest": "68"
+  },
+  {
+   "slug": "sousei-no-tenken-tsukai",
+   "latest": "1"
+  },
+  {
+   "slug": "i-have-48-hours-everyday-day",
+   "latest": "70"
+  },
+  {
+   "slug": "i-pretended-to-be-an-npc-in-cultivation-world",
+   "latest": "26.5"
+  },
+  {
+   "slug": "mahoushi-ni-noranai-ijin",
+   "latest": "5"
+  },
+  {
+   "slug": "ha-kage-wo-oru",
+   "latest": "15"
+  },
+  {
+   "slug": "lord-of-mana",
+   "latest": "16"
+  },
+  {
+   "slug": "boss-in-school-season-3-mg1",
+   "latest": "81"
+  },
+  {
+   "slug": "our-resident-exorcist",
+   "latest": "48"
+  },
+  {
+   "slug": "senryokugai-to-yobareta-ore-kakusei-shitato-saikyo",
+   "latest": "7"
+  },
+  {
+   "slug": "hello-im-the-gardener",
+   "latest": "82"
+  },
+  {
+   "slug": "i-am-a-sword-immortal",
+   "latest": "3"
+  },
+  {
+   "slug": "i-the-descendant-of-ancestors",
+   "latest": "01"
+  },
+  {
+   "slug": "apocalyptic-thief",
+   "latest": "163"
+  },
+  {
+   "slug": "proxy-game",
+   "latest": "1"
+  },
+  {
+   "slug": "ultimate-weapon",
+   "latest": "6"
+  },
+  {
+   "slug": "the-return-of-emperor-ye-xuan",
+   "latest": "47"
+  },
+  {
+   "slug": "castle-mg1",
+   "latest": "120."
+  },
+  {
+   "slug": "my-recently-hired-maid-is-suspicious",
+   "latest": "38"
+  },
+  {
+   "slug": "i-want-to-be-a-magic-blacksmith",
+   "latest": "5"
+  },
+  {
+   "slug": "my-wife-is-a-little-scary",
+   "latest": "11"
+  },
+  {
+   "slug": "riding-on-the-edge-of-annihilation",
+   "latest": "25"
+  },
+  {
+   "slug": "return-of-the-invincible-patriarch",
+   "latest": "60"
+  },
+  {
+   "slug": "system-rules",
+   "latest": "53"
+  },
+  {
+   "slug": "the-cold-beauty-at-school-became-my-pet-cat",
+   "latest": "5"
+  },
+  {
+   "slug": "kanojo-ga-hosh-to-ittara-wake-ari-joshi-ga-yatteki",
+   "latest": "1"
+  },
+  {
+   "slug": "master-of-ten-thousands-dao",
+   "latest": "3"
+  },
+  {
+   "slug": "king-of-the-east",
+   "latest": "43"
+  },
+  {
+   "slug": "battleground",
+   "latest": "50"
+  },
+  {
+   "slug": "journey-to-heavens",
+   "latest": "58"
+  },
+  {
+   "slug": "its-hard-to-mix-in-with-the-demons",
+   "latest": "44"
+  },
+  {
+   "slug": "the-right-to-invoke",
+   "latest": "15"
+  },
+  {
+   "slug": "my-companion-is-the-strongest-undead-in-another-wo",
+   "latest": "20"
+  },
+  {
+   "slug": "the-challenger",
+   "latest": "52"
+  },
+  {
+   "slug": "can-i-a-doctor-save-10-billion-lives-in-another-wo",
+   "latest": "3"
+  },
+  {
+   "slug": "monarch",
+   "latest": "6"
+  },
+  {
+   "slug": "black-cat-and-soldier-mg1",
+   "latest": "37"
+  },
+  {
+   "slug": "but-who-ever-said-my-face-was-ugly-beneath-the-mas",
+   "latest": "13"
+  },
+  {
+   "slug": "imouto-ga-ichi-nichi-ikkai-shika-me-wo-awasete-kur",
+   "latest": "8.97"
+  },
+  {
+   "slug": "life-on-an-uninhabited-planet-with-an-android",
+   "latest": "57"
+  },
+  {
+   "slug": "the-strongest-civilian-in-xiuxian-academy",
+   "latest": "60"
+  },
+  {
+   "slug": "i-teach-kendo-in-tokyo",
+   "latest": "2"
+  },
+  {
+   "slug": "ghost-terminal",
+   "latest": "2"
+  },
+  {
+   "slug": "takane-san-seems-to-have-a-crush-on-you",
+   "latest": "1"
+  },
+  {
+   "slug": "go-home-sakizaki-chan",
+   "latest": "1"
+  },
+  {
+   "slug": "the-villainsd",
+   "latest": "160"
+  },
+  {
+   "slug": "knight-from-previous-life-who-doesn-t-seem-to",
+   "latest": "0"
+  },
+  {
+   "slug": "the-legend-of-the-blue-realm",
+   "latest": "1"
+  },
+  {
+   "slug": "the-night-market",
+   "latest": "0"
+  },
+  {
+   "slug": "bowblade-spirit-mg12",
+   "latest": "147"
+  },
+  {
+   "slug": "krypton-gold",
+   "latest": "1"
+  },
+  {
+   "slug": "demon-blade",
+   "latest": "46"
+  },
+  {
+   "slug": "sword-sheath-s-child-mg1",
+   "latest": "102"
+  },
+  {
+   "slug": "face-genius22",
+   "latest": "58"
+  },
+  {
+   "slug": "hundreds-of-options-for-becoming-a-god",
+   "latest": "19"
+  },
+  {
+   "slug": "aire22dd",
+   "latest": "57"
+  },
+  {
+   "slug": "fushi-no-kami",
+   "latest": "1"
+  },
+  {
+   "slug": "a-breakthrough-brought-by-forbidden-master-and-dis",
+   "latest": "18"
+  },
+  {
+   "slug": "i-decided-to-kill",
+   "latest": "12"
+  },
+  {
+   "slug": "absolute-resonance",
+   "latest": "4"
+  },
+  {
+   "slug": "the-tribulation-of-ten-thousand-races",
+   "latest": "1"
+  },
+  {
+   "slug": "single-wizard-s-dormitory-apartment",
+   "latest": "8"
+  },
+  {
+   "slug": "life-and-death-revenge-of-the-tathagata",
+   "latest": "1"
+  },
+  {
+   "slug": "origins",
+   "latest": "1"
+  },
+  {
+   "slug": "monster-hunting-manual",
+   "latest": "1"
+  },
+  {
+   "slug": "ten-swords-and-arrows",
+   "latest": "2.5"
+  },
+  {
+   "slug": "brother-in-my-hand",
+   "latest": "0"
+  },
+  {
+   "slug": "shounen-chotto-sabotteko",
+   "latest": "39"
+  },
+  {
+   "slug": "limitless-abyss",
+   "latest": "3"
+  },
+  {
+   "slug": "hero-shi-feels-lonely",
+   "latest": "11"
+  },
+  {
+   "slug": "i-have-an-apocalyptic-underground-city",
+   "latest": "0"
+  },
+  {
+   "slug": "the-descent-of-the-spiritual-deity",
+   "latest": "15"
+  },
+  {
+   "slug": "the-devils-boys",
+   "latest": "80"
+  },
+  {
+   "slug": "reincarnator",
+   "latest": "29"
+  }
+ ]
+}
