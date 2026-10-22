@@ -243,7 +243,7 @@ def slug_title(slug):
 
 
 def chap_num(v):
-    m = re.search(r"(\d+(?:\.\d+)?)", str(v or ""))
+    m = re.search(r"(\d+(?:\.\d+)?)", "" if v is None else str(v))   # 0 is a real value (not started)
     return float(m.group(1)) if m else None
 
 
@@ -314,7 +314,7 @@ def main():
     # 2) WeebCentral (has reading progress)
     for w in src["weebcentral"]:
         attach(w["title"], "weebcentral", {"url": f"https://weebcentral.com/series/{w['wc_id']}", "latest": w["latest"],
-                                          "last_read": None if w["last_read"] in ("None", "?") else w["last_read"]})
+                                          "last_read": {"None": "0", "?": None}.get(w["last_read"], w["last_read"])})   # Weeb Central "None" = not started
     print("WeebCentral done")
 
     # 3) mgeko
