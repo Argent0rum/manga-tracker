@@ -318,8 +318,8 @@ def main():
 
     # 3) mgeko
     for g in src["mgeko"]:
-        t = slug_title(g["slug"])
-        if re.fullmatch(r"manga [a-z0-9]+", t) or len(t) < 3:
+        t = g.get("title") or slug_title(g["slug"])
+        if not g.get("title") and re.fullmatch(r"manga [a-z0-9]+", t) or len(t) < 3:
             lib.setdefault("mg:" + g["slug"], {"title": g["slug"], "alt": [], "links": {}, "sources": {}})["sources"]["mgeko"] = {"url": f"https://www.mgeko.cc/manga/{g['slug']}/", "latest": g["latest"]}
             report["unmatched"].append({"source": "mgeko", "title": g["slug"]}); continue
         attach(t, "mgeko", {"url": f"https://www.mgeko.cc/manga/{g['slug']}/", "latest": g["latest"]})
