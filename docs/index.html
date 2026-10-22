@@ -154,6 +154,38 @@ h2 .n { font: 500 14px/1 var(--f-mono); color: var(--accent); margin-left: 8px; 
 .progressbar { height: 6px; background: var(--raise); border-radius: 99px; overflow: hidden; margin-top: 8px; }
 .progressbar span { display: block; height: 100%; background: var(--accent); width: 0; }
 
+/* sync review + bookmarklet */
+.bm { cursor: grab; }
+.steps { margin: 0 0 10px; padding-left: 20px; display: grid; gap: 8px; font-size: 14px; }
+.steps li { padding-left: 2px; }
+details.sub summary { cursor: pointer; font-weight: 700; color: var(--ink); margin-bottom: 6px; }
+.slist { display: grid; gap: 4px; margin-top: 8px; }
+.srow { display: grid; grid-template-columns: auto 1fr auto; gap: 10px; align-items: center; padding: 7px 4px; border-bottom: 1px dashed var(--line); font-size: 14px; }
+.srow b { font-weight: 700; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.srow .ch { white-space: nowrap; }
+.srow input { width: 18px; height: 18px; accent-color: var(--accent); }
+.sumline { display: flex; flex-wrap: wrap; gap: 6px 14px; font: 500 13px/1.3 var(--f-mono); color: var(--muted); margin: 4px 0 12px; }
+.sumline b { color: var(--ink); }
+.sticky-acts { position: sticky; bottom: calc(-28px - env(safe-area-inset-bottom)); background: var(--panel); padding: 12px 0 4px; display: flex; gap: 8px; border-top: 1px solid var(--line); margin-top: 14px; }
+
+/* find */
+.seg { display: inline-flex; background: var(--bg); border: 1px solid var(--line); border-radius: 11px; padding: 3px; gap: 3px; margin-bottom: 14px; }
+.seg button { border: 0; background: none; padding: 8px 14px; border-radius: 8px; font-weight: 700; cursor: pointer; color: var(--muted); }
+.seg button[aria-pressed="true"] { background: var(--accent); color: var(--accent-ink); }
+.moods { display: flex; flex-wrap: wrap; gap: 6px; margin: 4px 0 14px; }
+.fopts { display: flex; flex-wrap: wrap; gap: 6px 8px; align-items: center; margin-top: 14px; }
+.fopts .lbl { font-size: 13px; color: var(--muted); font-weight: 700; margin-right: 2px; }
+.tagchips { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 10px; min-height: 0; }
+.tagchip { font: 500 12.5px/1 var(--f-mono); background: var(--raise); border: 1px solid var(--line); color: var(--ink); padding: 6px 8px; border-radius: 7px; cursor: pointer; }
+.tagchip.g { border-color: var(--accent); }
+.tagchip::after { content: " ✕"; color: var(--muted); }
+.fhead { display: flex; align-items: baseline; gap: 10px; margin: 26px 0 12px; flex-wrap: wrap; }
+.fhead h3 { font: 800 22px/1 var(--f-display); font-stretch: 75%; text-transform: uppercase; margin: 0; }
+.fhead .n { font: 500 13px/1 var(--f-mono); color: var(--accent); }
+.why { font: 400 11.5px/1.3 var(--f-mono); color: var(--muted); display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+.cover .inlib { position: absolute; left: 7px; bottom: 9px; font: 700 10.5px/1 var(--f-body); text-transform: uppercase; letter-spacing: .05em; background: var(--good); color: #062612; padding: 4px 6px; border-radius: 5px; }
+.fstatus { color: var(--muted); font-size: 14px; padding: 18px 0; }
+
 @media (max-width: 640px) {
   .checked { display: none; }
   .addbtn span { display: none; }
@@ -165,6 +197,7 @@ h2 .n { font: 500 14px/1 var(--f-mono); color: var(--accent); margin-left: 8px; 
   .filters select { margin-left: 0; }
   .dtop { grid-template-columns: 96px 1fr; }
 }
+@media (max-width: 440px) { .logo span { display: none; } .bar .wrap { gap: 8px; } }
 @media (prefers-reduced-motion: reduce) { .cover img { transition: none; } }
 </style>
 <script src="config.js"></script>
@@ -172,7 +205,7 @@ h2 .n { font: 500 14px/1 var(--f-mono); color: var(--accent); margin-left: 8px; 
 <body>
 <header class="bar">
   <div class="wrap">
-    <div class="logo"><i></i>Next Chapter</div>
+    <div class="logo"><i></i><span>Next Chapter</span></div>
     <div class="search">
       <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
       <label for="q" hidden>Search</label>
@@ -180,6 +213,9 @@ h2 .n { font: 500 14px/1 var(--f-mono); color: var(--accent); margin-left: 8px; 
     </div>
     <span class="checked" id="checked"></span>
     <button class="ibtn addbtn" id="open-add" aria-label="Add a series" title="Add a series"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg><span>Add</span></button>
+    <button class="ibtn" id="open-find" aria-label="Find something to read" title="Find something to read">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="m15.5 8.5-2 5-5 2 2-5z"/></svg>
+    </button>
     <button class="ibtn" id="open-settings" aria-label="Settings" title="Settings">
       <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.7 1.7 0 0 0 .3 1.8l.1.1a2 2 0 1 1-2.8 2.8l-.1-.1a1.7 1.7 0 0 0-1.8-.3 1.7 1.7 0 0 0-1 1.5V21a2 2 0 1 1-4 0v-.1a1.7 1.7 0 0 0-1.1-1.5 1.7 1.7 0 0 0-1.8.3l-.1.1a2 2 0 1 1-2.8-2.8l.1-.1a1.7 1.7 0 0 0 .3-1.8 1.7 1.7 0 0 0-1.5-1H3a2 2 0 1 1 0-4h.1a1.7 1.7 0 0 0 1.5-1.1 1.7 1.7 0 0 0-.3-1.8l-.1-.1a2 2 0 1 1 2.8-2.8l.1.1a1.7 1.7 0 0 0 1.8.3H9a1.7 1.7 0 0 0 1-1.5V3a2 2 0 1 1 4 0v.1a1.7 1.7 0 0 0 1 1.5 1.7 1.7 0 0 0 1.8-.3l.1-.1a2 2 0 1 1 2.8 2.8l-.1.1a1.7 1.7 0 0 0-.3 1.8V9a1.7 1.7 0 0 0 1.5 1H21a2 2 0 1 1 0 4h-.1a1.7 1.7 0 0 0-1.5 1z"/></svg>
     </button>
@@ -213,6 +249,32 @@ h2 .n { font: 500 14px/1 var(--f-mono); color: var(--accent); margin-left: 8px; 
     <div class="grid" id="grid"></div>
   </section>
 
+  <section class="sec" id="sec-find" hidden>
+    <div class="shead"><h2>Find something to read</h2><button class="link" data-view="home">Back</button></div>
+    <div class="panel">
+      <div class="seg" role="group" aria-label="Search by">
+        <button data-fmode="like" aria-pressed="true">Like a series</button>
+        <button data-fmode="feel" aria-pressed="false">A feeling</button>
+      </div>
+      <div id="f-like-box">
+        <label class="field" for="f-like">Something like…<input id="f-like" type="search" autocomplete="off" placeholder="e.g. Frieren, Solo Leveling, Blue Lock"></label>
+        <div class="results" id="f-like-res"></div>
+      </div>
+      <div id="f-feel-box" hidden>
+        <div class="field" style="margin-bottom:6px">Pick one or more moods</div>
+        <div class="moods" id="f-moods"></div>
+        <label class="field" for="f-feel">…or describe it in your own words<input id="f-feel" type="search" autocomplete="off" placeholder="e.g. cozy cooking in the countryside, revenge with a scheming MC"></label>
+        <div class="tagchips" id="f-tags"></div>
+      </div>
+      <div class="fopts">
+        <span class="lbl">Type</span><span id="f-kinds" style="display:contents"></span>
+        <span class="lbl" style="margin-left:8px">Library</span>
+        <button class="chip" id="f-skip" aria-pressed="true" title="Leave out series you're already caught up on">Skip caught up</button>
+      </div>
+    </div>
+    <div id="f-out"><p class="fstatus">Search for a series you liked, or pick a mood. Matches from your own library come first, then new series from AniList.</p></div>
+  </section>
+
   <section class="sec" id="sec-settings" hidden>
     <div class="shead"><h2>Settings</h2><button class="link" id="close-settings">Back</button></div>
     <div class="setgrid">
@@ -225,6 +287,19 @@ h2 .n { font: 500 14px/1 var(--f-mono); color: var(--accent); margin-left: 8px; 
           <button class="btn" id="al-logout" hidden>Disconnect</button>
         </div>
         <div class="progressbar" id="al-bar" hidden><span></span></div>
+      </div>
+      <div class="panel">
+        <h3 style="margin:0 0 6px">Sync from your reading sites</h3>
+        <p class="sub" style="margin:0 0 10px">Reads how far you are on MangaDex, mgeko and Weeb Central and moves your progress here forward. It never moves anything back, and you see the list before anything changes.</p>
+        <ol class="steps">
+          <li>Drag this button to your bookmarks bar: <a class="btn primary bm" id="bm-link" href="#" title="Drag me to your bookmarks bar">⟳ Sync to Next Chapter</a></li>
+          <li>Open MangaDex, mgeko or Weeb Central while logged in (any page) and click the bookmark.</li>
+          <li>When it finishes, press <b>Send to Next Chapter</b>, check the list, and press <b>Apply</b>. Do it once per site.</li>
+        </ol>
+        <details class="sub"><summary>On a phone</summary>
+          <p style="margin:0">Bookmark any page, edit that bookmark, and replace its address with the sync code (<button class="link" id="bm-copy">copy the code</button>). Name it <b>ncsync</b>. Then on your reading site type <b>ncsync</b> in the address bar and tap the bookmark that shows up.</p>
+        </details>
+        <div class="hist" id="sync-last" style="margin-top:10px"></div>
       </div>
       <div class="panel">
         <h3 style="margin:0 0 6px">Where to open chapters first</h3>
@@ -274,7 +349,7 @@ h2 .n { font: 500 14px/1 var(--f-mono); color: var(--accent); margin-left: 8px; 
   // ---------- local state
   const KEY = "nc.v1";
   const load = () => { try { return JSON.parse(localStorage.getItem(KEY) || "{}"); } catch (e) { return {}; } };
-  const st = Object.assign({ progress: {}, hidden: {}, pref: ["weebcentral", "mgeko", "mangadex", "comick", "mangakakalot"], lastVisit: null, theme: null, pending: {} }, load());
+  const st = Object.assign({ progress: {}, hidden: {}, pref: ["weebcentral", "mgeko", "mangadex", "comick", "mangakakalot"], lastVisit: null, theme: null, pending: {}, lastSync: {} }, load());
   const save = () => { try { localStorage.setItem(KEY, JSON.stringify(st)); } catch (e) {} };
   const prevVisit = st.lastVisit ? new Date(st.lastVisit) : null;
   st.lastVisit = new Date().toISOString(); save();
@@ -549,9 +624,19 @@ h2 .n { font: 500 14px/1 var(--f-mono); color: var(--accent); margin-left: 8px; 
   $("feed-more").addEventListener("click", () => { ui.feedLimit = 1e9; renderFeed(); });
 
   // settings
-  function showSettings(on) { $("sec-settings").hidden = !on; $("sec-new").hidden = on; $("sec-shelf").hidden = on; if (on) renderSettings(); window.scrollTo(0, 0); }
-  $("open-settings").addEventListener("click", () => showSettings($("sec-settings").hidden));
-  $("close-settings").addEventListener("click", () => showSettings(false));
+  let view = "home";
+  function showView(v) {
+    view = v;
+    $("sec-settings").hidden = v !== "settings"; $("sec-find").hidden = v !== "find";
+    $("sec-new").hidden = v !== "home"; $("sec-shelf").hidden = v !== "home";
+    if (v === "settings") renderSettings();
+    if (v === "find") initFind();
+    window.scrollTo(0, 0);
+  }
+  $("open-settings").addEventListener("click", () => showView(view === "settings" ? "home" : "settings"));
+  $("open-find").addEventListener("click", () => showView(view === "find" ? "home" : "find"));
+  $("close-settings").addEventListener("click", () => showView("home"));
+  document.addEventListener("click", e => { const v = e.target.closest("[data-view]"); if (v) showView(v.dataset.view); });
   function renderSettings() {
     $("order").innerHTML = st.pref.map((k, i) => `<div><span>${i + 1}. ${esc(SOURCE_NAMES[k] || k)}</span><span><button class="btn sm" data-up="${i}" ${i ? "" : "disabled"} aria-label="Move up">↑</button> <button class="btn sm" data-down="${i}" ${i < st.pref.length - 1 ? "" : "disabled"} aria-label="Move down">↓</button></span></div>`).join("");
     const can = !!CFG.ANILIST_CLIENT_ID;
@@ -560,6 +645,9 @@ h2 .n { font: 500 14px/1 var(--f-mono); color: var(--accent); margin-left: 8px; 
     $("al-connect").textContent = AL.user ? "Refresh from AniList" : "Connect AniList";
     $("al-connect").disabled = !can;
     $("al-copy").hidden = !AL.user; $("al-logout").hidden = !AL.user;
+    const last = Object.entries(SYNC_SITES).map(([k, label]) => `<div><span>${esc(label)}</span><span>${st.lastSync[k] ? "synced " + esc(ago(st.lastSync[k])) : "not synced yet"}</span></div>`);
+    $("sync-last").innerHTML = last.join("");
+    loadBookmarklet();
   }
   $("order").addEventListener("click", e => {
     const u = e.target.closest("[data-up]"), d = e.target.closest("[data-down]");
@@ -622,6 +710,439 @@ h2 .n { font: 500 14px/1 var(--f-mono); color: var(--accent); margin-left: 8px; 
     try { await alLoad(); render(); } catch (e) { AL = { token: null, user: null, progress: {} }; }
   }
 
+
+  // ---------- sync from reading sites (bookmarklet → #sync=…)
+  const SYNC_SITES = { mangadex: "MangaDex", mgeko: "mgeko", weebcentral: "Weeb Central" };
+  let BM_CODE = null;
+  function loadBookmarklet() {
+    if (BM_CODE) return;
+    fetch("sync.js", { cache: "no-cache" }).then(r => r.text()).then(code => {
+      BM_CODE = "javascript:" + encodeURIComponent(code);
+      $("bm-link").href = BM_CODE;
+    }).catch(() => {});
+  }
+  $("bm-link").addEventListener("click", e => { e.preventDefault(); toast("Drag this button to your bookmarks bar, then click it on your reading site"); });
+  $("bm-copy").addEventListener("click", async () => {
+    if (!BM_CODE) return toast("Still loading — try again in a second");
+    try { await navigator.clipboard.writeText(BM_CODE); toast("Sync code copied"); } catch (e) { prompt("Copy this:", BM_CODE); }
+  });
+  const normT = t => String(t || "").toLowerCase().normalize("NFKD").replace(/[̀-ͯ]/g, "").replace(/[^a-z0-9]+/g, "");
+  function syncIndex() {
+    const idx = { md: new Map(), mg: [], wc: new Map(), title: new Map() };
+    for (const s of LIB) {
+      if (s.md_id) idx.md.set(s.md_id, s);
+      const mg = ((s.sources.mgeko || {}).url || "").match(/\/manga\/([^/]+)/); if (mg) idx.mg.push([mg[1], s]);
+      const wc = ((s.sources.weebcentral || {}).url || "").match(/series\/([A-Z0-9]+)/); if (wc) idx.wc.set(wc[1], s);
+      for (const tt of [s.title, s.orig, ...(s.alt || [])]) { const n = normT(tt); if (n.length >= 4 && !idx.title.has(n)) idx.title.set(n, s); }
+    }
+    return idx;
+  }
+  function matchItem(idx, site, key, title) {
+    let s = null;
+    if (site === "mangadex") s = idx.md.get(key);
+    else if (site === "weebcentral") s = idx.wc.get(key);
+    else if (site === "mgeko") {
+      const hit = idx.mg.find(([k]) => k === key) || idx.mg.find(([k]) => (key.length >= 20 && k.startsWith(key)) || (k.length >= 20 && key.startsWith(k)));
+      s = hit ? hit[1] : null;
+    }
+    return s || (title ? idx.title.get(normT(title)) || null : null);
+  }
+  let syncPlan = null;
+  function readSyncHash() {
+    const m = location.hash.match(/^#sync=(.+)$/); if (!m) return;
+    history.replaceState(null, "", location.pathname);
+    let p = null;
+    try { p = JSON.parse(decodeURIComponent(m[1])); } catch (e) { toast("That sync link was cut off — try the bookmark again"); return; }
+    if (!p || p.v !== 1 || !Array.isArray(p.items) || !SYNC_SITES[p.site]) return;
+    openSyncReview(p);
+  }
+  function openSyncReview(p) {
+    const idx = syncIndex(), fwd = [], missing = [], seen = new Set();
+    let same = 0, unknown = 0;
+    for (const it of p.items) {
+      const [key, v, title, status] = it;
+      const s = matchItem(idx, p.site, String(key), title);
+      if (!s) { if (!["dropped", "completed"].includes(status)) missing.push({ title: title || String(key), v }); continue; }
+      if (seen.has(s.id) || st.hidden[s.id]) continue;
+      seen.add(s.id);
+      if (v == null) { unknown++; continue; }
+      const cur = progressOf(s);
+      if (v > cur + 1e-6) fwd.push({ s, from: cur, to: v }); else same++;
+    }
+    fwd.sort((a, b) => a.s.title.localeCompare(b.s.title));
+    missing.sort((a, b) => a.title.localeCompare(b.title));
+    syncPlan = { p, fwd };
+    const label = SYNC_SITES[p.site];
+    openId = null;
+    $("drawer").innerHTML = `<button class="ibtn close" data-close aria-label="Close">✕</button>
+      <h3 class="dtitle">Sync from ${esc(label)}</h3>
+      <div class="sumline"><span><b>${p.items.length}</b> series read</span><span><b>${fwd.length}</b> move forward</span><span><b>${same}</b> already up to date</span>${missing.length ? `<span><b>${missing.length}</b> not in Next Chapter</span>` : ""}</div>
+      ${fwd.length ? `<div class="dsec"><h3>Progress to update</h3><p class="sub" style="margin:0">Untick anything that looks wrong.</p>
+        <div class="slist">${fwd.map((f, i) => `<label class="srow"><input type="checkbox" data-sfwd="${i}" checked><b>${esc(f.s.title)}</b><span class="ch">${esc(fmtCh(f.from))} → ${esc(fmtCh(f.to))}</span></label>`).join("")}</div></div>`
+        : `<p class="sub">Nothing to update — Next Chapter already has everything ${esc(label)} knows.</p>`}
+      ${missing.length ? `<div class="dsec"><h3>On ${esc(label)} but not here</h3><p class="sub" style="margin:0">Add the ones you want tracked for new chapters.</p>
+        <div class="slist">${missing.slice(0, 150).map(m => `<div class="srow"><span></span><b>${esc(m.title)}</b><button class="btn sm" data-addq="${esc(m.title)}">Add</button></div>`).join("")}</div></div>` : ""}
+      <div class="sticky-acts">${fwd.length ? `<button class="btn primary" id="sync-apply">Apply ${fwd.length} update${fwd.length === 1 ? "" : "s"}</button>` : ""}<button class="btn" data-close>${fwd.length ? "Cancel" : "Close"}</button></div>`;
+    $("drawer").hidden = false; $("scrim").hidden = false;
+    if (!fwd.length) { st.lastSync[p.site] = p.at; save(); }
+  }
+  function applySync() {
+    if (!syncPlan) return;
+    const { p, fwd } = syncPlan;
+    const chosen = fwd.filter((f, i) => { const c = document.querySelector(`[data-sfwd="${i}"]`); return !c || c.checked; });
+    const prev = {};
+    for (const f of chosen) { prev[f.s.id] = st.progress[f.s.id]; st.progress[f.s.id] = f.to; }
+    st.lastSync[p.site] = p.at; save();
+    alEnqueue(chosen.filter(f => f.s.al_id).map(f => [f.s.al_id, Math.floor(f.to)]));
+    syncPlan = null; closeDrawer(); render();
+    toast(`Updated ${chosen.length} series from ${SYNC_SITES[p.site]}`, () => {
+      for (const id of Object.keys(prev)) { if (prev[id] == null) delete st.progress[id]; else st.progress[id] = prev[id]; }
+      save(); render();
+      alEnqueue(chosen.filter(f => f.s.al_id).map(f => [f.s.al_id, Math.floor(progressOf(f.s))]));
+    });
+  }
+  document.addEventListener("click", e => {
+    if (e.target.closest("#sync-apply")) { applySync(); return; }
+    const aq = e.target.closest("[data-addq]");
+    if (aq) { openAdd(); const i = $("add-q"); i.value = aq.dataset.addq; i.dispatchEvent(new Event("input", { bubbles: true })); }
+  });
+  window.addEventListener("hashchange", readSyncHash);
+  let alQ = [], alBusy = false;
+  function alEnqueue(pairs) { if (!AL.token || !pairs.length) return; alQ.push(...pairs); if (!alBusy) alDrain(); }
+  async function alDrain() {
+    alBusy = true;
+    while (alQ.length) { const [id, prog] = alQ.shift(); try { await alSave(id, prog); } catch (e) {} await new Promise(r => setTimeout(r, 750)); }
+    alBusy = false;
+  }
+
+  // ---------- find: "like X" and "feels like Y"
+  const GENRES = ["Action", "Adventure", "Comedy", "Drama", "Ecchi", "Fantasy", "Horror", "Mahou Shoujo", "Mecha", "Music", "Mystery", "Psychological", "Romance", "Sci-Fi", "Slice of Life", "Sports", "Supernatural", "Thriller"];
+  const MOODS = [
+    ["cozy", "Cozy & calm", { g: ["Slice of Life"], t: ["Iyashikei", "Food", "Rural", "Camping"] }],
+    ["hype", "Hype fights", { g: ["Action"], t: ["Martial Arts", "Super Power", "Swordplay"] }],
+    ["dark", "Dark & heavy", { g: ["Drama", "Psychological"], t: ["Tragedy", "Gore", "Revenge"] }],
+    ["mind", "Mind games", { g: ["Psychological", "Thriller"], t: ["Death Game", "Conspiracy", "Anti-Hero"] }],
+    ["scheme", "Smart scheming", { g: ["Psychological"], t: ["Politics", "Royal Affairs", "Kingdom Management", "Conspiracy"] }],
+    ["funny", "Laugh out loud", { g: ["Comedy"], t: ["Parody", "Surreal Comedy", "Slapstick"] }],
+    ["romance", "Romance", { g: ["Romance"], t: [] }],
+    ["wholesome", "Wholesome", { g: ["Slice of Life"], t: ["Found Family", "Family Life", "Animals"] }],
+    ["tears", "Tearjerker", { g: ["Drama"], t: ["Tragedy", "Coming of Age"] }],
+    ["level", "Leveling & systems", { g: [], t: ["Video Games", "Dungeon", "Super Power"] }],
+    ["redo", "Second chance", { g: [], t: ["Time Loop", "Reincarnation", "Time Manipulation", "Revenge"] }],
+    ["murim", "Murim & cultivation", { g: [], t: ["Martial Arts", "Cultivation", "Wuxia"] }],
+    ["adventure", "Adventure & big worlds", { g: ["Adventure", "Fantasy"], t: ["Travel", "Mythology", "Lost Civilization"] }],
+    ["creepy", "Creepy", { g: ["Horror", "Supernatural"], t: ["Body Horror", "Cosmic Horror", "Ghost"] }],
+    ["sports", "Sports & competition", { g: ["Sports"], t: [] }],
+    ["apoc", "Apocalypse & survival", { g: [], t: ["Post-Apocalyptic", "Survival", "Zombie"] }]
+  ];
+  // words people use → AniList genres (g) and tags (t)
+  const WORDS = [
+    [/cozy|cosy|comfy|relax|chill|calm|soothing|healing|peaceful/, { g: ["Slice of Life"], t: ["Iyashikei"] }],
+    [/food|cook|chef|restaurant|meal|baking/, { t: ["Food", "Restaurant"] }],
+    [/countryside|rural|farm|village|slow life/, { t: ["Rural", "Agriculture"] }],
+    [/camp/, { t: ["Camping", "Outdoor Activities"] }],
+    [/fight|action|battle|hype|brawl/, { g: ["Action"] }],
+    [/martial|murim|kung ?fu|wuxia|sect/, { t: ["Martial Arts", "Wuxia"] }],
+    [/cultivat|immortal|dao\b/, { t: ["Cultivation"] }],
+    [/regress|second chance|redo|do.?over|time loop|go(es|ing)? back in time|returner/, { t: ["Time Loop", "Time Manipulation", "Reincarnation"] }],
+    [/reincarn|isekai|another world|transported|summoned/, { t: ["Isekai", "Reincarnation"] }],
+    [/\bop\b|overpowered|strongest|power fantasy|super ?power/, { t: ["Super Power"] }],
+    [/game|system|level.?up|leveling|rpg|dungeon|tower|hunter/, { t: ["Video Games", "Dungeon"] }],
+    [/revenge|vengeance|payback/, { t: ["Revenge"] }],
+    [/villainess|otome/, { t: ["Villainess"] }],
+    [/romance|love|crush|dating|couple|slow.?burn/, { g: ["Romance"] }],
+    [/sad|cry|tear|emotional|bittersweet|heartbreak/, { g: ["Drama"], t: ["Tragedy"] }],
+    [/dark|grim|brutal|heavy|bleak|gritty/, { g: ["Psychological"], t: ["Tragedy", "Gore"] }],
+    [/horror|scary|creepy|terrif/, { g: ["Horror"] }],
+    [/mystery|detective|whodunn?it|investigat/, { g: ["Mystery"], t: ["Detective"] }],
+    [/mind game|smart|genius|clever|scheming|strateg|tactic|chess/, { g: ["Psychological"], t: ["Politics", "Conspiracy"] }],
+    [/funny|comedy|laugh|hilarious|gag|silly/, { g: ["Comedy"] }],
+    [/wholesome|heartwarming|sweet|found family|feel.?good/, { t: ["Found Family", "Family Life"] }],
+    [/school|academy|student|classmate/, { t: ["School"] }],
+    [/magic|mage|wizard|sorcer|witch/, { t: ["Magic"] }],
+    [/politic|court|kingdom|royal|empire|throne|noble|duke/, { t: ["Politics", "Royal Affairs", "Kingdom Management"] }],
+    [/\bwar\b|army|military|soldier|battlefield/, { t: ["War", "Military"] }],
+    [/apocalyp|zombie|survival|end of the world|monster outbreak/, { t: ["Post-Apocalyptic", "Survival", "Zombie"] }],
+    [/sport|baseball|football|soccer|basketball|volleyball|boxing|tennis/, { g: ["Sports"] }],
+    [/music|band|idol|singer/, { g: ["Music"] }],
+    [/sci.?fi|space|future|robot|cyber|mecha/, { g: ["Sci-Fi"] }],
+    [/office|workplace|salaryman|adult life|working adult/, { t: ["Office", "Work", "Primarily Adult Cast"] }],
+    [/historical|history|ancient|medieval|joseon|dynasty/, { t: ["Historical"] }],
+    [/weird|surreal|trippy|strange/, { t: ["Surreal Comedy", "Philosophy"] }],
+    [/psycholog/, { g: ["Psychological"] }],
+    [/thriller|tense|suspense/, { g: ["Thriller"] }],
+    [/adventure|journey|travel|explor/, { g: ["Adventure"], t: ["Travel"] }],
+    [/fantasy/, { g: ["Fantasy"] }],
+    [/supernatural|ghost|spirit|yokai|exorcis/, { g: ["Supernatural"], t: ["Ghost"] }],
+    [/dragon/, { t: ["Dragons"] }],
+    [/demon/, { t: ["Demons"] }],
+    [/\bgods?\b|deity|divine/, { t: ["Gods"] }],
+    [/female (lead|mc|protagonist)|girl (lead|mc)|heroine/, { t: ["Female Protagonist"] }],
+    [/anti.?hero|morally grey|ruthless/, { t: ["Anti-Hero"] }]
+  ];
+  const MF = "id title{english romaji} coverImage{large medium} countryOfOrigin genres averageScore chapters status startDate{year} siteUrl description(asHtml:false) tags{name rank isMediaSpoiler}";
+  const FIND = { mode: "like", moods: new Set(), off: new Set(), kind: "", skip: true, inited: false, tagNames: null, libTags: null, media: new Map(), likeTimer: null, feelTimer: null, run: 0, seed: null };
+  const KIND_TO_C = { manga: "JP", manhwa: "KR", manhua: "CN" };
+  const C_TO_KIND = { JP: "manga", KR: "manhwa", CN: "manhua", TW: "manhua" };
+  const chunk = (a, n) => { const o = []; for (let i = 0; i < a.length; i += n) o.push(a.slice(i, i + n)); return o; };
+  async function alPub(query, variables, tries = 0) {
+    const r = await fetch("https://graphql.anilist.co", { method: "POST", headers: { "Content-Type": "application/json", Accept: "application/json" }, body: JSON.stringify({ query, variables }) });
+    if (r.status === 429 && tries < 3) {
+      const wait = Math.min(65, +(r.headers.get("Retry-After") || 30));
+      fstatus(`AniList asked us to slow down — continuing in ${wait}s…`);
+      await new Promise(res => setTimeout(res, wait * 1000)); return alPub(query, variables, tries + 1);
+    }
+    const j = await r.json(); if (j.errors) throw new Error(j.errors[0].message); return j.data;
+  }
+  function fstatus(msg) { const o = $("f-out"); if (o && o.dataset.busy === "1") o.innerHTML = `<p class="fstatus">${esc(msg)}</p>`; }
+  function initFind() {
+    if (!FIND.inited) {
+      FIND.inited = true;
+      $("f-moods").innerHTML = MOODS.map(([id, label]) => `<button class="chip" data-mood="${id}" aria-pressed="false">${esc(label)}</button>`).join("");
+      alPub("{MediaTagCollection{name isAdult}}").then(d => { FIND.tagNames = d.MediaTagCollection.filter(x => !x.isAdult).map(x => x.name); }).catch(() => {});
+    }
+    $("f-kinds").innerHTML = [["", "Any"], ["manga", "Manga"], ["manhwa", "Manhwa"], ["manhua", "Manhua"]].map(([v, l]) => `<button class="chip" data-fkind="${v}" aria-pressed="${FIND.kind === v}">${l}</button>`).join("");
+    setTimeout(() => (FIND.mode === "like" ? $("f-like") : $("f-feel")).focus({ preventScroll: true }), 60);
+  }
+  async function loadLibTags() {
+    if (FIND.libTags) return FIND.libTags;
+    let cache = null; try { cache = JSON.parse(localStorage.getItem("nc.altags") || "null"); } catch (e) {}
+    const fresh = cache && Date.now() - cache.at < 14 * 864e5;
+    const have = fresh ? cache.data : {};
+    const ids = [...new Set(LIB.filter(s => s.al_id).map(s => s.al_id))].filter(id => !have[id]);
+    let done = 0;
+    for (const c of chunk(ids, 50)) {
+      fstatus(`Reading your library's genres and tags (first time only)… ${done}/${ids.length}`);
+      const d = await alPub("query($ids:[Int]){Page(perPage:50){media(id_in:$ids,type:MANGA){id genres meanScore tags{name rank isMediaSpoiler}}}}", { ids: c });
+      for (const m of d.Page.media) have[m.id] = [m.genres, m.tags.filter(x => !x.isMediaSpoiler && x.rank >= 40).slice(0, 18).map(x => [x.name, x.rank]), m.meanScore];
+      for (const id of c) if (!have[id]) have[id] = [[], [], null];
+      done += c.length;
+    }
+    try { localStorage.setItem("nc.altags", JSON.stringify({ at: fresh ? cache.at : Date.now(), data: have })); } catch (e) {}
+    if (!DETAILS) await loadDetails();
+    return (FIND.libTags = have);
+  }
+  function profileOf(s) {   // genres + tag ranks for a library series
+    const a = s.al_id && FIND.libTags && FIND.libTags[s.al_id];
+    const g = new Set(a && a[0].length ? a[0] : ((DETAILS || {})[s.id] || {}).genres || []);
+    const tg = new Map(a ? a[1] : []);
+    return { g, t: tg, score: a ? a[2] : null };
+  }
+  function profileOfMedia(m) { return { g: new Set(m.genres || []), t: new Map((m.tags || []).filter(x => !x.isMediaSpoiler).map(x => [x.name, x.rank])), score: m.averageScore }; }
+  function simLike(seed, prof) {   // how close a series is to the seed: shared tags (weighted by rank) + shared genres
+    let num = 0, den = 0; const shared = [];
+    for (const [n, r] of seed.t) { den += r; if (prof.t.has(n)) { num += Math.min(r, prof.t.get(n)); shared.push([n, r]); } }
+    const inter = [...seed.g].filter(x => prof.g.has(x)).length, uni = new Set([...seed.g, ...prof.g]).size;
+    const s = (den ? 0.65 * num / den : 0) + (uni ? 0.35 * inter / uni : 0);
+    return { s, why: [...[...seed.g].filter(x => prof.g.has(x)), ...shared.sort((a, b) => b[1] - a[1]).map(x => x[0])].slice(0, 4) };
+  }
+  function feelSpec() {
+    const groups = [];
+    for (const id of FIND.moods) groups.push(MOODS.find(m => m[0] === id)[2]);
+    const txt = $("f-feel").value.toLowerCase().trim();
+    if (txt) {
+      const g = new Set(), tg = new Set();
+      for (const [re, add] of WORDS) if (re.test(txt)) { (add.g || []).forEach(x => g.add(x)); (add.t || []).forEach(x => tg.add(x)); }
+      for (const x of GENRES) if (txt.includes(x.toLowerCase())) g.add(x);
+      for (const x of FIND.tagNames || []) if (x.length >= 4 && txt.includes(x.toLowerCase())) tg.add(x);
+      if (g.size || tg.size) groups.push({ g: [...g], t: [...tg], text: true });
+    }
+    const off = FIND.off;
+    const clean = groups.map(gr => ({ g: gr.g.filter(x => !off.has("g:" + x)), t: gr.t.filter(x => !off.has("t:" + x) && (!FIND.tagNames || FIND.tagNames.includes(x))) })).filter(gr => gr.g.length || gr.t.length);
+    const allG = [...new Set(clean.flatMap(x => x.g))], allT = [...new Set(clean.flatMap(x => x.t))];
+    return { groups: clean, g: allG, t: allT, txt };
+  }
+  function renderTagChips(spec) {
+    const offs = [...FIND.off];
+    $("f-tags").innerHTML = spec.g.map(x => `<button class="tagchip g" data-ftag="g:${esc(x)}" title="Remove">${esc(x)}</button>`).join("") +
+      spec.t.map(x => `<button class="tagchip" data-ftag="t:${esc(x)}" title="Remove">${esc(x)}</button>`).join("") +
+      (offs.length ? `<button class="link" data-ftag-reset style="font-size:13px">Reset removed</button>` : "");
+  }
+  function scoreFeel(spec, prof) {
+    let groupsHit = 0, extra = 0; const why = new Set();
+    for (const gr of spec.groups) {
+      let hit = false;
+      for (const x of gr.g) if (prof.g.has(x)) { hit = true; extra += 0.15; why.add(x); }
+      for (const x of gr.t) if (prof.t.has(x)) { hit = true; extra += 0.3 * prof.t.get(x) / 100; why.add(x); }
+      if (hit) groupsHit++;
+    }
+    return { hit: groupsHit, s: groupsHit + extra + (prof.score || 0) / 1000, why: [...why].slice(0, 4) };
+  }
+  const kindOkLib = s => !FIND.kind || s.kind === FIND.kind;
+  const kindOkMedia = m => !FIND.kind || C_TO_KIND[m.countryOfOrigin] === FIND.kind;
+  const notDone = s => !FIND.skip || latestOf(s) == null || behindOf(s) > 0;
+  const libByAl = () => { const m = new Map(); for (const s of LIB) if (s.al_id && !st.hidden[s.id]) m.set(s.al_id, s); return m; };
+  function libCard(s, why) {
+    const b = behindOf(s), l = latestOf(s), p = progressOf(s);
+    const pct = l ? Math.min(100, Math.round((p / l) * 100)) : 0;
+    const label = p <= 0 ? "not started" : l != null ? `${fmtCh(p)} / ${fmtCh(l)}` : fmtCh(p);
+    return `<div class="cardwrap"><button class="card" data-open="${esc(s.id)}">
+      <span class="cover">${coverHtml(s)}${b > 0 ? `<span class="badge">+${fmtCh(b)}</span>` : ""}${l ? `<span class="bar2"><span style="width:${pct}%"></span></span>` : ""}</span>
+      <span class="ctitle">${esc(s.title)}</span>
+      <span class="cmeta"><span>${esc(label)}</span><span>${esc(s.kind || "")}</span></span>
+      ${why && why.length ? `<span class="why">${esc(why.join(" · "))}</span>` : ""}
+    </button></div>`;
+  }
+  function newCard(m, why) {
+    FIND.media.set(m.id, m);
+    const title = m.title.english || m.title.romaji;
+    const kind = C_TO_KIND[m.countryOfOrigin] || "";
+    return `<div class="cardwrap"><button class="card" data-anew="${m.id}">
+      <span class="cover"><span class="ph">${esc(title.split(/\s+/).slice(0, 2).map(w => w[0]).join("").toUpperCase())}</span><img src="${esc(m.coverImage.large || m.coverImage.medium)}" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.remove()"></span>
+      <span class="ctitle">${esc(title)}</span>
+      <span class="cmeta"><span>${esc(kind)}${m.averageScore ? " · ★" + m.averageScore : ""}</span><span>${m.chapters ? esc(m.chapters) + " ch" : esc((m.status || "").toLowerCase().replace(/_/g, " "))}</span></span>
+      ${why && why.length ? `<span class="why">${esc(why.join(" · "))}</span>` : ""}
+    </button></div>`;
+  }
+  function renderFindResults(head, libList, newList, note) {
+    $("f-out").dataset.busy = "0";
+    $("f-out").innerHTML = (note ? `<p class="sub" style="margin:18px 0 0">${note}</p>` : "") +
+      `<div class="fhead"><h3>From your library</h3><span class="n">${libList.length}</span><span class="sub">${esc(head.lib)}</span></div>` +
+      (libList.length ? `<div class="grid" style="padding-bottom:0">${libList.map(x => libCard(x.s, x.why)).join("")}</div>` : `<p class="fstatus">Nothing in your library fits this${FIND.skip ? " (caught-up series are skipped)" : ""}.</p>`) +
+      `<div class="fhead"><h3>New to you</h3><span class="n">${newList.length}</span><span class="sub">${esc(head.new)}</span></div>` +
+      (newList.length ? `<div class="grid">${newList.map(x => newCard(x.m, x.why)).join("")}</div>` : `<p class="fstatus">No new suggestions from AniList.</p>`);
+  }
+  async function runLike(seedId) {
+    const run = ++FIND.run;
+    FIND.seed = seedId;
+    $("f-out").dataset.busy = "1"; fstatus("Looking for similar series…");
+    try {
+      const d = await alPub(`query($id:Int){Media(id:$id){id title{english romaji} genres tags{name rank isMediaSpoiler} recommendations(sort:RATING_DESC,perPage:25){nodes{rating mediaRecommendation{${MF} isAdult}}}}}`, { id: seedId });
+      const X = d.Media, seed = { g: new Set(X.genres), t: new Map(X.tags.filter(x => !x.isMediaSpoiler && x.rank >= 50).map(x => [x.name, x.rank])) };
+      await loadLibTags();
+      if (run !== FIND.run) return;
+      const mine = libByAl();
+      const libList = LIB.filter(s => !st.hidden[s.id] && s.al_id !== X.id && kindOkLib(s) && notDone(s))
+        .map(s => { const r = simLike(seed, profileOf(s)); return { s, sc: r.s, why: r.why }; })
+        .filter(x => x.sc >= 0.3).sort((a, b) => b.sc - a.sc).slice(0, 24);
+      const topTags = [...seed.t].sort((a, b) => b[1] - a[1]).slice(0, 3).map(x => x[0]);
+      const more = topTags.length ? await alPub(`query($t:[String],$g:[String],$c:CountryCode,$not:Int){Page(perPage:40){media(type:MANGA,format_in:[MANGA,ONE_SHOT],isAdult:false,tag_in:$t,genre_in:$g,countryOfOrigin:$c,id_not:$not,minimumTagRank:60,sort:[SCORE_DESC]){${MF}}}}`,
+        { t: topTags, g: [...seed.g].slice(0, 3), c: KIND_TO_C[FIND.kind] || null, not: X.id }) : { Page: { media: [] } };
+      if (run !== FIND.run) return;
+      const seen = new Set([X.id]), newList = [];
+      for (const n of X.recommendations.nodes) {
+        const m = n.mediaRecommendation;
+        if (!m || m.isAdult || n.rating <= 0 || seen.has(m.id) || mine.has(m.id) || !kindOkMedia(m)) continue;
+        seen.add(m.id); newList.push({ m, sc: 2 + n.rating / 100, why: ["recommended by AniList readers", ...simLike(seed, profileOfMedia(m)).why.slice(0, 2)] });
+      }
+      for (const m of more.Page.media) {
+        if (seen.has(m.id) || mine.has(m.id)) continue;
+        seen.add(m.id); const r = simLike(seed, profileOfMedia(m));
+        if (r.s >= 0.3) newList.push({ m, sc: r.s, why: r.why });
+      }
+      newList.sort((a, b) => b.sc - a.sc);
+      const name = X.title.english || X.title.romaji;
+      renderFindResults({ lib: `closest to ${name} by genres and tags`, new: `AniList readers' picks, then similar by tags` }, libList, newList.slice(0, 30));
+    } catch (e) { $("f-out").dataset.busy = "0"; $("f-out").innerHTML = `<p class="fstatus">Couldn't reach AniList (${esc(e.message)}). Try again in a minute.</p>`; }
+  }
+  async function runFeel() {
+    const spec = feelSpec(); renderTagChips(spec);
+    const run = ++FIND.run;
+    if (!spec.groups.length) {
+      $("f-out").dataset.busy = "0";
+      $("f-out").innerHTML = `<p class="fstatus">${spec.txt ? "I couldn't match those words to genres or tags — try different words (e.g. “cozy”, “revenge”, “school”, “dark”), or pick a mood above." : "Pick a mood, or describe what you're in the mood for."}</p>`;
+      return;
+    }
+    $("f-out").dataset.busy = "1"; fstatus("Searching…");
+    try {
+      await loadLibTags();
+      if (run !== FIND.run) return;
+      const mine = libByAl();
+      const libList = LIB.filter(s => !st.hidden[s.id] && kindOkLib(s) && notDone(s))
+        .map(s => { const r = scoreFeel(spec, profileOf(s)); return { s, hit: r.hit, sc: r.s, why: r.why }; })
+        .filter(x => x.hit > 0).sort((a, b) => b.hit - a.hit || b.sc - a.sc);
+      const full = libList.filter(x => x.hit === spec.groups.length);
+      const libShow = (full.length >= 6 ? full : libList).slice(0, 30);
+      const vars = { c: KIND_TO_C[FIND.kind] || null, g: null, t: null };
+      // one query per mood keeps "cozy + romance" from collapsing into "only things that are both everything"
+      const qs = spec.groups.slice(0, 3).map(gr => alPub(`query($t:[String],$g:[String],$c:CountryCode){Page(perPage:40){media(type:MANGA,format_in:[MANGA,ONE_SHOT],isAdult:false,tag_in:$t,genre_in:$g,countryOfOrigin:$c,minimumTagRank:55,sort:[SCORE_DESC]){${MF}}}}`,
+        Object.assign({}, vars, { g: gr.g.length ? gr.g : null, t: gr.t.length ? gr.t : null })));
+      const pages = await Promise.all(qs);
+      if (run !== FIND.run) return;
+      const seen = new Set(), newList = [];
+      for (const pg of pages) for (const m of pg.Page.media) {
+        if (seen.has(m.id) || mine.has(m.id)) continue;
+        seen.add(m.id); const r = scoreFeel(spec, profileOfMedia(m));
+        newList.push({ m, hit: r.hit, sc: r.s, why: r.why });
+      }
+      newList.sort((a, b) => b.hit - a.hit || b.sc - a.sc);
+      renderFindResults({ lib: spec.groups.length > 1 ? "best matches for all your picks first" : "best matches first", new: "top rated on AniList for this" }, libShow, newList.slice(0, 30),
+        spec.groups.length > 1 && full.length < 6 && libList.length ? "Few series in your library hit every pick, so partial matches are included." : "");
+    } catch (e) { $("f-out").dataset.busy = "0"; $("f-out").innerHTML = `<p class="fstatus">Couldn't reach AniList (${esc(e.message)}). Try again in a minute.</p>`; }
+  }
+  function rerunFind() { if (FIND.mode === "feel") runFeel(); else if (FIND.seed) runLike(FIND.seed); }
+  function openNew(id) {
+    const m = FIND.media.get(+id); if (!m) return;
+    openId = null;
+    const title = m.title.english || m.title.romaji;
+    const desc = (m.description || "").replace(/<[^>]+>/g, " ").replace(/\s+/g, " ").trim();
+    const tags = (m.tags || []).filter(x => !x.isMediaSpoiler && x.rank >= 60).slice(0, 8).map(x => x.name);
+    $("drawer").innerHTML = `<button class="ibtn close" data-close aria-label="Close">✕</button>
+      <div class="dtop">
+        <div class="cover"><img src="${esc(m.coverImage.large || m.coverImage.medium)}" alt="" referrerpolicy="no-referrer" onerror="this.remove()"></div>
+        <div>
+          <h3 class="dtitle">${esc(title)}</h3>
+          ${m.title.english && m.title.romaji && m.title.english !== m.title.romaji ? `<div class="dalt">${esc(m.title.romaji)}</div>` : ""}
+          <div class="pills">${[C_TO_KIND[m.countryOfOrigin], (m.status || "").toLowerCase().replace(/_/g, " "), m.startDate && m.startDate.year, m.chapters ? m.chapters + " ch." : "", m.averageScore ? "★ AniList " + m.averageScore + "%" : ""].filter(Boolean).map(x => `<span class="pill">${esc(x)}</span>`).join("")}</div>
+          <div class="pills" style="margin-top:6px">${(m.genres || []).map(g => `<span class="pill">${esc(g)}</span>`).join("")}</div>
+        </div>
+      </div>
+      <div class="dsec"><div class="prog"><button class="btn primary" data-addnew="${m.id}">Add to tracker</button><a class="btn" href="${esc(m.siteUrl)}" target="_blank" rel="noopener">AniList ↗</a></div></div>
+      ${tags.length ? `<div class="dsec"><h3>Tags</h3><div class="pills">${tags.map(x => `<span class="pill">${esc(x)}</span>`).join("")}</div></div>` : ""}
+      ${desc ? `<div class="dsec"><h3>About</h3><p class="desc">${esc(desc.slice(0, 900))}${desc.length > 900 ? "…" : ""}</p></div>` : ""}`;
+    $("drawer").hidden = false; $("scrim").hidden = false; $("drawer").scrollTop = 0;
+  }
+  function addFromFind(id) {
+    const m = FIND.media.get(+id); if (!m) return;
+    openAdd();
+    const title = m.title.english || m.title.romaji;
+    $("add-q").value = title;
+    $("add-res")._data = [m];
+    $("add-res").innerHTML = `<button class="res" data-pick="${m.id}" aria-pressed="true"><img src="${esc(m.coverImage.medium)}" alt="" loading="lazy"><span><b>${esc(title)}</b><span>${esc([C_TO_KIND[m.countryOfOrigin], m.startDate && m.startDate.year, m.chapters ? m.chapters + " ch." : ""].filter(Boolean).join(" · "))}</span></span></button>`;
+    addSel = m; $("add-form").hidden = false; $("add-form").style.display = "grid";
+  }
+  document.addEventListener("click", e => {
+    const fm = e.target.closest("[data-fmode]");
+    if (fm) {
+      FIND.mode = fm.dataset.fmode;
+      document.querySelectorAll("[data-fmode]").forEach(b => b.setAttribute("aria-pressed", b === fm));
+      $("f-like-box").hidden = FIND.mode !== "like"; $("f-feel-box").hidden = FIND.mode !== "feel";
+      $("f-out").dataset.busy = "0";
+      $("f-out").innerHTML = `<p class="fstatus">${FIND.mode === "like" ? "Search for a series you liked." : "Pick a mood, or describe what you're in the mood for."}</p>`;
+      if (FIND.mode === "feel" && (FIND.moods.size || $("f-feel").value.trim())) runFeel();
+      if (FIND.mode === "like" && FIND.seed) runLike(FIND.seed);
+      return;
+    }
+    const mood = e.target.closest("[data-mood]");
+    if (mood) { const id = mood.dataset.mood; FIND.moods.has(id) ? FIND.moods.delete(id) : FIND.moods.add(id); mood.setAttribute("aria-pressed", FIND.moods.has(id)); runFeel(); return; }
+    const ft = e.target.closest("[data-ftag]");
+    if (ft) { FIND.off.add(ft.dataset.ftag); runFeel(); return; }
+    if (e.target.closest("[data-ftag-reset]")) { FIND.off.clear(); runFeel(); return; }
+    const fk = e.target.closest("[data-fkind]");
+    if (fk) { FIND.kind = fk.dataset.fkind; initFind(); rerunFind(); return; }
+    if (e.target.closest("#f-skip")) { FIND.skip = !FIND.skip; $("f-skip").setAttribute("aria-pressed", FIND.skip); rerunFind(); return; }
+    const sd = e.target.closest("[data-seed]");
+    if (sd) { document.querySelectorAll("[data-seed]").forEach(b => b.setAttribute("aria-pressed", b === sd)); runLike(+sd.dataset.seed); return; }
+    const an = e.target.closest("[data-anew]");
+    if (an) { openNew(an.dataset.anew); return; }
+    const ad = e.target.closest("[data-addnew]");
+    if (ad) { addFromFind(ad.dataset.addnew); return; }
+  });
+  document.addEventListener("input", e => {
+    if (e.target.id === "f-like") {
+      clearTimeout(FIND.likeTimer);
+      const q = e.target.value.trim();
+      if (q.length < 2) { $("f-like-res").innerHTML = ""; return; }
+      FIND.likeTimer = setTimeout(async () => {
+        try {
+          const res = await searchAniList(q), mine = libByAl();
+          $("f-like-res").innerHTML = res.length ? res.slice(0, 6).map(m => `<button class="res" data-seed="${m.id}" aria-pressed="${FIND.seed === m.id}"><img src="${esc(m.coverImage.medium)}" alt="" loading="lazy"><span><b>${esc(m.title.english || m.title.romaji)}</b><span>${esc([C_TO_KIND[m.countryOfOrigin], m.startDate.year, m.chapters ? m.chapters + " ch." : ""].filter(Boolean).join(" · "))}${mine.has(m.id) ? " · in your library" : ""}</span></span></button>`).join("") : `<p class="sub">No results.</p>`;
+        } catch (err) { $("f-like-res").innerHTML = `<p class="sub">Search isn't working right now. Try again in a moment.</p>`; }
+      }, 350);
+    }
+    if (e.target.id === "f-feel") { clearTimeout(FIND.feelTimer); FIND.feelTimer = setTimeout(runFeel, 600); }
+  });
+
   // ---------- boot
   Promise.all([
     fetch("data/library.json", { cache: "no-cache" }).then(r => r.json()),
@@ -630,7 +1151,7 @@ h2 .n { font: 500 14px/1 var(--f-mono); color: var(--accent); margin-left: 8px; 
     LIB = lib.series; REL = rel;
     for (const al of Object.keys(st.pending)) if (LIB.some(s => String(s.al_id) === al) || Date.now() - st.pending[al].at > 3 * 864e5) delete st.pending[al];
     for (const id of Object.keys(st.hidden)) if (!LIB.some(s => s.id === id)) delete st.hidden[id];
-    save(); render(); alInit();
+    save(); render(); alInit(); readSyncHash();
   })
     .catch(() => { $("feed").innerHTML = `<p class="empty">Couldn't load the library. Try reloading.</p>`; });
 })();
